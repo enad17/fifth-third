@@ -3,4 +3,20 @@ footer {
 	width: 100%;
 	padding: 40px 0;
 	color: #2c2938;
+	.copyright {
+		float: left;
+	}
+	.links {
+		float: right;
+		li {
+			display: inline;
+			float: left;
+			text-align: right;
+			padding-left: 10px;
+		}
+		a {
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+	}
 }
