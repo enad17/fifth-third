@@ -36,10 +36,7 @@
 
 <!-- CSS
 ================================================== -->
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory') ?>/css/base.css">
-<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory') ?>/css/skeleton.css">
-<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory') ?>/css/layout.css">
+<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory') ?>/css/screen.css">
 
 <!-- Favicons
 ================================================== -->
