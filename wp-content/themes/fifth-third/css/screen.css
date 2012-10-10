@@ -82,9 +82,15 @@ body {
   margin: 0px auto;
 }
 
+/* line 19, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+.main {
+  background: #fff;
+}
+
 /* line 1, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_footer.scss */
 footer {
   background: #98bee2;
   width: 100%;
   padding: 40px 0;
+  color: #2c2938;
 }
