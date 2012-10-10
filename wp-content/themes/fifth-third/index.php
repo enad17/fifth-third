@@ -24,10 +24,12 @@
     }
     ?>
 </title>
-<meta name="description" content="">
-<meta name="author" content="">
+
+<meta name="description" content="Fifth Third Microsite">
+<meta name="author" content="xixi">
+
 <!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
 <!-- Mobile Specific Metas
@@ -38,6 +40,11 @@
 ================================================== -->
 <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory') ?>/css/screen.css">
 
+<!-- JS
+================================================== -->
+<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="<?php echo get_bloginfo('template_directory') ?>/js/tabs.js"></script>
+
 <!-- Favicons
 ================================================== -->
 <link rel="shortcut icon" href="<?php echo get_bloginfo('template_directory') ?>/images/favicon.ico">
@@ -47,67 +54,16 @@
 
 </head>
 <body>
+  <div class="container">
+      <div class="inner">
+      
+    
+      
+      <footer class="sixteen columns">
+          <p>footer</p>
+      </footer>
 
-    
-    
-    <!-- Primary Page Layout
-    ================================================== -->
-<div class="container">
-    <header class="sixteen columns clearfix" style="background-color: #ccc;">
-    	<h1><?php bloginfo( 'name' ); ?></h1>
-    	<h2 class="alt" id="site-description"><?php bloginfo( 'description' ); ?></h2>
-    </header>
-    
-    <nav class="sixteen columns clearfix" id="access" role="navigation">
-        <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-    </nav>
-    
-    <div class="twelve columns clearfix">
-        
-            <?php
-            /* Run the loop to output the posts.
-            * If you want to overload this in a child theme then include a file
-            * called loop-index.php and that will be used instead.
-            */
-            get_template_part( 'loop', 'index' );
-            ?>
-            <div class="row">
-                <div class="six columns alpha">
-                    <div  style="border: 1px solid #000;">
-                        <h2>Nested one</h2>
-                        This is a test!
-                    </div>
-                </div>
-                <div class="six columns omega">
-                    <div  style="border: 1px solid #000;">
-                        <h2>Nested twoooo</h2>
-                        And so is this.
-                    </div>
-                </div>
-            </div>
-        
-        
-    </div>
-    <section class="four columns clearfix">
-        <?php get_sidebar(); ?>
-    </section>
-    
-    <section class="sixteen columns clearfix">
-        <p>
-            This is a section just above the footer.
-        </P>
-    </section>
-    
-    <footer class="sixteen columns">
-        &copy; Copyright <?php date('Y') ?>. This is the footer.
-    </footer>
-</div>
-<!-- JS
-================================================== -->
-<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-<script src="<?php echo get_bloginfo('template_directory') ?>/js/tabs.js"></script>
-
-<!-- End Document
-================================================== -->
+    </div> <!-- end .inner. -->
+  </div> <!-- end .container -->
 </body>
 </html>
