@@ -72,7 +72,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 5, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
 html {
-  font: 15px/1.5 "Helvetica Neue", sans-serif;
+  font: 15px/1.5 "Calibri", "Helvetica Neue", sans-serif;
   color: #252525;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -85,23 +85,40 @@ body {
 }
 
 /* line 17, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 21, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
 a {
   text-decoration: none;
 }
 
-/* line 21, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 25, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
 .wrap {
   margin-top: 100px;
 }
 
-/* line 25, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 29, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+.left {
+  float: left;
+  width: 50%;
+}
+
+/* line 34, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+.right {
+  float: right;
+  width: 50%;
+}
+
+/* line 39, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
 .inner {
   width: 960px;
   margin: 0px auto;
   overflow: hidden;
 }
 
-/* line 31, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 45, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
 .main {
   background: #fff;
 }
@@ -116,20 +133,22 @@ footer {
 /* line 6, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_footer.scss */
 footer .copyright {
   float: left;
+  font-size: 13px;
 }
-/* line 9, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_footer.scss */
+/* line 10, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_footer.scss */
 footer .links {
   float: right;
 }
-/* line 11, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_footer.scss */
+/* line 12, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_footer.scss */
 footer .links li {
   display: inline;
   float: left;
   text-align: right;
   padding-left: 10px;
 }
-/* line 17, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_footer.scss */
+/* line 18, /cygdrive/c/wamp/www/fifth-third/wp-content/themes/fifth-third/sass/includes/_footer.scss */
 footer .links a {
   text-transform: uppercase;
   font-weight: bold;
+  color: #2c2828;
 }

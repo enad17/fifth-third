@@ -3,7 +3,7 @@
 }
 
 html {
-  font: 15px/1.5 "Helvetica Neue", sans-serif;
+  font: 15px/1.5 "Calibri", "Helvetica Neue", sans-serif;
   color: #252525;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -14,12 +14,26 @@ body {
   background: #565656;
 }
 
+strong {
+  font-weight: bold;
+}
+
 a {
   text-decoration: none;
 }
 
 .wrap {
   margin-top: 100px;
+}
+
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 50%;
 }
 
 .inner {
