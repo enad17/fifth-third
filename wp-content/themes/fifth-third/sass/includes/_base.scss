@@ -1,0 +1,17 @@
+* {
+  @include box-sizing(border-box);
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background: #565656;
+}
+
+.wrap {
+
+}
+
+.inner {
+  width: 960px;
+  margin: 0px auto;
+}
