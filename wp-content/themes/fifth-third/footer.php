@@ -35,19 +35,17 @@
 						$('.tabs').tabs();
 					}
 
-					dialog.overlay.fadeIn('fast', function () {
-						dialog.container.fadeIn('fast', function () {
-							dialog.data.fadeIn('fast');
-						});
-					});
+					dialog.overlay.fadeIn('fast');
+					dialog.container.fadeIn('fast');
+					dialog.data.fadeIn('fast');
+
 				},
 				onClose: function(dialog) {
 					dialog.overlay.fadeOut('fast');
-					dialog.data.fadeOut('fast', function () {
-						dialog.container.fadeOut('fast', function() {
-							$.modal.close();
-						});
-					});		
+					dialog.data.fadeOut('fast');
+					dialog.container.fadeOut('fast', function() {
+						$.modal.close();
+					});
 				}
 			});
 		});

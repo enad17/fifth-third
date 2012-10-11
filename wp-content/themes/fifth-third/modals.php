@@ -1,5 +1,7 @@
+<!-- alternate entry -->
 <div class="modal" id="alternateEntry">
-  <p>alternateEntry</p>
+  <h2>Fifth Third Bank Holiday Payback Sweepstakes</h2>
+  <h3>Alternate Entry</h3>
 </div>
 
 <div class="modal" id="officialRules">

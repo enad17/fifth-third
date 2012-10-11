@@ -1,8 +1,3 @@
-<?php
-/*
-Template Name: Blog
-*/
-?>
 <?php get_header(); ?>
 <body>
   <div class="wrap">
