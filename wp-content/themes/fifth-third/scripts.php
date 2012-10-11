@@ -13,7 +13,7 @@
       var s = this; // refers to the simplemodal object
 
       $('a:not(".tabs a")', dialog.data[0]).click(function () { // use the modal data context
-        var id = '#' + this.id + '-modal'; // dynamically determine the modal content id based on the link id
+        var id = '#' + this.className + '-modal'; // dynamically determine the modal content id based on the link id
         s.close(); // close the current dialog
 
         setTimeout(function () { // wait for 3/10ths of a second, then open the next dialog

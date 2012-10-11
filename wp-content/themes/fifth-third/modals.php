@@ -2,7 +2,7 @@
 <div class="modal" id="alternateEntry-modal">
   <h2>Fifth Third Bank Holiday Payback Sweepstakes</h2>
   <h3>Alternate Entry</h3>
-  <a id="officialRules" href="#">>> Offical Rules</a>
+  <a class="officialRules" href="#">>> Offical Rules</a>
   <form>
     <label for="">First Name</label>
       <input type="text" />
@@ -26,8 +26,8 @@
       <input type="text" />
 
     <button type="submit">Submit</button>
-    
-    <p>BY CLICKING SUBMIT, I AGREE TO THE <a id="officialRules" href="#">OFFICAL RULES OF THIS SWEEPSTAKES</a></p>
+
+    <p>BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="#">OFFICAL RULES OF THIS SWEEPSTAKES</a></p>
   </form>
 </div>
 
@@ -70,5 +70,9 @@
 
 <!-- sweep stakes submit confirmation -->
 <div class="modal" id="sweepStakesConfirm-modal">
-  <p>privacyPolicy</p>
+  <h2>Fifth Third Bank Holiday Payback Sweepstakes</h2>
+  <div class="thanks">Thank You!</div>
+  <p>Your Entry Has Been Received.</p>
+  <p>Don’t Forget To Like Us On <strong>Facebook</strong> Or Follow Us On <strong>Twitter</strong> For Even More Chances To Win!</p>
+  <a class="officialRules" href="#">>> Offical Rules</a>
 </div>
