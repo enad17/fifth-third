@@ -45,3 +45,14 @@ a {
 .main {
   background: #fff;
 }
+
+/* modals */
+#simplemodal-overlay { 
+  background-color: #808080; 
+}
+#simplemodal-container { 
+  @include border-radius(8px);
+  background-color: #fff; 
+  border:8px solid #97bee1; 
+  padding: 15px; 
+}

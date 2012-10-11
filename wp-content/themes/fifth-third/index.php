@@ -83,5 +83,9 @@
 
     </div> <!-- end .inner. -->
   </div> <!-- end .container -->
+
+  <!-- include our modals -->
+  <?php get_template_part('modals'); ?>
+
 </body>
 </html>
