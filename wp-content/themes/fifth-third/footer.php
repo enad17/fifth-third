@@ -10,7 +10,7 @@
 				<li>|</li>
 				<li><a data-name="officialRules" href="#">Official Rules</a></li>
 				<li>|</li>
-				<li><a data-name="privaryPolicy" href="#">Privacy Policy</a></li>
+				<li><a data-name="privacyPolicy" href="#">Privacy Policy</a></li>
 			</ul>
 		</div>
 	</div>

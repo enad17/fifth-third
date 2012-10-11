@@ -9,6 +9,7 @@
   </form>
 </div>
 
+<!-- official rules -->
 <div class="modal" id="officialRules-modal">
   <ul class="tabs">
       <li class="selected"><a href="#credit">Credit</a></li>
@@ -40,6 +41,7 @@
   </div>   
 </div>
 
-<div class="modal" id="privaryPolicy-modal">
-  <p>privaryPolicy</p>
+<!-- privacy policy rules -->
+<div class="modal" id="privacyPolicy-modal">
+  <p>privacyPolicy</p>
 </div>
