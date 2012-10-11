@@ -2,15 +2,21 @@
   @include box-sizing(border-box);
 }
 
+html, body {
+  width: 100%;
+  height: 100%
+}
+
 html {
   font: 15px/1.5 "Calibri", "Helvetica Neue", sans-serif;
-  color: #252525;
+  color: #252525;;  
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
 body {
+
   background: #565656;
 }
 
@@ -34,6 +40,7 @@ h2 {
 
 .wrap {
   margin-top: 100px;
+  position: relative;
 }
 
 .left {

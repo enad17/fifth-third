@@ -1,4 +1,4 @@
-<?php get_template_part('header'); ?>
+<?php get_header(); ?>
 <body>
   <div class="wrap">
     <section role="main" class="main">
@@ -24,7 +24,7 @@
       </div>
     </section>
 
-    <?php get_template_part('footer'); ?>
+    <?php get_footer(); ?>
 
   </div> <!-- end .wrap -->
 
