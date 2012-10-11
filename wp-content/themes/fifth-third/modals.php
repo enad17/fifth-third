@@ -2,9 +2,31 @@
 <div class="modal" id="alternateEntry-modal">
   <h2>Fifth Third Bank Holiday Payback Sweepstakes</h2>
   <h3>Alternate Entry</h3>
-  <a href="#">>> Offical Rules</a>
+  <a id="officialRules" href="#">>> Offical Rules</a>
   <form>
-    <p>form here</p>
+    <label for="">First Name</label>
+      <input type="text" />
+    <label for="">Address</label>
+      <input type="text" />
+    <label for="">City</label>
+      <input type="text" />
+    <label for="">Phone</label>
+      <input type="text" />
+    <label for="">Are You A Fifth Third Bank Customer</label>
+      <input type="text" />
+    <label for="">By Clicking Submit, I Agree To The Offical Rules Of</label>
+      <input type="text" />This Sweepstakes
+    <label for="">Yes      N</label>
+      <input type="text" />
+    <label for="">Email</label>
+      <input type="text" />
+    <label for="">State: Zip Code</label>
+      <input type="text" />
+    <label for="">Last Name</label>
+      <input type="text" />
+
+    <button type="submit">Submit</button>
+    
     <p>BY CLICKING SUBMIT, I AGREE TO THE <a id="officialRules" href="#">OFFICAL RULES OF THIS SWEEPSTAKES</a></p>
   </form>
 </div>
@@ -43,5 +65,10 @@
 
 <!-- privacy policy rules -->
 <div class="modal" id="privacyPolicy-modal">
+  <p>privacyPolicy</p>
+</div>
+
+<!-- sweep stakes submit confirmation -->
+<div class="modal" id="sweepStakesConfirm-modal">
   <p>privacyPolicy</p>
 </div>
