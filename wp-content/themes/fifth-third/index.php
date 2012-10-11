@@ -1,7 +1,6 @@
 <?php get_template_part('header'); ?>
 <body>
   <div class="wrap">
-
     <section role="main" class="main">
       <div class="inner">
         <div class="left">
@@ -25,11 +24,9 @@
       </div>
     </section>
 
-
     <?php get_template_part('footer'); ?>
 
-    </div> <!-- end .inner. -->
-  </div> <!-- end .container -->
+  </div> <!-- end .wrap -->
 
   <!-- include our modals -->
   <?php get_template_part('modals'); ?>
