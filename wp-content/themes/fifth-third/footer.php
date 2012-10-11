@@ -26,8 +26,22 @@
 			var modalToOpen = "#" + $(this).attr('data-name');
 
 			$(modalToOpen).modal({
-				minWidth: 450,
-				minHeight: 450
+				minWidth: 750,
+				minHeight: 400,
+				overlayClose: true,
+				onOpen: function(dialog) {
+					dialog.overlay.fadeIn('fast', function () {
+						dialog.container.fadeIn('fast', function () {
+							dialog.data.fadeIn('fast');
+						});
+					});
+				},
+				onClose: function(dialog) {
+					dialog.overlay.fadeOut('fast');
+					dialog.data.fadeOut('fast', function () {
+						dialog.container.fadeOut('fast');
+					});		
+				}
 			});
 
 		});
