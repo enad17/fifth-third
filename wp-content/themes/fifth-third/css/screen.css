@@ -237,10 +237,16 @@ footer .links a {
   font-weight: bold;
 }
 /* line 12, ../sass/includes/_rules.scss */
+.tabs li.sep {
+  font-weight: normal;
+  font-size: 11px;
+  vertical-align: text-top;
+}
+/* line 17, ../sass/includes/_rules.scss */
 .tabs li.selected a {
   color: #fff;
 }
-/* line 16, ../sass/includes/_rules.scss */
+/* line 21, ../sass/includes/_rules.scss */
 .tabs a {
   color: #262d63;
 }

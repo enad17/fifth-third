@@ -5,11 +5,11 @@
 <div class="modal" id="officialRules">
   <ul class="tabs">
       <li class="selected"><a href="#credit">Credit</a></li>
-      <li>|</li>
+      <li class="sep">|</li>
       <li><a href="#debit">Debit</a></li>
-      <li>|</li>
+      <li class="sep">|</li>
       <li><a href="#facebook">Facebook</a></li>
-      <li>|</li>
+      <li class="sep">|</li>
       <li><a href="#twitter">Twitter</a></li>
       <!-- ... -->
   </ul>
