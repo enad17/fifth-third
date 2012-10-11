@@ -1,11 +1,18 @@
 <script>
+  $.extend($.modal.defaults, {
+    minWidth: 750,
+    minHeight: 400,        
+    overlayClose: true,    
+    closeClass: "modalClose",
+    closeHTML: "<a href='#'>X</a>"
+  });
   $(function() {
 
     // callback function
     function modalOnShow(dialog) {
       var s = this; // refers to the simplemodal object
 
-      $('.link', dialog.data[0]).click(function () { // use the modal data context
+      $('a', dialog.data[0]).click(function () { // use the modal data context
         var id = '#' + this.id + '-modal'; // dynamically determine the modal content id based on the link id
         s.close(); // close the current dialog
 
@@ -24,9 +31,9 @@
 
     // callback function
     function modalOpen(dialog) {
-      
+
       // if we're opening the rules modal, we initialize the tabs
-      if (dialog.data[0].id == "officialRules") {
+      if (dialog.data[0].id == "officialRules-modal") {
         $('.tabs').tabs();
       }
       dialog.overlay.fadeIn(200);
@@ -46,12 +53,9 @@
 
     $('footer .links a').on('click', function(e) {
       e.preventDefault();
-      var modalToOpen = "#" + $(this).attr('data-name');
+      var modalToOpen = "#" + $(this).attr('data-name') + '-modal';
       console.log(modalToOpen);
       $(modalToOpen).modal({
-        minWidth: 750,
-        minHeight: 400,        
-        overlayClose: true,
         onShow: modalOnShow,
         onOpen: modalOpen,
         onClose: modalClose

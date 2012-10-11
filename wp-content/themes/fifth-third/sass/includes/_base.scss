@@ -77,15 +77,10 @@ h2 {
   background-color: #fff; 
   border:8px solid #97bee1; 
   padding: 40px; 
-}
-#simplemodal-container a.modalCloseImg {
-  background:url(/img/x.png) no-repeat; /* adjust url as required */
-  width:25px;
-  height:29px;
-  display:inline;
-  z-index:3200;
-  position:absolute;
-  top:-15px;
-  right:-18px;
-  cursor:pointer;
-}
+  .modalClose {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: bold;    
+  }
+}  

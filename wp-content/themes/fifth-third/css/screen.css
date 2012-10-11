@@ -165,19 +165,12 @@ h2 {
   border: 8px solid #97bee1;
   padding: 40px;
 }
-
-/* line 81, ../sass/includes/_base.scss */
-#simplemodal-container a.modalCloseImg {
-  background: url(/img/x.png) no-repeat;
-  /* adjust url as required */
-  width: 25px;
-  height: 29px;
-  display: inline;
-  z-index: 3200;
+/* line 80, ../sass/includes/_base.scss */
+#simplemodal-container .modalClose {
   position: absolute;
-  top: -15px;
-  right: -18px;
-  cursor: pointer;
+  right: 20px;
+  top: 20px;
+  font-weight: bold;
 }
 
 /* line 1, ../sass/includes/_home.scss */

@@ -1,15 +1,15 @@
 <!-- alternate entry -->
-<div class="modal" id="alternateEntry">
+<div class="modal" id="alternateEntry-modal">
   <h2>Fifth Third Bank Holiday Payback Sweepstakes</h2>
   <h3>Alternate Entry</h3>
   <a href="#">>> Offical Rules</a>
   <form>
     <p>form here</p>
-    <p>BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="#">OFFICAL RULES OF THIS SWEEPSTAKES</a></p>
+    <p>BY CLICKING SUBMIT, I AGREE TO THE <a id="officialRules" href="#">OFFICAL RULES OF THIS SWEEPSTAKES</a></p>
   </form>
 </div>
 
-<div class="modal" id="officialRules">
+<div class="modal" id="officialRules-modal">
   <ul class="tabs">
       <li class="selected"><a href="#credit">Credit</a></li>
       <li class="sep">|</li>
@@ -40,6 +40,6 @@
   </div>   
 </div>
 
-<div class="modal" id="privaryPolicy">
+<div class="modal" id="privaryPolicy-modal">
   <p>privaryPolicy</p>
 </div>
