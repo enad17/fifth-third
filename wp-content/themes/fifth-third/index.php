@@ -44,6 +44,7 @@
 ================================================== -->
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script src="<?php echo get_bloginfo('template_directory') ?>/js/jquery.simplemodal.1.4.3.min.js"></script>
+<script src="<?php echo get_bloginfo('template_directory') ?>/js/jquery.tabs.js"></script>
 
 <!-- Favicons
 ================================================== -->
@@ -66,6 +67,7 @@
           <div class="item">
             <p>We’re selecting <strong>100 customers</strong> to win a “Holiday Payback” – a statement credit for every card purchase made that day -  <strong>up to $2,000</strong></p>
           </div>
+          <a class="callToAction" href="#">See Details</a>
         </div>
         <div class="right">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

@@ -19,7 +19,6 @@
 <script>
 	$(function() {
 		$('footer .links a').on('click', function(e) {
-
 			e.preventDefault();
 			
 			// capture the modal which we should open
@@ -30,6 +29,12 @@
 				minHeight: 400,
 				overlayClose: true,
 				onOpen: function(dialog) {
+
+					// if we're opening the rules modal, we initialize the tabs
+					if (dialog.data[0].id == "officialRules") {
+						$('.tabs').tabs();
+					}
+
 					dialog.overlay.fadeIn('fast', function () {
 						dialog.container.fadeIn('fast', function () {
 							dialog.data.fadeIn('fast');
@@ -45,7 +50,7 @@
 					});		
 				}
 			});
-
 		});
+
 	});
 </script>

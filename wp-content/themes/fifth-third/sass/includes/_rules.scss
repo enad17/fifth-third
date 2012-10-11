@@ -1,0 +1,19 @@
+/* hide our tabs on load */
+.tab { display: none; }
+.tabs {
+  background: #d5e5f3;
+  padding: 5px;
+  text-align: center;
+  li {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0px 5px;
+    font-weight: bold;
+    &.selected a {
+      color: #fff;
+    }
+  }
+  a {
+    color: #262d63;
+  }
+}

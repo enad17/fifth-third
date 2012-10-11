@@ -22,6 +22,16 @@ a {
   text-decoration: none;
 }
 
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
 .wrap {
   margin-top: 100px;
 }
@@ -29,6 +39,7 @@ a {
 .left {
   float: left;
   width: 50%;
+  padding-right: 70px;
 }
 
 .right {
@@ -43,6 +54,7 @@ a {
 }
 
 .main {
+  padding: 50px 0;
   background: #fff;
 }
 
