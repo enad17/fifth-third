@@ -39,7 +39,9 @@
 				onClose: function(dialog) {
 					dialog.overlay.fadeOut('fast');
 					dialog.data.fadeOut('fast', function () {
-						dialog.container.fadeOut('fast');
+						dialog.container.fadeOut('fast', function() {
+							$.modal.close();
+						});
 					});		
 				}
 			});

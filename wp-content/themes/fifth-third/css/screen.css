@@ -165,25 +165,26 @@ footer {
   background: #98bee2;
   width: 100%;
   padding: 40px 0;
-  color: #2c2938;
+  color: #2d2929;
 }
 /* line 6, ../sass/includes/_footer.scss */
 footer .copyright {
   float: left;
-  font-size: 13px;
+  font-size: 11px;
 }
 /* line 10, ../sass/includes/_footer.scss */
 footer .links {
+  font-size: 13px;
   float: right;
 }
-/* line 12, ../sass/includes/_footer.scss */
+/* line 13, ../sass/includes/_footer.scss */
 footer .links li {
   display: inline;
   float: left;
   text-align: right;
   padding-left: 10px;
 }
-/* line 18, ../sass/includes/_footer.scss */
+/* line 19, ../sass/includes/_footer.scss */
 footer .links a {
   text-transform: uppercase;
   font-weight: bold;
