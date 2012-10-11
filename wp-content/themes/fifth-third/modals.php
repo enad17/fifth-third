@@ -2,6 +2,11 @@
 <div class="modal" id="alternateEntry">
   <h2>Fifth Third Bank Holiday Payback Sweepstakes</h2>
   <h3>Alternate Entry</h3>
+  <a href="#">>> Offical Rules</a>
+  <form>
+    <p>form here</p>
+    <p>BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="#">OFFICAL RULES OF THIS SWEEPSTAKES</a></p>
+  </form>
 </div>
 
 <div class="modal" id="officialRules">

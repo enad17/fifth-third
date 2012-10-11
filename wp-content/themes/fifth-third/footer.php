@@ -16,39 +16,4 @@
 	</div>
 </footer>
 
-<script>
-	$(function() {
-		$('footer .links a').on('click', function(e) {
-			e.preventDefault();
-			
-			// capture the modal which we should open
-			var modalToOpen = "#" + $(this).attr('data-name');
-
-			$(modalToOpen).modal({
-				minWidth: 750,
-				minHeight: 400,
-				overlayClose: true,
-				onOpen: function(dialog) {
-
-					// if we're opening the rules modal, we initialize the tabs
-					if (dialog.data[0].id == "officialRules") {
-						$('.tabs').tabs();
-					}
-
-					dialog.overlay.fadeIn('fast');
-					dialog.container.fadeIn('fast');
-					dialog.data.fadeIn('fast');
-
-				},
-				onClose: function(dialog) {
-					dialog.overlay.fadeOut('fast');
-					dialog.data.fadeOut('fast');
-					dialog.container.fadeOut('fast', function() {
-						$.modal.close();
-					});
-				}
-			});
-		});
-
-	});
-</script>
+<?php get_template_part('scripts'); ?>
