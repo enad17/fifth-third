@@ -7,3 +7,8 @@
   text-align: right;
   color: #333;
 }
+
+.logo {
+  width: sprite-sprite-width(logo);
+  height: sprite-sprite-height(logo);
+}
