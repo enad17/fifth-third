@@ -33,3 +33,18 @@ h2 {
   float: left;
   margin-right: 8px;
 }
+
+/* right side, blocks */
+.block {
+  width: 493px;
+  height: 196px;
+  margin-left: 3px;
+  margin-bottom: 3px;
+  .no-margin {
+    margin-bottom: 0;
+  }
+  .sprite-green-border {
+    width: sprite-sprite-width(green-border);
+    height: sprite-sprite-height(green-border);
+  }
+}

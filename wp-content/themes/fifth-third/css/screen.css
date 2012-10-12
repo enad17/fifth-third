@@ -63,54 +63,59 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 106, sprite/*.png */
-.sprite-sprite, .sprite-facebook-icon, .sprite-footer-logo, .sprite-github_logo, .sprite-green-border, .sprite-home-icon-1, .sprite-home-icon-2, .sprite-logo, .sprite-octocat, .sprite-twitter-icon {
-  background: url('../images/sprite-s8cfd1040bb.png') no-repeat;
+/* line 114, sprite/*.png */
+.sprite-sprite, .sprite-block-pattern, .sprite-facebook-icon, .sprite-footer-logo, .sprite-github_logo, .sprite-green-border, .sprite-home-icon-1, .sprite-home-icon-2, .sprite-logo, .sprite-octocat, .sprite-twitter-icon {
+  background: url('../images/sprite-s5730c8f7b2.png') no-repeat;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-facebook-icon {
-  background-position: 0 -428px;
-}
-
-/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-footer-logo {
-  background-position: 0 -672px;
-}
-
-/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-github_logo {
-  background-position: 0 -498px;
-}
-
-/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-green-border {
-  background-position: 0 -790px;
-}
-
-/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-home-icon-1 {
-  background-position: 0 -747px;
-}
-
-/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-home-icon-2 {
-  background-position: 0 -704px;
-}
-
-/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-logo {
+.sprite-block-pattern {
   background-position: 0 0;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-facebook-icon {
+  background-position: 0 -624px;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-footer-logo {
+  background-position: 0 -868px;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-github_logo {
+  background-position: 0 -694px;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-green-border {
+  background-position: 0 -986px;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-home-icon-1 {
+  background-position: 0 -943px;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-home-icon-2 {
+  background-position: 0 -900px;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-logo {
+  background-position: 0 -196px;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-octocat {
-  background-position: 0 -184px;
+  background-position: 0 -380px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-twitter-icon {
-  background-position: 0 -358px;
+  background-position: 0 -554px;
 }
 
 /* line 4, ../sass/includes/_base.scss */
@@ -264,6 +269,24 @@ h2 {
   height: 43px;
   float: left;
   margin-right: 8px;
+}
+
+/* right side, blocks */
+/* line 38, ../sass/includes/_home.scss */
+.block {
+  width: 493px;
+  height: 196px;
+  margin-left: 3px;
+  margin-bottom: 3px;
+}
+/* line 43, ../sass/includes/_home.scss */
+.block .no-margin {
+  margin-bottom: 0;
+}
+/* line 46, ../sass/includes/_home.scss */
+.block .sprite-green-border {
+  width: 16px;
+  height: 196px;
 }
 
 /* line 1, ../sass/includes/_footer.scss */
