@@ -51,7 +51,8 @@
       });
     } 
 
-    $('footer .links a').on('click', function(e) {
+    // hook a listener to all of our 'modalLinks'
+    $('.modalLink').on('click', function(e) {
       e.preventDefault();
       var modalToOpen = "#" + $(this).attr('data-name') + '-modal';
       console.log(modalToOpen);

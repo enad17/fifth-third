@@ -275,12 +275,13 @@ h2 {
 
 /* line 17, ../sass/includes/_home.scss */
 .sprite-logo {
+  display: block;
   margin: 100px 0px 42px 0px;
   width: 395px;
   height: 184px;
 }
 
-/* line 23, ../sass/includes/_home.scss */
+/* line 24, ../sass/includes/_home.scss */
 .sprite-home-icon-1 {
   width: 44px;
   height: 43px;
@@ -288,7 +289,7 @@ h2 {
   margin-right: 8px;
 }
 
-/* line 30, ../sass/includes/_home.scss */
+/* line 31, ../sass/includes/_home.scss */
 .sprite-home-icon-2 {
   width: 44px;
   height: 43px;
@@ -297,18 +298,18 @@ h2 {
 }
 
 /* right side, blocks */
-/* line 38, ../sass/includes/_home.scss */
+/* line 39, ../sass/includes/_home.scss */
 .block {
   width: 493px;
   height: 196px;
   margin-left: 3px;
   margin-bottom: 3px;
 }
-/* line 43, ../sass/includes/_home.scss */
+/* line 44, ../sass/includes/_home.scss */
 .block .no-margin {
   margin-bottom: 0;
 }
-/* line 46, ../sass/includes/_home.scss */
+/* line 47, ../sass/includes/_home.scss */
 .block .sprite-green-border {
   width: 16px;
   height: 196px;

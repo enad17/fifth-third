@@ -7,11 +7,11 @@
 		</div>
 		<div class="links">
 			<ul>
-				<li><a data-name="alternateEntry" href="#">Alternate Entry</a></li>
+				<li><a class="modalLink" data-name="alternateEntry" href="#">Alternate Entry</a></li>
 				<li>|</li>
-				<li><a data-name="officialRules" href="#">Official Rules</a></li>
+				<li><a class="modalLink" data-name="officialRules" href="#">Official Rules</a></li>
 				<li>|</li>
-				<li><a data-name="privacyPolicy" href="#">Privacy Policy</a></li>
+				<li><a class="modalLink" data-name="privacyPolicy" href="#">Privacy Policy</a></li>
 			</ul>
 		</div>
 	</div>

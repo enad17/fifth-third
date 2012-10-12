@@ -15,6 +15,7 @@ h2 {
 }
 
 .sprite-logo {
+  display: block;
   margin: 100px 0px 42px 0px;
   width: sprite-sprite-width(logo);
   height: sprite-sprite-height(logo);
