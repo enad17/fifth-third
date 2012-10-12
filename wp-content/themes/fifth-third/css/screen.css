@@ -223,7 +223,7 @@ h2 {
 /* line 82, ../sass/includes/_base.scss */
 #simplemodal-container h2 {
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 13px;
   font-family: "Crete Round", serif;
   font-weight: bold;
   color: #1d2051;
@@ -236,13 +236,24 @@ h2 {
   font-size: 13px;
 }
 /* line 95, ../sass/includes/_base.scss */
+#simplemodal-container p {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+/* line 98, ../sass/includes/_base.scss */
+#simplemodal-container p.larger {
+  font-size: 14px;
+  font-weight: bold;
+  color: #1d2051;
+}
+/* line 104, ../sass/includes/_base.scss */
 #simplemodal-container .officialRules {
   color: #ae2222;
   font-size: 11px;
   margin: 15px 0;
   display: block;
 }
-/* line 101, ../sass/includes/_base.scss */
+/* line 110, ../sass/includes/_base.scss */
 #simplemodal-container .modalClose {
   font-family: "Crete Round", serif;
   color: #272d64;

@@ -85,7 +85,7 @@
   <h2>what Could You Win?</h2>
   <p>Each day, we’ll select 5 followers to win a $100 Fifth Third Bank Gift Card!</p>
 
-  <a class="officialRules" href="#">>> Offical Rules</a>
+  <a class="officialRules" id="officialRules" href="#">Offical Rules</a>
 </div>
 
 <!-- facebook sweepstakes -->
@@ -118,12 +118,14 @@
   <p>Our way of saying thanks to our customers by giving them a chance to win a “holiday payback” up to $2,000 just for using their credit or debit card this holiday season.</p>
 
   <h2>HOW DO YOU ENTER?</h2>
-  <p>Simply use your Fifth Third Bank credit or debit card on Black Friday, Cyber Monday, or any other day between 11/1/12 and 12/30/12. Every qualifying purchase is one entry for a </p>chance to win.
+  <p>Simply use your Fifth Third Bank credit or debit card on Black Friday, Cyber Monday, or any other day between 11/1/12 and 12/30/12. Every qualifying purchase is one entry for a chance to win.</p>
 
   <h2>WHAT COULD YOU WIN?</h2>
   <p>We’ll be selecting 100 customers to win a “holiday payback” – a statement credit for every card purchase made that day – up to $2,000.</p>
 
   <p class="larger">The more you use your card, the more chances to win, and the bigger the payback!</p>
+
+  <a class="officialRules" id="officialRules">Official Rules</a>
 </div>
 
 <!-- sweep stakes submit confirmation -->

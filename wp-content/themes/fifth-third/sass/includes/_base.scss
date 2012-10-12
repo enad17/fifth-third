@@ -81,7 +81,7 @@ h2 {
   padding: 20px; 
   h2 {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 13px;
     font-family: $crete;
     font-weight: bold;
     color: #1d2051;
@@ -91,6 +91,15 @@ h2 {
     font-family: $lato;
     text-transform: uppercase;
     font-size: 13px;    
+  }
+  p {
+    font-size: 11px;
+    margin-bottom: 10px;
+    &.larger {
+      font-size: 14px;
+      font-weight: bold;
+      color: #1d2051;
+    }
   }
   .officialRules {
     color: #ae2222;
