@@ -221,11 +221,29 @@ h2 {
   padding: 40px;
 }
 /* line 82, ../sass/includes/_base.scss */
-#simplemodal-container .modalClose {
-  position: absolute;
-  right: 20px;
-  top: 20px;
+#simplemodal-container h2 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Crete Round", serif;
   font-weight: bold;
+  color: #1d2051;
+  margin-bottom: 0;
+}
+/* line 90, ../sass/includes/_base.scss */
+#simplemodal-container h3 {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+/* line 95, ../sass/includes/_base.scss */
+#simplemodal-container .modalClose {
+  font-family: "Crete Round", serif;
+  color: #272d64;
+  position: absolute;
+  right: 11px;
+  top: 11px;
+  font-weight: bold;
+  font-style: italic;
 }
 
 /* line 1, ../sass/includes/_home.scss */
@@ -343,22 +361,25 @@ footer .links a {
 }
 /* line 7, ../sass/includes/_rules.scss */
 .tabs li {
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-size: 12px;
   display: inline-block;
   text-transform: uppercase;
   padding: 0px 5px;
   font-weight: bold;
 }
-/* line 12, ../sass/includes/_rules.scss */
+/* line 15, ../sass/includes/_rules.scss */
 .tabs li.sep {
   font-weight: normal;
   font-size: 11px;
   vertical-align: text-top;
 }
-/* line 17, ../sass/includes/_rules.scss */
+/* line 20, ../sass/includes/_rules.scss */
 .tabs li.selected a {
   color: #fff;
 }
-/* line 21, ../sass/includes/_rules.scss */
+/* line 24, ../sass/includes/_rules.scss */
 .tabs a {
   color: #262d63;
 }

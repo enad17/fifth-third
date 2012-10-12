@@ -79,10 +79,26 @@ h2 {
   background-color: #fff; 
   border:8px solid #97bee1; 
   padding: 40px; 
+  h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: $crete;
+    font-weight: bold;
+    color: #1d2051;
+    margin-bottom: 0;
+  }
+  h3 {
+    font-family: $lato;
+    text-transform: uppercase;
+    font-size: 13px;    
+  }
   .modalClose {
+    font-family: $crete;
+    color: #272d64;
     position: absolute;
-    right: 20px;
-    top: 20px;
+    right: 11px;
+    top: 11px;
     font-weight: bold;    
+    font-style: italic;
   }
 }  

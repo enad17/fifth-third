@@ -1,7 +1,7 @@
 <script>
   $.extend($.modal.defaults, {
-    minWidth: 750,
-    minHeight: 400,        
+    minWidth: 600,
+    minHeight: 360,        
     overlayClose: true,    
     closeClass: "modalClose",
     closeHTML: "<a href='#'>X</a>"
