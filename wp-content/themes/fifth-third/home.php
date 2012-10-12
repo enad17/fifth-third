@@ -5,7 +5,7 @@
     <section role="main" class="main">
       <div class="inner">
         <div class="left">
-          <a class="sprite-logo" href="https://www.53.com/site"></a>
+          <a class="sprite-logo" href="https://www.53.com/site" target="_blank"></a>
           <h2>Between Nov. 1 – Dec. 30, 2012</h2>
           <div class="item">
             <div class="sprite-home-icon-1"></div>
