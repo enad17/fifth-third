@@ -51,7 +51,7 @@
 
   <!-- debit -->
   <div class="tab" id="debit">
-      Content for tab2
+      <?php include('debit-rules.php'); ?>
   </div>
 
   <!-- facebook -->
