@@ -63,6 +63,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+/* line 42, sprite/*.png */
+.sprite-sprite, .sprite-logo {
+  background: url('../images/sprite-sf92bb0ee3d.png') no-repeat;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-logo {
+  background-position: 0 0;
+}
+
 /* line 1, ../sass/includes/_base.scss */
 * {
   -webkit-box-sizing: border-box;

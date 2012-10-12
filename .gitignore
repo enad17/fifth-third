@@ -1,1 +1,4 @@
 .sass-cache/
+.DS_Store
+.htaccess
+PSD/.DS_Store

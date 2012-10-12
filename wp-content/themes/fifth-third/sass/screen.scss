@@ -1,6 +1,10 @@
 @import "compass/reset";
 @import "compass/css3";
 
+// @import our sprites
+@import "sprite/*.png";
+@include all-sprite-sprites;
+
 @import "includes/base";
 @import "includes/home";
 @import "includes/footer";
