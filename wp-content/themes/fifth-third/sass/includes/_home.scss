@@ -8,10 +8,17 @@ h2 {
   font-size: 13px;
 }
 .callToAction {
+  background-image: inline-image('link-arrows.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 12px;
   font-style: italic;
-  display: block;
+  float: right;
   text-align: right;
   color: #333;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .sprite-logo {

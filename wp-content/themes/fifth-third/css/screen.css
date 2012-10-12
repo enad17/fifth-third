@@ -267,13 +267,21 @@ h2 {
 
 /* line 10, ../sass/includes/_home.scss */
 .callToAction {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAECAYAAABCxiV9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowNzgwMTE3NDA3MjA2ODExODA4M0U0OTgxQjg3NjQwRSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1QjRFQUM3QTBDQjYxMUUyQUIzRUZCNzk3RUVDQjYwMyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1QjRFQUM3OTBDQjYxMUUyQUIzRUZCNzk3RUVDQjYwMyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Rjk3RjExNzQwNzIwNjgxMTgyMkFFNDRFOThEMEZDNEQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDc4MDExNzQwNzIwNjgxMTgwODNFNDk4MUI4NzY0MEUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz60bu+ZAAAATElEQVR42mJgYGBYBcRK////B1IMgkA8E8QGYSYgZzUQn2FkZAQJvgey7wHZ74C4HKRaCar7HVSnMRDfBeLdDFBGOZKxIL4LiA8QYABK0R7O7XqpoQAAAABJRU5ErkJggg==');
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 12px;
   font-style: italic;
-  display: block;
+  float: right;
   text-align: right;
   color: #333;
 }
+/* line 19, ../sass/includes/_home.scss */
+.callToAction:hover {
+  text-decoration: underline;
+}
 
-/* line 17, ../sass/includes/_home.scss */
+/* line 24, ../sass/includes/_home.scss */
 .sprite-logo {
   display: block;
   margin: 100px 0px 42px 0px;
@@ -281,7 +289,7 @@ h2 {
   height: 184px;
 }
 
-/* line 24, ../sass/includes/_home.scss */
+/* line 31, ../sass/includes/_home.scss */
 .sprite-home-icon-1 {
   width: 44px;
   height: 43px;
@@ -289,7 +297,7 @@ h2 {
   margin-right: 8px;
 }
 
-/* line 31, ../sass/includes/_home.scss */
+/* line 38, ../sass/includes/_home.scss */
 .sprite-home-icon-2 {
   width: 44px;
   height: 43px;
@@ -298,18 +306,18 @@ h2 {
 }
 
 /* right side, blocks */
-/* line 39, ../sass/includes/_home.scss */
+/* line 46, ../sass/includes/_home.scss */
 .block {
   width: 493px;
   height: 196px;
   margin-left: 3px;
   margin-bottom: 3px;
 }
-/* line 44, ../sass/includes/_home.scss */
+/* line 51, ../sass/includes/_home.scss */
 .block .no-margin {
   margin-bottom: 0;
 }
-/* line 47, ../sass/includes/_home.scss */
+/* line 54, ../sass/includes/_home.scss */
 .block .sprite-green-border {
   width: 16px;
   height: 196px;
