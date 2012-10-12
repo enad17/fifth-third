@@ -218,7 +218,7 @@ h2 {
   border-radius: 8px;
   background-color: #fff;
   border: 8px solid #97bee1;
-  padding: 40px;
+  padding: 20px;
 }
 /* line 82, ../sass/includes/_base.scss */
 #simplemodal-container h2 {
@@ -236,6 +236,13 @@ h2 {
   font-size: 13px;
 }
 /* line 95, ../sass/includes/_base.scss */
+#simplemodal-container .officialRules {
+  color: #ae2222;
+  font-size: 11px;
+  margin: 15px 0;
+  display: block;
+}
+/* line 101, ../sass/includes/_base.scss */
 #simplemodal-container .modalClose {
   font-family: "Crete Round", serif;
   color: #272d64;
@@ -305,6 +312,20 @@ h2 {
 .block .sprite-green-border {
   width: 16px;
   height: 196px;
+}
+
+/* line 1, ../sass/includes/_form.scss */
+input {
+  border: 2px solid #97bee1;
+  padding: 5px;
+}
+
+/* line 5, ../sass/includes/_form.scss */
+label {
+  font-family: "Crete Round", serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #1d2051;
 }
 
 /* line 1, ../sass/includes/_footer.scss */
