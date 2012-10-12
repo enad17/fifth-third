@@ -8,7 +8,22 @@
   color: #333;
 }
 
-.logo {
+.sprite-logo {
+  margin: 100px 0px 42px 0px;
   width: sprite-sprite-width(logo);
   height: sprite-sprite-height(logo);
+}
+
+.sprite-home-icon-1 {
+  width: sprite-sprite-width(home-icon-1 );
+  height: sprite-sprite-height(home-icon-1);
+  float: left;
+  margin-right: 8px;
+}
+
+.sprite-home-icon-2 {
+  width: sprite-sprite-width(home-icon-2);
+  height: sprite-sprite-height(home-icon-2);
+  float: left;
+  margin-right: 8px;
 }

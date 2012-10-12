@@ -39,7 +39,6 @@ h2 {
 
 
 .wrap {
-  margin-top: 100px;
   position: relative;
 }
 
@@ -47,6 +46,7 @@ h2 {
   float: left;
   width: 50%;
   padding-right: 70px;
+  border-right: 11px solid #6693c1;
 }
 
 .right {
@@ -55,13 +55,13 @@ h2 {
 }
 
 .inner {
-  width: 960px;
+  width: 1024px;
   margin: 0px auto;
   overflow: hidden;
 }
 
 .main {
-  padding: 50px 0;
+  padding: 5px 0;
   background: #fff;
 }
 

@@ -5,11 +5,14 @@
     <section role="main" class="main">
       <div class="inner">
         <div class="left">
+          <div class="sprite-logo"></div>
           <h2>Between Nov. 1 – Dec. 30, 2012</h2>
           <div class="item">
+            <div class="sprite-home-icon-1"></div>
             <p>Every time you use your Fifth Third Bank Credit or Debit Card this holiday season you’re automatically entered to win!</p>
           </div>
           <div class="item">
+            <div class="sprite-home-icon-2"></div>
             <p>We’re selecting <strong>100 customers</strong> to win a “Holiday Payback” – a statement credit for every card purchase made that day -  <strong>up to $2,000</strong></p>
           </div>
           <a class="callToAction" href="#">See Details</a>

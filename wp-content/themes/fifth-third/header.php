@@ -58,4 +58,4 @@
 <link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_bloginfo('template_directory') ?>/images/apple-touch-icon-114x114.png">
 
 </head>
-<a href="http://localhost/fifth-third/?page_id=4">blog</a>
+<!-- <a href="http://localhost/fifth-third/?page_id=4">blog</a> -->
