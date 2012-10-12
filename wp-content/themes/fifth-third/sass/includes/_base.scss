@@ -101,6 +101,11 @@ h2 {
       color: #1d2051;
     }
   }
+  .rules-container {
+    height: 265px;
+    overflow-y: auto;
+    margin-top: 10px;
+  }
   .officialRules {
     color: #ae2222;
     font-size: 11px;

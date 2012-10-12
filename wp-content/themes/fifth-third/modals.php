@@ -44,7 +44,9 @@
       <!-- ... -->
   </ul>
   <div class="tab" id="credit">
-      Content for tab1
+    <div class="rules-container">
+      <?php include('credit-rules.php'); ?>
+    </div>
   </div>
 
   <!-- debit -->

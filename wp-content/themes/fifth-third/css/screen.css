@@ -247,13 +247,19 @@ h2 {
   color: #1d2051;
 }
 /* line 104, ../sass/includes/_base.scss */
+#simplemodal-container .rules-container {
+  height: 265px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+/* line 109, ../sass/includes/_base.scss */
 #simplemodal-container .officialRules {
   color: #ae2222;
   font-size: 11px;
   margin: 15px 0;
   display: block;
 }
-/* line 110, ../sass/includes/_base.scss */
+/* line 115, ../sass/includes/_base.scss */
 #simplemodal-container .modalClose {
   font-family: "Crete Round", serif;
   color: #272d64;
