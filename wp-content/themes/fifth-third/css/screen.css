@@ -63,9 +63,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 98, sprite/*.png */
-.sprite-sprite, .sprite-facebook-icon, .sprite-footer-logo, .sprite-github_logo, .sprite-home-icon-1, .sprite-home-icon-2, .sprite-logo, .sprite-octocat, .sprite-twitter-icon {
-  background: url('../images/sprite-sbf0e256265.png') no-repeat;
+/* line 106, sprite/*.png */
+.sprite-sprite, .sprite-facebook-icon, .sprite-footer-logo, .sprite-github_logo, .sprite-green-border, .sprite-home-icon-1, .sprite-home-icon-2, .sprite-logo, .sprite-octocat, .sprite-twitter-icon {
+  background: url('../images/sprite-s8cfd1040bb.png') no-repeat;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -81,6 +81,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-github_logo {
   background-position: 0 -498px;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-green-border {
+  background-position: 0 -790px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -108,98 +113,98 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-position: 0 -358px;
 }
 
-/* line 1, ../sass/includes/_base.scss */
+/* line 4, ../sass/includes/_base.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 5, ../sass/includes/_base.scss */
+/* line 8, ../sass/includes/_base.scss */
 html, body {
   width: 100%;
   height: 100%;
 }
 
-/* line 10, ../sass/includes/_base.scss */
+/* line 13, ../sass/includes/_base.scss */
 html {
-  font: 15px/1.5 "Calibri", "Helvetica Neue", sans-serif;
+  font: 15px/1.5 "Lato", sans-serif;
   color: #252525;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-/* line 18, ../sass/includes/_base.scss */
+/* line 21, ../sass/includes/_base.scss */
 body {
   background: #565656;
 }
 
-/* line 23, ../sass/includes/_base.scss */
+/* line 25, ../sass/includes/_base.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 27, ../sass/includes/_base.scss */
+/* line 29, ../sass/includes/_base.scss */
 a {
   text-decoration: none;
 }
 
-/* line 31, ../sass/includes/_base.scss */
+/* line 33, ../sass/includes/_base.scss */
 h1, h2, h3, h4 {
   font-weight: bold;
 }
 
-/* line 35, ../sass/includes/_base.scss */
+/* line 37, ../sass/includes/_base.scss */
 h2 {
   font-size: 18px;
   font-weight: bold;
 }
 
-/* line 41, ../sass/includes/_base.scss */
+/* line 43, ../sass/includes/_base.scss */
 .wrap {
   position: relative;
 }
 
-/* line 45, ../sass/includes/_base.scss */
+/* line 47, ../sass/includes/_base.scss */
 .left {
   float: left;
   width: 50%;
-  padding-right: 70px;
+  padding: 0px 50px 70px 50px;
   border-right: 11px solid #6693c1;
 }
 
-/* line 52, ../sass/includes/_base.scss */
+/* line 54, ../sass/includes/_base.scss */
 .right {
   float: right;
   width: 50%;
 }
 
-/* line 57, ../sass/includes/_base.scss */
+/* line 59, ../sass/includes/_base.scss */
 .inner {
   width: 1024px;
   margin: 0px auto;
   overflow: hidden;
 }
 
-/* line 63, ../sass/includes/_base.scss */
+/* line 65, ../sass/includes/_base.scss */
 .main {
   padding: 5px 0;
   background: #fff;
 }
 
 /* modals */
-/* line 69, ../sass/includes/_base.scss */
+/* line 71, ../sass/includes/_base.scss */
 .modal {
   display: none;
 }
 
-/* line 72, ../sass/includes/_base.scss */
+/* line 74, ../sass/includes/_base.scss */
 #simplemodal-overlay {
   background-color: #808080;
 }
 
-/* line 75, ../sass/includes/_base.scss */
+/* line 77, ../sass/includes/_base.scss */
 #simplemodal-container {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -210,7 +215,7 @@ h2 {
   border: 8px solid #97bee1;
   padding: 40px;
 }
-/* line 80, ../sass/includes/_base.scss */
+/* line 82, ../sass/includes/_base.scss */
 #simplemodal-container .modalClose {
   position: absolute;
   right: 20px;
@@ -219,11 +224,18 @@ h2 {
 }
 
 /* line 1, ../sass/includes/_home.scss */
-.item {
-  margin: 20px 0;
+h2 {
+  margin-bottom: 24px;
 }
 
-/* line 4, ../sass/includes/_home.scss */
+/* line 5, ../sass/includes/_home.scss */
+.item {
+  margin-bottom: 30px;
+  height: 43px;
+  font-size: 13px;
+}
+
+/* line 10, ../sass/includes/_home.scss */
 .callToAction {
   font-style: italic;
   display: block;
@@ -231,14 +243,14 @@ h2 {
   color: #333;
 }
 
-/* line 11, ../sass/includes/_home.scss */
+/* line 17, ../sass/includes/_home.scss */
 .sprite-logo {
   margin: 100px 0px 42px 0px;
   width: 395px;
   height: 184px;
 }
 
-/* line 17, ../sass/includes/_home.scss */
+/* line 23, ../sass/includes/_home.scss */
 .sprite-home-icon-1 {
   width: 44px;
   height: 43px;
@@ -246,7 +258,7 @@ h2 {
   margin-right: 8px;
 }
 
-/* line 24, ../sass/includes/_home.scss */
+/* line 30, ../sass/includes/_home.scss */
 .sprite-home-icon-2 {
   width: 44px;
   height: 43px;
@@ -262,27 +274,36 @@ footer {
   color: #2d2929;
 }
 /* line 6, ../sass/includes/_footer.scss */
+footer .sprite-footer-logo {
+  width: 115px;
+  height: 32px;
+  float: left;
+  margin-right: 24px;
+}
+/* line 12, ../sass/includes/_footer.scss */
 footer .copyright {
   float: left;
   font-size: 11px;
+  width: 440px;
 }
-/* line 10, ../sass/includes/_footer.scss */
+/* line 17, ../sass/includes/_footer.scss */
 footer .links {
   font-size: 13px;
   float: right;
 }
-/* line 13, ../sass/includes/_footer.scss */
+/* line 20, ../sass/includes/_footer.scss */
 footer .links li {
   display: inline;
   float: left;
   text-align: right;
   padding-left: 10px;
 }
-/* line 19, ../sass/includes/_footer.scss */
+/* line 26, ../sass/includes/_footer.scss */
 footer .links a {
   text-transform: uppercase;
   font-weight: bold;
   color: #2c2828;
+  font-weight: 900;
 }
 
 /* hide our tabs on load */

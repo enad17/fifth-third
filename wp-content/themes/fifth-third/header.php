@@ -43,6 +43,9 @@
 <!-- CSS
 ================================================== -->
 <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory') ?>/css/screen.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Crete+Round:400,400italic' rel='stylesheet' type='text/css'>
+
 
 <!-- JS
 ================================================== -->

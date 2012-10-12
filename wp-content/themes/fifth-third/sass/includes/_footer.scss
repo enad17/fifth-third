@@ -3,9 +3,16 @@ footer {
 	width: 100%;
 	padding: 40px 0;
 	color: #2d2929;
+	.sprite-footer-logo {
+	  width: sprite-sprite-width(footer-logo);
+	  height: sprite-sprite-height(footer-logo);		
+	  float: left;
+	  margin-right: 24px;
+	}
 	.copyright {
 		float: left;
 		font-size: 11px;
+		width: 440px;
 	}
 	.links {
 		font-size: 13px;
@@ -20,6 +27,7 @@ footer {
 			text-transform: uppercase;
 			font-weight: bold;
 			color: #2c2828;
+			font-weight: 900;
 		}
 	}
 }
