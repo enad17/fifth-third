@@ -68,6 +68,64 @@
   <p>privacyPolicy</p>
 </div>
 
+<!-- twitter sweepstakes -->
+<div class="modal" id="twitterSweepstakes-modal">
+  <h2>twitter Sweepstakes</h2>
+  <p>Join us on Twitter between November 21 and November 26 for a chance to win!</p>
+
+  <h2>how Do You Enter?</h2>
+  <p><strong>Step One:</strong> Follow @Fifth Third on Twitter.</p>
+
+  <p><strong>Step Two:</strong> Tweet the following between 11/12 and 11/26:
+         RT 4 chance 2 win a $100 Fifth Third Bank Gift Card. Follow @Fifth Third for 
+         #HolidayPayback info. More at bit.ly/RetCAP. </p>
+    
+  <p><strong>Step Three:</strong> Tweet every day for more chances to win!</p>
+
+  <h2>what Could You Win?</h2>
+  <p>Each day, we’ll select 5 followers to win a $100 Fifth Third Bank Gift Card!</p>
+
+  <a class="officialRules" href="#">>> Offical Rules</a>
+</div>
+
+<!-- facebook sweepstakes -->
+<div class="modal" id="facebookSweepstakes-modal">
+  <h2>FACEBOOK SWEEPSTAKES</h2>
+  <p>Join us on Facebook every Friday - November 9, 2012 through December 28, 2012 for a chance to win great prizes.</p>
+
+  <h2>HOW DO YOU ENTER?</h2>
+  <p><strong>Step One:</strong> Like us on Facebook at www.Facebook.com/FifthThirdBank</p>
+
+  <p><strong>Step Two:</strong> Click on the “Fifth Third Bank Holiday Payback tab” or click here</p>
+  [insert bit.ly link to tab]
+  
+  <p><strong>Step Three:</strong> Provide an answer, right or wrong, to our weekly question and you’ll receive an entry for that week’s prize.</p>
+
+  <h2>WHAT COULD YOU WIN?</h2>
+  <p>Each week, we’ll be selecting one (1) winner to win great prizes like iPads, Keurigs, and other great stuff!</p>
+
+  <a class="officialRules" href="#">>> Offical Rules</a>
+
+  <div class="sub">iPad® is a registered trademark of Apple Inc. All rights reserved. Apple is not a participant in or sponsor of this promotion. "Keurig"® and is a registered trademark of Keurig Incorporated. Keurig is not a participant in or sponsor of this promotion.</div>
+</div>
+
+<!-- "see details" -->
+<div class="modal" id="seeDetails-modal">
+  <h2>PUT THE WIN IN WINTER</h2>
+  <p>Every time you use your credit or debit card you’re automatically entered to win!</p>
+
+  <h2>WHAT IS IT?</h2>
+  <p>Our way of saying thanks to our customers by giving them a chance to win a “holiday payback” up to $2,000 just for using their credit or debit card this holiday season.</p>
+
+  <h2>HOW DO YOU ENTER?</h2>
+  <p>Simply use your Fifth Third Bank credit or debit card on Black Friday, Cyber Monday, or any other day between 11/1/12 and 12/30/12. Every qualifying purchase is one entry for a </p>chance to win.
+
+  <h2>WHAT COULD YOU WIN?</h2>
+  <p>We’ll be selecting 100 customers to win a “holiday payback” – a statement credit for every card purchase made that day – up to $2,000.</p>
+
+  <p class="larger">The more you use your card, the more chances to win, and the bigger the payback!</p>
+</div>
+
 <!-- sweep stakes submit confirmation -->
 <div class="modal" id="sweepStakesConfirm-modal">
   <h2>Fifth Third Bank Holiday Payback Sweepstakes</h2>
