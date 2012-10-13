@@ -12,8 +12,6 @@ Template Name: Blog
 
         <div class="blog-header">
           <a class="sprite-logo" href="https://www.53.com/site" target="_blank"></a>
-          <h2>Between Nov. 1 – Dec. 30, 2012</h2>
-
           <div class="right-side">
             <div class="item">
               <div class="sprite-home-icon-1"></div>

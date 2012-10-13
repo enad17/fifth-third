@@ -2,18 +2,19 @@
   background-image: inline-image('blog-header-background.jpg');
   background-repeat: no-repeat;
   .left {
-    width: 596px;
+    width: 718px;
     padding-left: 0;
   }
   .blog-header {
-    height: 235px;
+    height: 305px;
     .sprite-logo {
-      margin: 0;
+      margin: 40px 0 0 0;
       float: left;
     }
     .right-side {
       float: right;
-      width: 373px;
+      width: 473px;
+      margin-top: 78px;
     }
   }
 }
