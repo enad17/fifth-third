@@ -61,7 +61,7 @@
               <a class="callToAction modalLink" data-name="twitterSweepstakes" href="#">See Details</a>
               <img src="<?php echo get_bloginfo('template_directory') ?>/images/gift-card.png" />
               <div class="blurb">Check back for a chance to win a $100 Fifth Third Bank Gift Card.</div>
-              <a href="https://www.facebook.com/FifthThirdBank" target="_blank" class="sprite-follow-us-button" href="#">Like Us Now</a>
+              <a href="https://www.twitter.com/FifthThird" target="_blank" class="sprite-follow-us-button" href="#">Like Us Now</a>
             </div>
           </div>
           <div class="block no-margin">
