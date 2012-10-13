@@ -3,6 +3,7 @@
     minWidth: 600,
     minHeight: 360,        
     overlayClose: true,    
+    position: [130],
     closeClass: "modalClose",
     closeHTML: "<a href='#'>X</a>"
   });

@@ -58,7 +58,7 @@
             <div class="sprite-block-details-background">
               <h2>Twitter Sweepstakes</h2>
               <div class="dates">Between Nov. 21 - Nov. 26, 2012</div>
-              <a class="callToAction modalLink" data-name="facebookSweepstakes" href="#">See Details</a>
+              <a class="callToAction modalLink" data-name="twitterSweepstakes" href="#">See Details</a>
               <img src="<?php echo get_bloginfo('template_directory') ?>/images/gift-card.png" />
               <div class="blurb">Check back for a chance to win a $100 Fifth Third Bank Gift Card.</div>
               <a href="https://www.facebook.com/FifthThirdBank" target="_blank" class="sprite-follow-us-button" href="#">Like Us Now</a>
