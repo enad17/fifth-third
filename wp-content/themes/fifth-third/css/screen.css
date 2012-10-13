@@ -405,8 +405,9 @@ footer .links a {
   background: #d5e5f3;
   padding: 5px;
   text-align: center;
+  margin-top: 20px;
 }
-/* line 7, ../sass/includes/_rules.scss */
+/* line 8, ../sass/includes/_rules.scss */
 .tabs li {
   font-family: "Crete Round", serif;
   font-weight: 400;
@@ -416,17 +417,17 @@ footer .links a {
   padding: 0px 5px;
   font-weight: bold;
 }
-/* line 15, ../sass/includes/_rules.scss */
+/* line 16, ../sass/includes/_rules.scss */
 .tabs li.sep {
   font-weight: normal;
   font-size: 11px;
   vertical-align: text-top;
 }
-/* line 20, ../sass/includes/_rules.scss */
+/* line 21, ../sass/includes/_rules.scss */
 .tabs li.selected a {
   color: #fff;
 }
-/* line 24, ../sass/includes/_rules.scss */
+/* line 25, ../sass/includes/_rules.scss */
 .tabs a {
   color: #262d63;
 }

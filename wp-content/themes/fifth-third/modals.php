@@ -51,17 +51,23 @@
 
   <!-- debit -->
   <div class="tab" id="debit">
+    <div class="rules-container">
       <?php include('debit-rules.php'); ?>
+    </div>
   </div>
 
   <!-- facebook -->
   <div class="tab" id="facebook">
-      Content for facebook
+    <div class="rules-container">
+      <?php include('facebook-rules.php'); ?>
+    </div>
   </div>  
 
   <!-- twitter -->
   <div class="tab" id="twitter">
-      Content for twitter
+    <div class="rules-container">
+      <?php include('twitter-rules.php'); ?>
+    </div>
   </div>   
 </div>
 
