@@ -1,10 +1,52 @@
 input {
-  border: 2px solid #97bee1;
-  padding: 5px;
+  font-family: $lato;
+  font-size: 13px;
+  border: 1px solid #97BEE1;
+  padding: 2px;
+  width: 170px;
+  &.three-col {
+    width: 90px;
+  }
+  &.two-col {
+    width: 415px;
+  }
+  &.even {
+    width: 170px;
+  }
+
 }
 label {
-  font-family: $crete;
+  font-family: "Lato";
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 11px;
+  color: #1D2051;
+  text-align: right;
+  float: left;
+  width: 75px;
+  font-weight: bold;
+  padding-top: 7px;
+  padding-right: 7px;  
+}
+.field {
+  float: left;
+  margin-bottom: 5px;
+  &.two-col {
+    width: 100%;
+  }
+}
+
+button {
+  cursor: pointer;
+  font-family: $lato;
+  text-transform: uppercase;
+  background: #97bee1;
+  padding: 5px 10px;
   color: #1d2051;
+  font-weight: bold;
+  border: none;
+}
+
+.required {
+  color: #ff0000;
+  font-size: 11px;
 }

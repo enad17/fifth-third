@@ -4,30 +4,62 @@
   <h3>Alternate Entry</h3>
   <a class="officialRules" href="#">>> Offical Rules</a>
   <form>
-    <label for="">First Name</label>
-      <input type="text" />
-    <label for="">Address</label>
-      <input type="text" />
-    <label for="">City</label>
-      <input type="text" />
-    <label for="">Phone</label>
-      <input type="text" />
-    <label for="">Are You A Fifth Third Bank Customer</label>
-      <input type="text" />
-    <label for="">By Clicking Submit, I Agree To The Offical Rules Of</label>
-      <input type="text" />This Sweepstakes
-    <label for="">Yes      N</label>
-      <input type="text" />
-    <label for="">Email</label>
-      <input type="text" />
-    <label for="">State: Zip Code</label>
-      <input type="text" />
-    <label for="">Last Name</label>
-      <input type="text" />
+
+    <div class="field">
+      <label for="first-name">First Name:</label>
+      <input name-"first-name" type="text" />
+    </div>
+
+    <div class="field">
+      <label for="last-name">Last Name:</label>
+      <input for="last-name" type="text" />
+    </div>
+
+    <div class="field">
+      <label for="address">Address:</label>
+      <input for="address" type="text" class="two-col" />
+    </div>    
+
+    <div class="field">
+      <label for="city">City:</label>
+      <input name="city" type="text" style="width: 140px;" />
+    </div>
+
+    <div class="field">
+      <label for="state">State:</label>
+      <input name="state" type="text" class="three-col" style="width: 35px;"/>
+    </div>
+
+    <div class="field">
+      <label for="zip">Zip Code:</label>
+      <input name="zip" type="text" class="three-col" />
+    </div>
+
+    <div class="field">
+      <label for="phone">Phone:</label>
+      <input name="phone" type="text" class="even" />
+    </div>
+
+    <div class="field">
+      <label for="email">Email:</label>
+      <input name="email" type="text" class="even" />
+    </div>         
+
+    <div class="field">
+      <p>Are you a fifth third bank customer?</p>
+      <label for="yes">Yes</label><input type="radio" name="sex" id="yes" />
+      <label for="no">No</label><input type="radio" name="sex" id="no" />
+    </div>
+
+    <div class="field">
+      <input name="accept" type="checkbox" />
+      <p>BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="#">OFFICAL RULES</a> OF THIS SWEEPSTAKES</p>
+    </div>
 
     <button type="submit">Submit</button>
 
-    <p>BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="#">OFFICAL RULES OF THIS SWEEPSTAKES</a></p>
+    <p class="required">ALL FIELDS ARE REQUIRED</p>
+
   </form>
 </div>
 

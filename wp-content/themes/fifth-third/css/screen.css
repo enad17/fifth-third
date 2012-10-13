@@ -228,38 +228,39 @@ h2 {
   font-weight: bold;
   color: #1d2051;
   margin-bottom: 0;
+  margin-top: 20px;
 }
-/* line 90, ../sass/includes/_base.scss */
+/* line 91, ../sass/includes/_base.scss */
 #simplemodal-container h3 {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   font-size: 13px;
 }
-/* line 95, ../sass/includes/_base.scss */
+/* line 96, ../sass/includes/_base.scss */
 #simplemodal-container p {
   font-size: 11px;
   margin-bottom: 10px;
 }
-/* line 98, ../sass/includes/_base.scss */
+/* line 99, ../sass/includes/_base.scss */
 #simplemodal-container p.larger {
   font-size: 14px;
   font-weight: bold;
   color: #1d2051;
 }
-/* line 104, ../sass/includes/_base.scss */
+/* line 105, ../sass/includes/_base.scss */
 #simplemodal-container .rules-container {
   height: 265px;
   overflow-y: auto;
   margin-top: 10px;
 }
-/* line 109, ../sass/includes/_base.scss */
+/* line 110, ../sass/includes/_base.scss */
 #simplemodal-container .officialRules {
   color: #ae2222;
   font-size: 11px;
   margin: 15px 0;
   display: block;
 }
-/* line 115, ../sass/includes/_base.scss */
+/* line 116, ../sass/includes/_base.scss */
 #simplemodal-container .modalClose {
   font-family: "Crete Round", serif;
   color: #272d64;
@@ -342,16 +343,65 @@ h2 {
 
 /* line 1, ../sass/includes/_form.scss */
 input {
-  border: 2px solid #97bee1;
-  padding: 5px;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  border: 1px solid #97BEE1;
+  padding: 2px;
+  width: 170px;
+}
+/* line 7, ../sass/includes/_form.scss */
+input.three-col {
+  width: 90px;
+}
+/* line 10, ../sass/includes/_form.scss */
+input.two-col {
+  width: 415px;
+}
+/* line 13, ../sass/includes/_form.scss */
+input.even {
+  width: 170px;
 }
 
-/* line 5, ../sass/includes/_form.scss */
+/* line 18, ../sass/includes/_form.scss */
 label {
-  font-family: "Crete Round", serif;
+  font-family: "Lato";
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 11px;
+  color: #1D2051;
+  text-align: right;
+  float: left;
+  width: 75px;
+  font-weight: bold;
+  padding-top: 7px;
+  padding-right: 7px;
+}
+
+/* line 30, ../sass/includes/_form.scss */
+.field {
+  float: left;
+  margin-bottom: 5px;
+}
+/* line 33, ../sass/includes/_form.scss */
+.field.two-col {
+  width: 100%;
+}
+
+/* line 38, ../sass/includes/_form.scss */
+button {
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  background: #97bee1;
+  padding: 5px 10px;
   color: #1d2051;
+  font-weight: bold;
+  border: none;
+}
+
+/* line 49, ../sass/includes/_form.scss */
+.required {
+  color: #ff0000;
+  font-size: 11px;
 }
 
 /* line 1, ../sass/includes/_footer.scss */
