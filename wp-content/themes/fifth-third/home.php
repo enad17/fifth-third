@@ -20,6 +20,11 @@
         <div class="right">
           <div class="block">
             <div class="sprite-green-border"></div>
+            <div class="prize">
+              <img src="<?php echo get_bloginfo('template_directory') ?>/images/ipad.png" />
+              <div class="week">1st Week's Prize</div>
+              <div class="prize-name">iPad 2</div>
+            </div>
           </div>
           <div class="block">
             <div class="sprite-green-border"></div>

@@ -52,7 +52,31 @@ h2 {
     margin-bottom: 0;
   }
   .sprite-green-border {
+    float: left;
     width: sprite-sprite-width(green-border);
     height: sprite-sprite-height(green-border);
+  }
+  .prize {
+    position: relative;
+    float: left;
+    width: 169px;
+    height: 196px;
+    padding: 12px 0px 0px 18px;
+    background: #242a5e;
+    img {
+      position: absolute;
+      bottom: 0;
+      left: 23px;
+    }
+    .week {
+      color: #fff;
+      font-size: 17px;
+    }
+    .prize-name {
+      color: #4fd0e7;
+      font-weight: 900;
+      margin-top: -5px;
+      font-size: 18px;      
+    }
   }
 }
