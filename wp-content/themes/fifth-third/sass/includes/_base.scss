@@ -1,5 +1,5 @@
-$lato: 'Lato', sans-serif;
-$crete: 'Crete Round', serif;
+$proximaNova: 'proxima-nova', sans-serif;
+$adelle: "adelle", serif;
 
 * {
   @include box-sizing(border-box);
@@ -11,7 +11,7 @@ html, body {
 }
 
 html {
-  font: 15px/1.5 $lato;
+  font: 15px/1.5 $proximaNova;
   color: #252525;;  
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -82,14 +82,14 @@ h2 {
   h2 {
     text-transform: uppercase;
     font-size: 13px;
-    font-family: $crete;
+    font-family: $adelle;
     font-weight: bold;
     color: #1d2051;
     margin-bottom: 0;
     margin-top: 20px;
   }
   h3 {
-    font-family: $lato;
+    font-family: $proximaNova;
     text-transform: uppercase;
     font-size: 13px;    
   }
@@ -114,7 +114,7 @@ h2 {
     display: block;
   }
   .modalClose {
-    font-family: $crete;
+    font-family: $adelle;
     color: #272d64;
     position: absolute;
     right: 11px;
