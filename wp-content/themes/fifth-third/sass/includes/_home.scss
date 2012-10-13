@@ -48,6 +48,65 @@ h2 {
   height: 196px;
   margin-left: 3px;
   margin-bottom: 3px;
+
+  h2 {
+    color: #242A5E;
+    font-family: $crete;
+    text-transform: uppercase;
+    text-shadow: 0px 3px #C5C5D2;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  /* the right portion of the blocks */
+  .sprite-block-details-background {
+    float: left;
+    width: 308px;
+    height: 196px;
+    padding: 14px 21px 14px 20px;
+    position: relative;
+
+    /* winner photo, other photo */
+    img {
+      float: left;
+      margin-top: 13px;
+    }
+
+    /* little text blurb */
+    .blurb {
+      color: #1D2052;
+      font-size: 12px;
+      float: right;
+      width: 139px;
+      margin-top: 13px;
+      line-height: 14px;
+      margin-bottom: 9px;
+    }
+
+    /* buttons */
+    .sprite-like-us-button {
+      text-indent: -9999px;
+      width: sprite-sprite-width(like-us-button);
+      height: sprite-sprite-height(like-us-button);
+      float: right;
+    }
+
+    /* position our call to actions in the bottom right, always */
+    .callToAction {
+      position: absolute;
+      bottom: 20px;
+      right: 25px;
+      font-size: 12px;
+    }
+  }
+
+  .dates {
+    font-size: 12px;
+    margin-top: -4px;
+    color: #1D2052;
+    font-weight: bold;    
+  }
+
   .no-margin {
     margin-bottom: 0;
   }

@@ -63,9 +63,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 130, sprite/*.png */
-.sprite-sprite, .sprite-block-pattern, .sprite-facebook-icon, .sprite-follow-us-button, .sprite-footer-logo, .sprite-github_logo, .sprite-green-border, .sprite-home-icon-1, .sprite-home-icon-2, .sprite-like-us-button, .sprite-logo, .sprite-octocat, .sprite-twitter-icon {
-  background: url('../images/sprite-s5e24f6dcc4.png') no-repeat;
+/* line 146, sprite/*.png */
+.sprite-sprite, .sprite-block-details-background, .sprite-block-pattern, .sprite-facebook-icon, .sprite-fb-photo, .sprite-follow-us-button, .sprite-footer-logo, .sprite-github_logo, .sprite-green-border, .sprite-home-icon-1, .sprite-home-icon-2, .sprite-like-us-button, .sprite-logo, .sprite-octocat, .sprite-twitter-icon {
+  background: url('../images/sprite-s6bff81d838.png') no-repeat;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-block-details-background {
+  background-position: 0 -196px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -75,57 +80,62 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-facebook-icon {
-  background-position: 0 -624px;
+  background-position: 0 -921px;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-fb-photo {
+  background-position: 0 -576px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-follow-us-button {
-  background-position: 0 -898px;
+  background-position: 0 -1195px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-footer-logo {
-  background-position: 0 -928px;
+  background-position: 0 -1225px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-github_logo {
-  background-position: 0 -694px;
+  background-position: 0 -991px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-green-border {
-  background-position: 0 -1046px;
+  background-position: 0 -1343px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-home-icon-1 {
-  background-position: 0 -1003px;
+  background-position: 0 -1300px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-home-icon-2 {
-  background-position: 0 -960px;
+  background-position: 0 -1257px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-like-us-button {
-  background-position: 0 -868px;
+  background-position: 0 -1165px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-logo {
-  background-position: 0 -196px;
+  background-position: 0 -392px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-octocat {
-  background-position: 0 -380px;
+  background-position: 0 -677px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-twitter-icon {
-  background-position: 0 -554px;
+  background-position: 0 -851px;
 }
 
 /* line 4, ../sass/includes/_base.scss */
@@ -340,18 +350,76 @@ h2 {
   height: 196px;
   margin-left: 3px;
   margin-bottom: 3px;
+  /* the right portion of the blocks */
 }
-/* line 51, ../sass/includes/_home.scss */
+/* line 52, ../sass/includes/_home.scss */
+.block h2 {
+  color: #242A5E;
+  font-family: "Crete Round", serif;
+  text-transform: uppercase;
+  text-shadow: 0px 3px #C5C5D2;
+  font-size: 20px;
+  margin: 0;
+}
+/* line 62, ../sass/includes/_home.scss */
+.block .sprite-block-details-background {
+  float: left;
+  width: 308px;
+  height: 196px;
+  padding: 14px 21px 14px 20px;
+  position: relative;
+  /* winner photo, other photo */
+  /* little text blurb */
+  /* buttons */
+  /* position our call to actions in the bottom right, always */
+}
+/* line 70, ../sass/includes/_home.scss */
+.block .sprite-block-details-background img {
+  float: left;
+  margin-top: 13px;
+}
+/* line 76, ../sass/includes/_home.scss */
+.block .sprite-block-details-background .blurb {
+  color: #1D2052;
+  font-size: 12px;
+  float: right;
+  width: 139px;
+  margin-top: 13px;
+  line-height: 14px;
+  margin-bottom: 9px;
+}
+/* line 87, ../sass/includes/_home.scss */
+.block .sprite-block-details-background .sprite-like-us-button {
+  text-indent: -9999px;
+  width: 139px;
+  height: 30px;
+  float: right;
+}
+/* line 95, ../sass/includes/_home.scss */
+.block .sprite-block-details-background .callToAction {
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+  font-size: 12px;
+}
+/* line 103, ../sass/includes/_home.scss */
+.block .dates {
+  font-size: 12px;
+  margin-top: -4px;
+  color: #1D2052;
+  font-weight: bold;
+}
+/* line 110, ../sass/includes/_home.scss */
 .block .no-margin {
   margin-bottom: 0;
 }
-/* line 54, ../sass/includes/_home.scss */
+/* line 113, ../sass/includes/_home.scss */
 .block .sprite-green-border {
   float: left;
   width: 16px;
   height: 196px;
 }
-/* line 59, ../sass/includes/_home.scss */
+/* line 118, ../sass/includes/_home.scss */
 .block .prize {
   position: relative;
   float: left;
@@ -360,18 +428,18 @@ h2 {
   padding: 12px 0px 0px 18px;
   background: #242a5e;
 }
-/* line 66, ../sass/includes/_home.scss */
+/* line 125, ../sass/includes/_home.scss */
 .block .prize img {
   position: absolute;
   bottom: 0;
   left: 23px;
 }
-/* line 71, ../sass/includes/_home.scss */
+/* line 130, ../sass/includes/_home.scss */
 .block .prize .week {
   color: #fff;
   font-size: 17px;
 }
-/* line 75, ../sass/includes/_home.scss */
+/* line 134, ../sass/includes/_home.scss */
 .block .prize .prize-name {
   color: #4fd0e7;
   font-weight: 900;
