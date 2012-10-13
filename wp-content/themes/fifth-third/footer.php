@@ -15,6 +15,7 @@
 			</ul>
 		</div>
 	</div>
+	<a href="http://localhost/fifth-third/?page_id=4">blog</a>
 </footer>
 
 <?php get_template_part('scripts'); ?>
