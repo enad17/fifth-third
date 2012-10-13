@@ -84,7 +84,7 @@ h2 {
     }
 
     /* buttons */
-    .sprite-like-us-button {
+    .sprite-like-us-button, .sprite-follow-us-button  {
       text-indent: -9999px;
       width: sprite-sprite-width(like-us-button);
       height: sprite-sprite-height(like-us-button);
@@ -137,5 +137,32 @@ h2 {
       margin-top: -5px;
       font-size: 18px;      
     }
+  }
+
+  .sprite-tweet-background {
+    float: left;
+    width: sprite-sprite-width(tweet-background);
+    height: sprite-sprite-height(tweet-background);    
+    padding: 30px 15px;
+    .sprite-tweet-quote {
+      width: sprite-sprite-width(tweet-quote);
+      height: sprite-sprite-height(tweet-quote);  
+      float: left;        
+      margin: 0px 10px 10px 0px;
+    }
+    p {
+      font-size: 12px;
+      a {
+        color: #6693c1;  
+      }
+    }
+    .user {
+      color: #6693c1;
+      font-weight: bold;
+      font-size: 12px;
+      float: right;
+      margin-top: 7px;
+    }
+    
   }
 }

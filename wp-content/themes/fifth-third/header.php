@@ -52,6 +52,7 @@
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script src="<?php echo get_bloginfo('template_directory') ?>/js/jquery.simplemodal.1.4.3.min.js"></script>
 <script src="<?php echo get_bloginfo('template_directory') ?>/js/jquery.tabs.js"></script>
+<script src="<?php echo get_bloginfo('template_directory') ?>/js/chirp.min.js"></script>
 
 <!-- Favicons
 ================================================== -->

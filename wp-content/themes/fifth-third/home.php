@@ -18,6 +18,7 @@
           <a class="callToAction modalLink" data-name="seeDetails" href="#">See Details</a>
         </div>
         <div class="right">
+          <!-- facebook sweeps -->
           <div class="block">
             <div class="sprite-green-border"></div>
             <div class="prize">
@@ -32,22 +33,35 @@
               <img src="<?php echo get_bloginfo('template_directory') ?>/images/fb-sweeps-photo.png" />
               <div class="blurb">Check back Nov.9 to see the winner and the next week’s prize!</div>
               <a href="https://www.facebook.com/FifthThirdBank" target="_blank" class="sprite-like-us-button" href="#">Like Us Now</a>
-
             </div>
           </div>
+
+          <!-- twitter sweeps -->
           <div class="block">
             <div class="sprite-green-border"></div>
-            <div class="prize">
-              <img src="<?php echo get_bloginfo('template_directory') ?>/images/ipad.png" />
-              <div class="week">1st Week's Prize</div>
-              <div class="prize-name">iPad 2</div>
+            <div class="sprite-tweet-background">
+              <script>
+                Chirp({
+                  user: 'FifthThird', //Twitter username
+                  max: 1, //Maximum number of tweets to show 
+                  count: 1, //Total tweets to retrieve
+                  retweets: false, //Show/Don't show retweets
+                  replies: false,  //Show/Don't show replies
+                  cacheExpire: 1000 * 60 * 2, //Number of milliseconds to cache tweets
+                  templates: {
+                    base:'<div class="sprite-tweet-quote"></div> {{tweets}}',
+                    tweet: '<p>{{html}}</p><a href="http://twitter.com/{{user.screen_name}}" class="user">-@{{user.screen_name}}</a>'
+                  }
+                })
+              </script>
             </div>
             <div class="sprite-block-details-background">
-              <h2>Facebook Sweepstakes</h2>
-              <div class="dates">Every Friday Between Nov. 9 – Dec. 28, 2012</div>
+              <h2>Twitter Sweepstakes</h2>
+              <div class="dates">Between Nov. 21 - Nov. 26, 2012</div>
               <a class="callToAction modalLink" data-name="facebookSweepstakes" href="#">See Details</a>
-              <div class="blurb">Check back Nov.9 to see the winner and the next week’s prize!</div>
-              <img src="<?php echo get_bloginfo('template_directory') ?>/images/fb-sweeps-photo.png" />
+              <img src="<?php echo get_bloginfo('template_directory') ?>/images/gift-card.png" />
+              <div class="blurb">Check back for a chance to win a $100 Fifth Third Bank Gift Card.</div>
+              <a href="https://www.facebook.com/FifthThirdBank" target="_blank" class="sprite-follow-us-button" href="#">Like Us Now</a>
             </div>
           </div>
           <div class="block no-margin">
