@@ -57,32 +57,32 @@
                 <?php the_content(); ?>
               </div>
             </div>
+
+        <?php endwhile; wp_reset_query(); // End the loop. Whew. ?>
+
             <div class="moreTips">
               <h2>More Tips</h2>
+              <?php 
+              // lets store the current post ID so we can get all the posts that are NOT this one
+              $currentPostID = get_the_ID();
+              $wp_query = new WP_Query(
+                array(
+                  'post_type' => 'post', 
+                  'orderby' => 'date', 
+                  'order' => 'DESC',
+                  'post__not_in' => array($currentPostID),
+                )
+              );
+              while ( have_posts() ) : the_post(); ?>              
                 <div class="otherStory">
                   <img src="" />
-                  <h3>Other Title Here</h3>
+                  <h3><?php the_title(); ?></h3>
                 </div>
-                <div class="otherStory">
-                  <img src="" />
-                  <h3>Other Title Here</h3>
-                </div>
-                <div class="otherStory">
-                  <img src="" />
-                  <h3>Other Title Here</h3>
-                </div>
-                <div class="otherStory">
-                  <img src="" />
-                  <h3>Other Title Here</h3>
-                </div>
-                <div class="otherStory">
-                  <img src="" />
-                  <h3>Other Title Here</h3>
-                </div>
+              <?php endwhile; ?>
             </div>
           </div>                
               
-          <?php endwhile; // End the loop. Whew. ?>
+          
         </div>
       </div>
     </section>

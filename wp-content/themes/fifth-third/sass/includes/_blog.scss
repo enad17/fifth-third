@@ -21,7 +21,7 @@
   /* re-work the layout for single page */
   &.single {
     .left {
-      width: auto;
+      width: 1024px;
       height: auto;
       padding-top: 0;
       border: none;
@@ -138,6 +138,7 @@ article {
 .article-content {
   position: relative;
   .socialBar {
+    @include border-radius(5px);
     background: #ebebeb;
     border: 1px solid #dcdcdc;
     width: 540px;
