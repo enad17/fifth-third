@@ -12,6 +12,7 @@
   }
   .right {
     width: 350px;
+
     .block {
       width: 331px;
     }
@@ -28,6 +29,8 @@
     .right {
       margin-left: 20px;
       margin-bottom: 20px;      
+      border-left: 11px solid #6693C1;
+      height: 395px;      
     }
     .text {
       width: auto;
@@ -74,18 +77,6 @@ article {
   position: relative;
   float: left;
   width: 295px;
-  .backLink {
-    font-family: $adelle;
-    color: #262d63;
-    position: absolute;
-    right: 4px;
-    font-weight: 800;
-    font-size: 12px;
-    top: 10px;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
   .image {
     float: left;
   }
@@ -145,6 +136,31 @@ article {
 
 /* single pages */
 .article-content {
+  position: relative;
+  .socialBar {
+    background: #ebebeb;
+    border: 1px solid #dcdcdc;
+    width: 540px;
+    margin-top: 10px;    
+    padding: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    .facebook, .twitter {
+      float: left;
+      margin-right: 10px;
+    }
+    .facebook {
+      width: 118px;
+      height: 19px;
+    }
+    .twitter {
+      width: 77px;
+      height: 19px;
+    }
+    .gplus {
+      height: 19px;
+    }
+  }
   h2 {
     font-family: $adelle;
     margin: 0;
@@ -152,6 +168,18 @@ article {
     font-weight: 700;
     color: #1d2051;
   }
+  .backLink {
+    font-family: $adelle;
+    color: #262D63;
+    position: absolute;
+    right: 367px;
+    font-weight: 800;
+    font-size: 14px;
+    top:7px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }  
   .content {
     margin-top: 10px; 
     p {

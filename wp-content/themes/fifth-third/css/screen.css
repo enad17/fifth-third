@@ -63,9 +63,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 186, sprite/*.png */
-.sprite-sprite, .sprite-block-details-background, .sprite-block-pattern, .sprite-facebook-icon, .sprite-facebook-small, .sprite-fb-photo, .sprite-follow-us-button, .sprite-footer-logo, .sprite-github_logo, .sprite-green-border, .sprite-home-icon-1, .sprite-home-icon-2, .sprite-like-us-button, .sprite-logo-blog, .sprite-logo, .sprite-octocat, .sprite-tweet-background, .sprite-tweet-quote, .sprite-twitter-icon, .sprite-twitter-small {
-  background: url('../images/sprite-s7f34eaa97d.png') no-repeat;
+/* line 194, sprite/*.png */
+.sprite-sprite, .sprite-block-details-background, .sprite-block-pattern, .sprite-facebook-icon, .sprite-facebook-small, .sprite-fb-photo, .sprite-follow-us-button, .sprite-footer-logo, .sprite-github_logo, .sprite-green-border, .sprite-home-icon-1, .sprite-home-icon-2, .sprite-like-us-button, .sprite-logo-blog, .sprite-logo, .sprite-octocat, .sprite-tweet-background, .sprite-tweet-now-button, .sprite-tweet-quote, .sprite-twitter-icon, .sprite-twitter-small {
+  background: url('../images/sprite-sfce38a79b8.png') no-repeat;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -85,7 +85,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-facebook-small {
-  background-position: 0 -1671px;
+  background-position: 0 -1701px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -95,12 +95,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-follow-us-button {
-  background-position: 0 -1538px;
+  background-position: 0 -1568px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-footer-logo {
-  background-position: 0 -1568px;
+  background-position: 0 -1598px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -110,22 +110,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-green-border {
-  background-position: 0 -1738px;
+  background-position: 0 -1768px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-home-icon-1 {
-  background-position: 0 -1695px;
+  background-position: 0 -1725px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-home-icon-2 {
-  background-position: 0 -1600px;
+  background-position: 0 -1630px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-like-us-button {
-  background-position: 0 -1508px;
+  background-position: 0 -1538px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -149,8 +149,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-tweet-now-button {
+  background-position: 0 -1508px;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-tweet-quote {
-  background-position: 0 -1643px;
+  background-position: 0 -1673px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -160,7 +165,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-twitter-small {
-  background-position: 0 -1683px;
+  background-position: 0 -1713px;
 }
 
 /* line 4, ../sass/includes/_base.scss */
@@ -530,57 +535,59 @@ h2 {
 .blog .right {
   width: 350px;
 }
-/* line 15, ../sass/includes/_blog.scss */
+/* line 16, ../sass/includes/_blog.scss */
 .blog .right .block {
   width: 331px;
 }
-/* line 22, ../sass/includes/_blog.scss */
+/* line 23, ../sass/includes/_blog.scss */
 .blog.single .left {
   width: auto;
   height: auto;
   padding-top: 0;
   border: none;
 }
-/* line 28, ../sass/includes/_blog.scss */
+/* line 29, ../sass/includes/_blog.scss */
 .blog.single .right {
   margin-left: 20px;
   margin-bottom: 20px;
+  border-left: 11px solid #6693C1;
+  height: 395px;
 }
-/* line 32, ../sass/includes/_blog.scss */
+/* line 35, ../sass/includes/_blog.scss */
 .blog.single .text {
   width: auto;
 }
-/* line 37, ../sass/includes/_blog.scss */
+/* line 40, ../sass/includes/_blog.scss */
 .blog .blog-header {
   height: 201px;
   padding-left: 53px;
 }
-/* line 40, ../sass/includes/_blog.scss */
+/* line 43, ../sass/includes/_blog.scss */
 .blog .blog-header .sprite-logo-blog {
   width: 315px;
   height: 147px;
   margin: 20px 0 0 0;
   float: left;
 }
-/* line 46, ../sass/includes/_blog.scss */
+/* line 49, ../sass/includes/_blog.scss */
 .blog .blog-header .right-side {
   float: left;
   width: 473px;
   margin-top: 44px;
   margin-left: 100px;
 }
-/* line 51, ../sass/includes/_blog.scss */
+/* line 54, ../sass/includes/_blog.scss */
 .blog .blog-header .right-side .item {
   margin-bottom: 15px;
 }
 
 /* post next and previous links */
-/* line 59, ../sass/includes/_blog.scss */
+/* line 62, ../sass/includes/_blog.scss */
 .nav {
   text-align: right;
   margin-top: -25px;
 }
-/* line 62, ../sass/includes/_blog.scss */
+/* line 65, ../sass/includes/_blog.scss */
 .nav a {
   font-weight: 800;
   font-size: 13px;
@@ -588,7 +595,7 @@ h2 {
   margin-left: 15px;
 }
 
-/* line 70, ../sass/includes/_blog.scss */
+/* line 73, ../sass/includes/_blog.scss */
 article {
   margin-bottom: 30px;
   margin-right: 10px;
@@ -597,31 +604,17 @@ article {
   float: left;
   width: 295px;
 }
-/* line 77, ../sass/includes/_blog.scss */
-article .backLink {
-  font-family: "adelle", serif;
-  color: #262d63;
-  position: absolute;
-  right: 4px;
-  font-weight: 800;
-  font-size: 12px;
-  top: 10px;
-}
-/* line 85, ../sass/includes/_blog.scss */
-article .backLink:hover {
-  text-decoration: underline;
-}
-/* line 89, ../sass/includes/_blog.scss */
+/* line 80, ../sass/includes/_blog.scss */
 article .image {
   float: left;
 }
-/* line 92, ../sass/includes/_blog.scss */
+/* line 83, ../sass/includes/_blog.scss */
 article .text {
   float: left;
   width: 204px;
   margin-left: 10px;
 }
-/* line 97, ../sass/includes/_blog.scss */
+/* line 88, ../sass/includes/_blog.scss */
 article h2 {
   font-family: "adelle", serif;
   margin: 0;
@@ -629,19 +622,19 @@ article h2 {
   font-weight: 800;
   line-height: 20px;
 }
-/* line 103, ../sass/includes/_blog.scss */
+/* line 94, ../sass/includes/_blog.scss */
 article h2 a {
   color: #262d63;
 }
-/* line 105, ../sass/includes/_blog.scss */
+/* line 96, ../sass/includes/_blog.scss */
 article h2 a:hover {
   text-decoration: underline;
 }
-/* line 110, ../sass/includes/_blog.scss */
+/* line 101, ../sass/includes/_blog.scss */
 article .excerpt {
   font-size: 12px;
 }
-/* line 114, ../sass/includes/_blog.scss */
+/* line 105, ../sass/includes/_blog.scss */
 article .meta .sprite-facebook-small, article .meta .sprite-twitter-small {
   width: 13px;
   height: 12px;
@@ -649,17 +642,17 @@ article .meta .sprite-facebook-small, article .meta .sprite-twitter-small {
   text-indent: -9999px;
   margin: 0px 2px;
 }
-/* line 121, ../sass/includes/_blog.scss */
+/* line 112, ../sass/includes/_blog.scss */
 article .meta.single {
   width: 100%;
   display: block;
   float: left;
 }
-/* line 125, ../sass/includes/_blog.scss */
+/* line 116, ../sass/includes/_blog.scss */
 article .meta.single .sprite-facebook-small, article .meta.single .sprite-twitter-small {
   float: left;
 }
-/* line 129, ../sass/includes/_blog.scss */
+/* line 120, ../sass/includes/_blog.scss */
 article .meta .readMoreLink {
   color: #000;
   font-size: 11px;
@@ -671,13 +664,46 @@ article .meta .readMoreLink {
   margin-left: 10px;
   font-style: italic;
 }
-/* line 139, ../sass/includes/_blog.scss */
+/* line 130, ../sass/includes/_blog.scss */
 article .meta .readMoreLink:hover {
   text-decoration: underline;
 }
 
 /* single pages */
+/* line 138, ../sass/includes/_blog.scss */
+.article-content {
+  position: relative;
+}
+/* line 140, ../sass/includes/_blog.scss */
+.article-content .socialBar {
+  background: #ebebeb;
+  border: 1px solid #dcdcdc;
+  width: 540px;
+  margin-top: 10px;
+  padding: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
 /* line 148, ../sass/includes/_blog.scss */
+.article-content .socialBar .facebook, .article-content .socialBar .twitter {
+  float: left;
+  margin-right: 10px;
+}
+/* line 152, ../sass/includes/_blog.scss */
+.article-content .socialBar .facebook {
+  width: 118px;
+  height: 19px;
+}
+/* line 156, ../sass/includes/_blog.scss */
+.article-content .socialBar .twitter {
+  width: 77px;
+  height: 19px;
+}
+/* line 160, ../sass/includes/_blog.scss */
+.article-content .socialBar .gplus {
+  height: 19px;
+}
+/* line 164, ../sass/includes/_blog.scss */
 .article-content h2 {
   font-family: "adelle", serif;
   margin: 0;
@@ -685,11 +711,25 @@ article .meta .readMoreLink:hover {
   font-weight: 700;
   color: #1d2051;
 }
-/* line 155, ../sass/includes/_blog.scss */
+/* line 171, ../sass/includes/_blog.scss */
+.article-content .backLink {
+  font-family: "adelle", serif;
+  color: #262D63;
+  position: absolute;
+  right: 367px;
+  font-weight: 800;
+  font-size: 14px;
+  top: 7px;
+}
+/* line 179, ../sass/includes/_blog.scss */
+.article-content .backLink:hover {
+  text-decoration: underline;
+}
+/* line 183, ../sass/includes/_blog.scss */
 .article-content .content {
   margin-top: 10px;
 }
-/* line 157, ../sass/includes/_blog.scss */
+/* line 185, ../sass/includes/_blog.scss */
 .article-content .content p {
   margin-bottom: 20px;
   font-size: 14px;
