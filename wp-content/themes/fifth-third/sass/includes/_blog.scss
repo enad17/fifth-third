@@ -4,6 +4,7 @@
   background-position: top center;
   &.single {
     background-image: inline-image('blog-single-bg.png');
+    background-position: top center;
   }
   .left {
     width: 674px;
@@ -31,6 +32,7 @@
       margin-bottom: 20px;      
       border-left: 11px solid #6693C1;
       height: 395px;      
+      z-index: 200;
     }
     .text {
       width: auto;
@@ -149,12 +151,12 @@ article {
 
 /* single pages */
 .article-content {
-  position: relative;
   .socialBar {
     @include border-radius(5px);
     background: #ebebeb;
     border: 1px solid #dcdcdc;
     width: 540px;
+    float: left;
     margin-top: 10px;    
     padding: 5px;
     overflow: hidden;
@@ -185,11 +187,11 @@ article {
   .backLink {
     font-family: $adelle;
     color: #262D63;
-    position: absolute;
-    right: 367px;
+    float: right;
     font-weight: 800;
     font-size: 14px;
-    top:7px;
+    top: 15px;
+    position: relative;
     &:hover {
       text-decoration: underline;
     }

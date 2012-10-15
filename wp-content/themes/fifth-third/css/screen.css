@@ -524,70 +524,72 @@ h2 {
 /* line 5, ../sass/includes/_blog.scss */
 .blog.single {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAADawAAADKCAMAAADE1haqAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxODk1NUY0MzBGMjIxMUUyQkNGN0Y3MDFFQzJCMzc1MiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxODk1NUY0NDBGMjIxMUUyQkNGN0Y3MDFFQzJCMzc1MiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjYyQkNGRUNFMEYxQjExRTJCQ0Y3RjcwMUVDMkIzNzUyIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjE4OTU1RjQyMEYyMjExRTJCQ0Y3RjcwMUVDMkIzNzUyIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+IRYBGwAAAchQTFRF////mr/i/v7//f3+/f7+/v//+vz9/P3+9fn8+Pr9+fv99vn98fb77/X69Pj8+/39+fv96vL5x9vu9/n9+fz93+r16fH5zN7w+/3+9fj88/f77PL55e735O73/f3+7PP5vdXsz+Hx7fT56PH45+/48fb61OTy0+Py4+324Ov1ydzv5/D48vf7xNnt/P3+9/r91uXz4ez2yt3vosTk0+Lx7fP5oMPk8PX63en11eXyv9bs2OXzsc7o7PL5nMHi8vb73ur18/f8utPrwNft4uz2+/z9vNTr2ObzyNzurcvnqsnm3en10eHxn8Pjpcblr83otdDpuNLqt9Hpwdjtzt/w2+j09fn8qMjlw9jtss7p/f7/psfl3un12ebzs87p7vT55u73udPq3ur16/L5xtrunsLj0uHx0uLx2uf0rsznzuDxo8Xl2ef0sM3oyNzvwdft4u32wdjtrMvnss7pnsPjudLqu9Tr1+XzocTk5u/33On14+73qcnm2eb0s8/p2uj0zuDx8fb7q8rnutPqvtbsncHjm8DipMbl7vT6qcnl3Oj18PX6p8fl6/L5tNDp+fv9ttHpy93wzd/wxdrtq8nm5/D40OHxwtjtvjBUygAACelJREFUeNrs1+WKFQAYRdFRVBBRsQO7FbvAxtaxxcJWTOzu7m59XY/wCZfLzDA/RdZ6ir1bWgDoWPc2dO2E/dGtHaM6YWY7hpa+DdZGj2YDy6cO9GwyqwwovRrsacOw0qfByhheppcV8aTJxPKu9G7wOo7EuLIgRpdlDT6Ufn8NLuPLjwYTyp04GiPKyHIvppTLsSbmlKllUDleDsamcjfexu54FGfifDyIQ7E+lsStmF0WxaQyucyP03EqNsfPGFsel13xNYaULzH3j2nlYmyI/uVEfIsZZV/8iivlUqyOxfE8xpR1cTNWxbM4FjdiR+yMz7E9PsbDOBzXytK4ENvibGyMq/E0vkdr3I83sTfex4HYGq/iXMyL27EwtsT1OBkvYnm8jC4A/ykRBmDWzJpZM2sAZg3ArJk1s2bWzBqAWQMwa2bNrJk1ALMGYNbMmlkza2YNwKwBmDWzZtbMmlkDzBqAWTNrZs2smTUAswZg1syaWTNrZg0wawCYNbNm1swagFkDMGtmzayZNbMGYNYAzJpZM2tmDcCsAZg1s2bWzJpZAzBrAGbNrJk1sybnALMGYNbMmlkza2YNwKwBmDWzZtbMmlkDzBoAZs2smTWzBmDWAMyaWTNrZs2sAZg1ALNm1syaWQMwawBmzayZNbNm1gDMGoBZM2tmzawBmDUAs2bWzJpZM2sAZg3ArJk1s2bWzBpg1gAwa2bNrJk1ALMGYNbMmlkza2YNwKwBmDWzZtbMGoBZAzBrZs2smTWzBmDWAMyaWTNrZg3ArAGYNbNm1syaWQMwawBmzayZNbNm1gCzBoBZM2tmzawBmDUAs2bWzJpZM2sAZg3ArJk1s2bWAMwagFkza2bNrJk1ALMGYNbMmlkzawBmDcCsmTWzZtbMGoBZAzBrZs2smTWzBpg1AMyaWTNrZg3ArAGYNbNm1syaWQMwawBmzayZNbMGYNYAzJpZM2tmzawBmDUAs2bWzJpZAzBrAGbNrJk1s2bWAMwagFkza2bNrJk1wKwBYNbMmlkzawBmDcCsmTWzZtbMGoBZAzBrZs2smTUAswZg1syaWTNrZg3ArAGYNbNm1swagFkDMGtmzayZNbMGYNYAzJpZM2tmzawBZg0As2bWzJpZAzBrAGbNrJk1s2bWAMwagFkza2bNrAGYNQCzZtbMmlkzawBmDcCsmTWzZtYAzBqAWTNrZs2smTUAswZg1syaWTNrZg0wawCYNbNm1swagFkDMGtmzayZNbMGYNYAzJpZM2tmDcCsAZg1s2bWzJpZAzBrAGbNrJk1swZg1gDMmlkza2bNrAGYNQCzZtbMmlkza4BZA8CsmTWzZtYAzBqAWTNrZs2smTUAswZg1syaWTNrAGYNwKyZNbNm1swagFkDMGtmzayZNQCzBmDWzJpZM2tmDcCsAZg1s2bWzJpZA8waAGbNrJk1swZg1gDMmlkza2bNrAGYNQCzZtbMmlkDMGsAZs2smTWzZtYAzBqAWTNrZs2sAZg1ALNm1syaWTNrAGYNwKyZNbNm1swaYNYAzJpZM2tmzawBmDUAs2bWzJpZM2sAZg3ArJk1s2bWAMwagFkza2bNrJk1ALMGYNbMmlkzawBmDcCsmTWzZtbMGoBZAzBrZs2smTWzBpg1ALNm1syaWTNrAGYNwKyZNbNm1swagAgDMGtmzayZNQCzBmDWzJpZM2tmDcCsAZg1s2bWzBqAWQMwa2bNrJk1swZg1gDMmlkza2bNrAFmDcCsmTWzZtbMGoBZAzBrZs2smTWzBpg1AMyaWTNrZg3ArAGYNbNm1syaWQMwawBmzayZNbMGYNYAzJpZM2tmzawBmDUAs2bWzJpZk3OAWQMwa2bNrJk1swZg1gDMmlkza2bNrAFmDQCzZtbMmlkDMGsAZs2smTWzZtYAzBqAWTNrZs2sAZg1ALNm1syaWTNrAGYNwKyZNbNm1gDMGoBZM2tmzayZNQCzBmDWzJpZM2tmDTBrAJg1s2bWzBqAWQMwa2bNrJk1swZg1gDMmlkza2YNwKwBmDWzZtbMmlkDMGsAZs2smTWzBmDWAMyaWTNrZs2sAZg1ALNm1syaWTNrgFkDwKyZNbNm1gDMGoBZM2tmzayZNQCzBmDWzJpZM2sAZg3ArJk1s2bWzBqAWQMwa2bNrJk1ALMGYNbMmlkza2YNwKwBmDWzZtbMmlkDzBoAZs2smTWzBmDWAMyaWTNrZs2sAZg1ALNm1syaWQMwawBmzayZNbNm1gDMGoBZM2tmzawBmDUAs2bWzJpZM2sAZg3ArJk1s2bWzBpg1gAwa2bNrJk1ALMGYNbMmlkza2YNwKwBmDWzZtbMGoBZAzBrZs2smTWzBmDWAMyaWTNrZg3ArAGYNbNm1syaWQMwawBmzayZNbNm1gCzBoBZM2tmzawBmDUAs2bWzJpZM2sAZg3ArJk1s2bWAMwagFkza2bNrJk1ALMGYNbMmlkzawBmDcCsmTWzZtbMGoBZAzBrZs2smTWzBpg1AMyaWTNrZg3ArAGYNbNm1syaWQMwawBmzayZNbMGYNYAzJpZM2tmzawBmDUAs2bWzJpZAzBrAGbNrJk1s2bWAMwagFkza2bNrJk1wKwBYNbMmlkzawBmDcCsmTWzZtbMGoBZAzBrZs2smTUAswZg1syaWTNrZg3ArAGYNbNm1swagFkDMGtmzayZNbMGYNYAzJpZM2tmzawBZg0As2bWzJpZAzBrAGbNrJk1s2bWAMwagFkza2bNrAGYNQCzZtbMmlkzawBmDcCsmTWzZtYAzBqAWTNrZs2smTUAswZg1syaWTNrZg0wawBmzayZNbNm1gDMGoBZM2tmzayZNQCzBmDWzJpZM2sAZg3ArJk1s2bWzBqAWQMwa2bNrJk1ALMGYNbMmlkza2YNwKwBmDWzZtbMmlkDzBqAWTNrZs2smTUAswZg1syaWTNrZg1AhAGYNbNm1swagFkDMGtmzayZNbMGYNYAzJpZM2tmDcCsAZg1s2bWzJpZAzBrAGbNrJk1s2bWALMGYNbMmlkza2YNwKwBmDWzZtbMmlkDzBoAZs2smTWzBmDWAMyaWTNrZs2sAZg1ALNm1syaWQMwawBmzayZNbNm1gDMGoBZM2tmzazJOcCsAZg1s2bWzJpZAzBrAGbNrJk1s2bWALMGgFkza2bNrAGYNQCzZtbMmlkzawBmDcCsmTWzZtYAzBqAWTNrZs2smTUAswZg1syaWTNrAGYNwKyZNbNm1swagFkDMGtmzayZNbMGmDUAzJpZM2tmDcCsAZg1s2bWzJpZAzBrAGbNrJk1swZg1gDMmlkza2bNrAGYNQCzZtbMmlkDMGsAZs2smTWzZtYAzBqAWTNrZs2smTXArAFg1syaWTNrAP+I3wIMADJi8wTnrkPnAAAAAElFTkSuQmCC');
+  background-position: top center;
 }
-/* line 8, ../sass/includes/_blog.scss */
+/* line 9, ../sass/includes/_blog.scss */
 .blog .left {
   width: 674px;
   height: 393px;
   padding: 40px 0px 70px 53px;
 }
-/* line 13, ../sass/includes/_blog.scss */
+/* line 14, ../sass/includes/_blog.scss */
 .blog .right {
   width: 350px;
 }
-/* line 16, ../sass/includes/_blog.scss */
+/* line 17, ../sass/includes/_blog.scss */
 .blog .right .block {
   width: 331px;
 }
-/* line 23, ../sass/includes/_blog.scss */
+/* line 24, ../sass/includes/_blog.scss */
 .blog.single .left {
   width: 1024px;
   height: auto;
   padding-top: 0;
   border: none;
 }
-/* line 29, ../sass/includes/_blog.scss */
+/* line 30, ../sass/includes/_blog.scss */
 .blog.single .right {
   margin-left: 20px;
   margin-bottom: 20px;
   border-left: 11px solid #6693C1;
   height: 395px;
+  z-index: 200;
 }
-/* line 35, ../sass/includes/_blog.scss */
+/* line 37, ../sass/includes/_blog.scss */
 .blog.single .text {
   width: auto;
 }
-/* line 40, ../sass/includes/_blog.scss */
+/* line 42, ../sass/includes/_blog.scss */
 .blog .blog-header {
   height: 201px;
   padding-left: 53px;
 }
-/* line 43, ../sass/includes/_blog.scss */
+/* line 45, ../sass/includes/_blog.scss */
 .blog .blog-header .sprite-logo-blog {
   width: 315px;
   height: 147px;
   margin: 20px 0 0 0;
   float: left;
 }
-/* line 49, ../sass/includes/_blog.scss */
+/* line 51, ../sass/includes/_blog.scss */
 .blog .blog-header .right-side {
   float: left;
   width: 473px;
   margin-top: 44px;
   margin-left: 100px;
 }
-/* line 54, ../sass/includes/_blog.scss */
+/* line 56, ../sass/includes/_blog.scss */
 .blog .blog-header .right-side .item {
   margin-bottom: 15px;
 }
 
 /* other stories */
-/* line 62, ../sass/includes/_blog.scss */
+/* line 64, ../sass/includes/_blog.scss */
 .moreTips {
   clear: both;
 }
 
-/* line 65, ../sass/includes/_blog.scss */
+/* line 67, ../sass/includes/_blog.scss */
 .otherStory {
   font-family: "adelle", serif;
   color: #1d2051;
@@ -596,20 +598,20 @@ h2 {
   width: 194px;
   text-align: center;
 }
-/* line 72, ../sass/includes/_blog.scss */
+/* line 74, ../sass/includes/_blog.scss */
 .otherStory:hover {
   text-decoration: underline;
 }
-/* line 78, ../sass/includes/_blog.scss */
+/* line 80, ../sass/includes/_blog.scss */
 .otherStory .innerPadding {
   padding: 15px;
 }
-/* line 81, ../sass/includes/_blog.scss */
+/* line 83, ../sass/includes/_blog.scss */
 .otherStory h3 {
   text-align: center;
 }
 
-/* line 86, ../sass/includes/_blog.scss */
+/* line 88, ../sass/includes/_blog.scss */
 article {
   margin-bottom: 30px;
   margin-right: 10px;
@@ -618,17 +620,17 @@ article {
   float: left;
   width: 295px;
 }
-/* line 93, ../sass/includes/_blog.scss */
+/* line 95, ../sass/includes/_blog.scss */
 article .image {
   float: left;
 }
-/* line 96, ../sass/includes/_blog.scss */
+/* line 98, ../sass/includes/_blog.scss */
 article .text {
   float: left;
   width: 204px;
   margin-left: 10px;
 }
-/* line 101, ../sass/includes/_blog.scss */
+/* line 103, ../sass/includes/_blog.scss */
 article h2 {
   font-family: "adelle", serif;
   margin: 0;
@@ -636,19 +638,19 @@ article h2 {
   font-weight: 800;
   line-height: 20px;
 }
-/* line 107, ../sass/includes/_blog.scss */
+/* line 109, ../sass/includes/_blog.scss */
 article h2 a {
   color: #262d63;
 }
-/* line 109, ../sass/includes/_blog.scss */
+/* line 111, ../sass/includes/_blog.scss */
 article h2 a:hover {
   text-decoration: underline;
 }
-/* line 114, ../sass/includes/_blog.scss */
+/* line 116, ../sass/includes/_blog.scss */
 article .excerpt {
   font-size: 12px;
 }
-/* line 118, ../sass/includes/_blog.scss */
+/* line 120, ../sass/includes/_blog.scss */
 article .meta .sprite-facebook-small, article .meta .sprite-twitter-small {
   width: 13px;
   height: 12px;
@@ -656,17 +658,17 @@ article .meta .sprite-facebook-small, article .meta .sprite-twitter-small {
   text-indent: -9999px;
   margin: 0px 2px;
 }
-/* line 125, ../sass/includes/_blog.scss */
+/* line 127, ../sass/includes/_blog.scss */
 article .meta.single {
   width: 100%;
   display: block;
   float: left;
 }
-/* line 129, ../sass/includes/_blog.scss */
+/* line 131, ../sass/includes/_blog.scss */
 article .meta.single .sprite-facebook-small, article .meta.single .sprite-twitter-small {
   float: left;
 }
-/* line 133, ../sass/includes/_blog.scss */
+/* line 135, ../sass/includes/_blog.scss */
 article .meta .readMoreLink {
   color: #000;
   font-size: 11px;
@@ -678,17 +680,13 @@ article .meta .readMoreLink {
   margin-left: 10px;
   font-style: italic;
 }
-/* line 143, ../sass/includes/_blog.scss */
+/* line 145, ../sass/includes/_blog.scss */
 article .meta .readMoreLink:hover {
   text-decoration: underline;
 }
 
 /* single pages */
-/* line 151, ../sass/includes/_blog.scss */
-.article-content {
-  position: relative;
-}
-/* line 153, ../sass/includes/_blog.scss */
+/* line 154, ../sass/includes/_blog.scss */
 .article-content .socialBar {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -698,31 +696,32 @@ article .meta .readMoreLink:hover {
   background: #ebebeb;
   border: 1px solid #dcdcdc;
   width: 540px;
+  float: left;
   margin-top: 10px;
   padding: 5px;
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 162, ../sass/includes/_blog.scss */
+/* line 164, ../sass/includes/_blog.scss */
 .article-content .socialBar .facebook, .article-content .socialBar .twitter {
   float: left;
   margin-right: 10px;
 }
-/* line 166, ../sass/includes/_blog.scss */
+/* line 168, ../sass/includes/_blog.scss */
 .article-content .socialBar .facebook {
   width: 118px;
   height: 19px;
 }
-/* line 170, ../sass/includes/_blog.scss */
+/* line 172, ../sass/includes/_blog.scss */
 .article-content .socialBar .twitter {
   width: 77px;
   height: 19px;
 }
-/* line 174, ../sass/includes/_blog.scss */
+/* line 176, ../sass/includes/_blog.scss */
 .article-content .socialBar .gplus {
   height: 19px;
 }
-/* line 178, ../sass/includes/_blog.scss */
+/* line 180, ../sass/includes/_blog.scss */
 .article-content h2 {
   font-family: "adelle", serif;
   margin: 0;
@@ -730,25 +729,25 @@ article .meta .readMoreLink:hover {
   font-weight: 700;
   color: #1d2051;
 }
-/* line 185, ../sass/includes/_blog.scss */
+/* line 187, ../sass/includes/_blog.scss */
 .article-content .backLink {
   font-family: "adelle", serif;
   color: #262D63;
-  position: absolute;
-  right: 367px;
+  float: right;
   font-weight: 800;
   font-size: 14px;
-  top: 7px;
+  top: 15px;
+  position: relative;
 }
-/* line 193, ../sass/includes/_blog.scss */
+/* line 195, ../sass/includes/_blog.scss */
 .article-content .backLink:hover {
   text-decoration: underline;
 }
-/* line 197, ../sass/includes/_blog.scss */
+/* line 199, ../sass/includes/_blog.scss */
 .article-content .content {
   margin-top: 10px;
 }
-/* line 199, ../sass/includes/_blog.scss */
+/* line 201, ../sass/includes/_blog.scss */
 .article-content .content p {
   margin-bottom: 20px;
   font-size: 14px;
