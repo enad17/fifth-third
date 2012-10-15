@@ -30,6 +30,10 @@ Template Name: Blog
           <?php 
           while ( have_posts() ) : the_post(); ?>
               <article>
+              <?php
+                $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
+                echo "<a class=\"backLink\" href='$url'>BACK</a>"; 
+              ?>
                 <div class="image">
                   <?php the_post_thumbnail(); ?>
                 </div>
@@ -42,9 +46,12 @@ Template Name: Blog
                   <div class="content">
                     <?php the_content(); ?>
                   </div>
-
-                </div>
+                </div>                
               </article>
+              <div class="nav">
+                <?php previous_post_link(); ?>
+                <?php next_post_link(); ?>
+              </div>              
               
           <?php endwhile; // End the loop. Whew. ?>
         </div>

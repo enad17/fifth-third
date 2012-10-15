@@ -546,42 +546,64 @@ h2 {
 article {
   margin-bottom: 50px;
   overflow: hidden;
+  position: relative;
 }
-/* line 35, ../sass/includes/_blog.scss */
+/* line 36, ../sass/includes/_blog.scss */
+article .backLink {
+  font-family: "adelle", serif;
+  color: #262d63;
+  position: absolute;
+  right: 4px;
+  font-weight: 800;
+  font-size: 12px;
+  top: 10px;
+}
+/* line 44, ../sass/includes/_blog.scss */
+article .backLink:hover {
+  text-decoration: underline;
+}
+/* line 48, ../sass/includes/_blog.scss */
 article .image {
   float: left;
 }
-/* line 38, ../sass/includes/_blog.scss */
+/* line 51, ../sass/includes/_blog.scss */
 article .text {
   float: left;
   width: 530px;
   margin-left: 28px;
 }
-/* line 43, ../sass/includes/_blog.scss */
+/* line 56, ../sass/includes/_blog.scss */
 article h2 {
   font-family: "adelle", serif;
   margin: 0;
   font-size: 20px;
   font-weight: 800;
 }
-/* line 48, ../sass/includes/_blog.scss */
+/* line 61, ../sass/includes/_blog.scss */
 article h2 a {
   color: #262d63;
 }
-/* line 50, ../sass/includes/_blog.scss */
+/* line 63, ../sass/includes/_blog.scss */
 article h2 a:hover {
   text-decoration: underline;
 }
-/* line 55, ../sass/includes/_blog.scss */
+/* line 68, ../sass/includes/_blog.scss */
 article .excerpt {
   font-size: 13px;
 }
-/* line 59, ../sass/includes/_blog.scss */
+/* line 71, ../sass/includes/_blog.scss */
+article .content {
+  height: 330px;
+  overflow-y: auto;
+  float: left;
+  margin-top: 10px;
+}
+/* line 76, ../sass/includes/_blog.scss */
 article .content p {
   margin-bottom: 20px;
   font-size: 14px;
 }
-/* line 65, ../sass/includes/_blog.scss */
+/* line 82, ../sass/includes/_blog.scss */
 article .meta .sprite-facebook-small, article .meta .sprite-twitter-small {
   width: 13px;
   height: 12px;
@@ -589,7 +611,17 @@ article .meta .sprite-facebook-small, article .meta .sprite-twitter-small {
   text-indent: -9999px;
   margin: 0px 2px;
 }
-/* line 72, ../sass/includes/_blog.scss */
+/* line 89, ../sass/includes/_blog.scss */
+article .meta.single {
+  width: 100%;
+  display: block;
+  float: left;
+}
+/* line 93, ../sass/includes/_blog.scss */
+article .meta.single .sprite-facebook-small, article .meta.single .sprite-twitter-small {
+  float: left;
+}
+/* line 97, ../sass/includes/_blog.scss */
 article .meta .readMoreLink {
   color: #000;
   font-size: 11px;
@@ -601,7 +633,7 @@ article .meta .readMoreLink {
   margin-left: 10px;
   font-style: italic;
 }
-/* line 82, ../sass/includes/_blog.scss */
+/* line 107, ../sass/includes/_blog.scss */
 article .meta .readMoreLink:hover {
   text-decoration: underline;
 }

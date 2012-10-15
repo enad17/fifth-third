@@ -32,6 +32,19 @@
 article {
   margin-bottom: 50px;
   overflow: hidden;
+  position: relative;
+  .backLink {
+    font-family: $adelle;
+    color: #262d63;
+    position: absolute;
+    right: 4px;
+    font-weight: 800;
+    font-size: 12px;
+    top: 10px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
   .image {
     float: left;
   }
@@ -56,6 +69,10 @@ article {
     font-size: 13px;
   }
   .content {
+    height: 330px;
+    overflow-y: auto;
+    float: left;
+    margin-top: 10px; 
     p {
       margin-bottom: 20px;
       font-size: 14px;
@@ -68,6 +85,14 @@ article {
       float: right;
       text-indent: -9999px;
       margin: 0px 2px;
+    }
+    &.single {
+      width: 100%;
+      display: block;
+      float: left;      
+      .sprite-facebook-small, .sprite-twitter-small {
+        float: left;
+      }      
     }
     .readMoreLink {
       color: #000;
