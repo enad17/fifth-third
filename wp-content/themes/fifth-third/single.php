@@ -1,17 +1,12 @@
-<?php
-/*
-Template Name: Blog
-*/
-?>
 <?php get_header(); ?>
 <body>
   <div class="wrap">
     
-    <section role="main" class="main blog">
+    <section role="main" class="main blog single">
       <div class="inner">
 
         <div class="blog-header">
-          <a class="sprite-logo" href="https://www.53.com/site" target="_blank"></a>
+          <a class="sprite-logo-blog" href="https://www.53.com/site" target="_blank"></a>
           <div class="right-side">
             <div class="item">
               <div class="sprite-home-icon-1"></div>
@@ -24,39 +19,32 @@ Template Name: Blog
             <a class="callToAction modalLink" data-name="seeDetails" href="#">See Details</a>
           </div>
         </div>
-
         <div class="left">
 
           <?php 
           while ( have_posts() ) : the_post(); ?>
-              <article>
-              <?php
-                $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
-                echo "<a class=\"backLink\" href='$url'>BACK</a>"; 
-              ?>
-                <div class="image">
-                  <?php the_post_thumbnail(); ?>
-                </div>
-                <div class="text">
-                  <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                  <div class="meta single">
-                    <a class="sprite-facebook-small" href="#">Share <?php the_title(); ?> on Facebook</a>
-                    <a class="sprite-twitter-small" href="#">Share <?php the_title(); ?> on Twitter</a>
-                  </div>                  
-                  <div class="content">
-                    <?php the_content(); ?>
-                  </div>
-                </div>                
-              </article>
-              <div class="nav">
-                <?php previous_post_link('%link', 'Previous'); ?> 
-                <?php next_post_link('%link', 'Next'); ?> 
-              </div>              
+
+          <div class="right">
+            <?php get_template_part('blog-sidebar'); ?>
+          </div>              
+          <div class="article-content">
+            <?php
+              $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
+              echo "<a class=\"backLink\" href='$url'>BACK</a>"; 
+            ?>                
+            <div class="text">
+              <h2><?php the_title(); ?></h2>
+              <div class="content">
+                <?php the_content(); ?>
+              </div>
+            </div>
+          </div>                
+        <div class="nav">
+          <?php previous_post_link('%link', 'Previous'); ?> 
+          <?php next_post_link('%link', 'Next'); ?> 
+        </div>              
               
           <?php endwhile; // End the loop. Whew. ?>
-        </div>
-        <div class="right">
-          <?php get_template_part('blog-sidebar'); ?>
         </div>
       </div>
     </section>
