@@ -64,8 +64,33 @@
               <a href="https://www.twitter.com/FifthThird" target="_blank" class="sprite-follow-us-button" href="#">Like Us Now</a>
             </div>
           </div>
+
+          <!-- blog post -->
+        <?php 
+          $wp_query = new WP_Query(
+          array(
+            'post_type' => 'post', 
+            'orderby' => 'date', 
+            'order' => 'DESC',
+            'posts_per_page' => 1
+          ));
+          while ( have_posts() ) : the_post();
+
+          $customField = get_post_custom(get_the_ID());
+
+          ?>
           <div class="block no-margin">
             <div class="sprite-green-border"></div>
+            <div class="sprite-tweet-background">
+              <?php the_post_thumbnail(); ?>
+            </div>
+            <div class="sprite-block-details-background">
+              <h2 class="blog-title"><?php the_title(); ?></h2>
+              <div class="excerpt">
+                <?php echo $customField['home_teaser'][0]; ?>
+              </div>
+            </div>
+            <?php endwhile; // End the loop. Whew. ?>            
           </div>
         </div>
       </div>
