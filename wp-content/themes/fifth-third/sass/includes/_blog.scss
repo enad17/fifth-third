@@ -5,7 +5,7 @@
   .left {
     width: 674px;
     height: 393px;
-    padding: 40px 20px 70px 53px;
+    padding: 40px 0px 70px 53px;
   }
   .right {
     width: 350px;
@@ -47,11 +47,12 @@
 }
 
 article {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  margin-right: 10px;
   overflow: hidden;
   position: relative;
   float: left;
-  width: 280px;
+  width: 295px;
   .backLink {
     font-family: $adelle;
     color: #262d63;
@@ -69,14 +70,16 @@ article {
   }
   .text {
     float: left;
-    width: 200px;
-    margin-left: 28px;
+    width: 204px;
+    margin-left: 10px;
+    font-size: 11px;
   }
   h2 {
     font-family: $adelle;
     margin: 0;
-    font-size: 20px;  
-    font-weight: 800;  
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 20px;
     a {
       color: #262d63;
       &:hover {
