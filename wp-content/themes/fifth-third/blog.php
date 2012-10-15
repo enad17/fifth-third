@@ -38,19 +38,25 @@ Template Name: Blog
           );
           while ( have_posts() ) : the_post(); ?>
               <article>
-                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                <div class="excerpt"><?php the_excerpt(); ?></div>
-                <div class="meta">
-                  <a class="sprite-facebook-small" href="#">Share <?php the_title(); ?> on Facebook</a>
-                  <a class="sprite-twitter-small" href="#">Share <?php the_title(); ?> on Twitter</a>
-                  <a href="<?php the_permalink() ?>">>> Read More</a>
+                <div class="image">
+                  <?php the_post_thumbnail(); ?>
+                </div>
+                <div class="text">
+                  <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                  <div class="excerpt"><?php the_excerpt(); ?></div>
+                  <div class="meta">
+                    <a class="readMoreLink" href="<?php the_permalink() ?>">Read More</a>
+                    <a class="sprite-facebook-small" href="#">Share <?php the_title(); ?> on Facebook</a>
+                    <a class="sprite-twitter-small" href="#">Share <?php the_title(); ?> on Twitter</a>
+                    
+                  </div>
                 </div>
               </article>
               
           <?php endwhile; // End the loop. Whew. ?>
         </div>
         <div class="right">
-
+          <?php get_template_part('blog-sidebar'); ?>
         </div>
       </div>
     </section>

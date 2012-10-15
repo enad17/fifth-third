@@ -3,10 +3,19 @@
   background-repeat: no-repeat;
   .left {
     width: 718px;
-    padding-left: 0;
+    padding-left: 53px;
+  }
+  .right {
+    width: 290px;
+    .block {
+      width: 331px;
+      height: 208px;
+    }
   }
   .blog-header {
-    height: 305px;
+    height: 264px;
+    padding-left: 53px;
+    margin-bottom: 20px;
     .sprite-logo {
       margin: 40px 0 0 0;
       float: left;
@@ -21,6 +30,15 @@
 
 article {
   margin-bottom: 50px;
+  overflow: hidden;
+  .image {
+    float: left;
+  }
+  .text {
+    float: left;
+    width: 503px;
+    margin-left: 28px;
+  }
   h2 {
     font-family: $adelle;
     margin: 0;
@@ -43,6 +61,20 @@ article {
       float: right;
       text-indent: -9999px;
       margin: 0px 2px;
+    }
+    .readMoreLink {
+      color: #000;
+      font-size: 11px;
+      background-image: inline-image('link-arrows.png');
+      background-repeat: no-repeat;
+      padding-left: 10px;
+      float: right;
+      background-position: center left;
+      margin-left: 10px;
+      font-style: italic;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
