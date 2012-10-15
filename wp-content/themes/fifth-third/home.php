@@ -85,10 +85,11 @@
               <?php the_post_thumbnail(); ?>
             </div>
             <div class="sprite-block-details-background">
-              <h2 class="blog-title"><?php the_title(); ?></h2>
+              <h2 class="blog-title"><?php the_title(); ?></h2>              
               <div class="excerpt">
                 <?php echo $customField['home_teaser'][0]; ?>
               </div>
+              <a class="callToAction" href="<?php the_permalink(); ?>">Read More</a>              
             </div>
             <?php endwhile; // End the loop. Whew. ?>            
           </div>

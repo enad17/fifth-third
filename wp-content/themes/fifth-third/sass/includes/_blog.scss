@@ -3,7 +3,8 @@
   background-repeat: no-repeat;
   .left {
     width: 718px;
-    padding-left: 53px;
+    height: 393px;
+    padding: 0px 20px 70px 53px;
   }
   .right {
     width: 290px;
@@ -36,7 +37,7 @@ article {
   }
   .text {
     float: left;
-    width: 503px;
+    width: 530px;
     margin-left: 28px;
   }
   h2 {
@@ -53,6 +54,12 @@ article {
   }
   .excerpt {
     font-size: 13px;
+  }
+  .content {
+    p {
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
   }
   .meta {
     .sprite-facebook-small, .sprite-twitter-small {
