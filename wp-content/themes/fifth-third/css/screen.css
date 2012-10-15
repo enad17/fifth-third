@@ -529,8 +529,8 @@ h2 {
 /* line 9, ../sass/includes/_blog.scss */
 .blog .left {
   width: 674px;
-  height: 393px;
-  padding: 40px 0px 70px 53px;
+  height: 503px;
+  padding: 40px 0px 70px 0px;
 }
 /* line 14, ../sass/includes/_blog.scss */
 .blog .right {
@@ -618,7 +618,7 @@ article {
   overflow: hidden;
   position: relative;
   float: left;
-  width: 295px;
+  width: 305px;
 }
 /* line 95, ../sass/includes/_blog.scss */
 article .image {
@@ -627,15 +627,15 @@ article .image {
 /* line 98, ../sass/includes/_blog.scss */
 article .text {
   float: left;
-  width: 204px;
+  width: 211px;
   margin-left: 10px;
 }
 /* line 103, ../sass/includes/_blog.scss */
 article h2 {
   font-family: "adelle", serif;
   margin: 0;
-  font-size: 17px;
-  font-weight: 800;
+  font-size: 15px;
+  font-weight: 600;
   line-height: 20px;
 }
 /* line 109, ../sass/includes/_blog.scss */
@@ -687,6 +687,10 @@ article .meta .readMoreLink:hover {
 
 /* single pages */
 /* line 154, ../sass/includes/_blog.scss */
+.article-content .headerBar {
+  overflow: hidden;
+}
+/* line 157, ../sass/includes/_blog.scss */
 .article-content .socialBar {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -702,26 +706,26 @@ article .meta .readMoreLink:hover {
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 164, ../sass/includes/_blog.scss */
+/* line 167, ../sass/includes/_blog.scss */
 .article-content .socialBar .facebook, .article-content .socialBar .twitter {
   float: left;
   margin-right: 10px;
 }
-/* line 168, ../sass/includes/_blog.scss */
+/* line 171, ../sass/includes/_blog.scss */
 .article-content .socialBar .facebook {
   width: 118px;
   height: 19px;
 }
-/* line 172, ../sass/includes/_blog.scss */
+/* line 175, ../sass/includes/_blog.scss */
 .article-content .socialBar .twitter {
   width: 77px;
   height: 19px;
 }
-/* line 176, ../sass/includes/_blog.scss */
+/* line 179, ../sass/includes/_blog.scss */
 .article-content .socialBar .gplus {
   height: 19px;
 }
-/* line 180, ../sass/includes/_blog.scss */
+/* line 183, ../sass/includes/_blog.scss */
 .article-content h2 {
   font-family: "adelle", serif;
   margin: 0;
@@ -729,7 +733,7 @@ article .meta .readMoreLink:hover {
   font-weight: 700;
   color: #1d2051;
 }
-/* line 187, ../sass/includes/_blog.scss */
+/* line 190, ../sass/includes/_blog.scss */
 .article-content .backLink {
   font-family: "adelle", serif;
   color: #262D63;
@@ -739,15 +743,15 @@ article .meta .readMoreLink:hover {
   top: 15px;
   position: relative;
 }
-/* line 195, ../sass/includes/_blog.scss */
+/* line 198, ../sass/includes/_blog.scss */
 .article-content .backLink:hover {
   text-decoration: underline;
 }
-/* line 199, ../sass/includes/_blog.scss */
+/* line 202, ../sass/includes/_blog.scss */
 .article-content .content {
   margin-top: 10px;
 }
-/* line 201, ../sass/includes/_blog.scss */
+/* line 204, ../sass/includes/_blog.scss */
 .article-content .content p {
   margin-bottom: 20px;
   font-size: 14px;

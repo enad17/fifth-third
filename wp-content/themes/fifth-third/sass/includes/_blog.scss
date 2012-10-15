@@ -8,8 +8,8 @@
   }
   .left {
     width: 674px;
-    height: 393px;
-    padding: 40px 0px 70px 53px;
+    height: 503px;
+    padding: 40px 0px 70px 0px;
   }
   .right {
     width: 350px;
@@ -91,20 +91,20 @@ article {
   overflow: hidden;
   position: relative;
   float: left;
-  width: 295px;
+  width: 305px;
   .image {
     float: left;
   }
   .text {
     float: left;
-    width: 204px;
+    width: 211px;
     margin-left: 10px;
   }
   h2 {
     font-family: $adelle;
     margin: 0;
-    font-size: 17px;
-    font-weight: 800;
+    font-size: 15px;
+    font-weight: 600;
     line-height: 20px;
     a {
       color: #262d63;
@@ -151,6 +151,9 @@ article {
 
 /* single pages */
 .article-content {
+  .headerBar {
+    overflow: hidden;
+  }
   .socialBar {
     @include border-radius(5px);
     background: #ebebeb;

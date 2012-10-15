@@ -28,29 +28,32 @@
             <?php get_template_part('blog-sidebar'); ?>
           </div>              
           <div class="article-content">
-            <div class="socialBar">
-              <div class="facebook">
-                <iframe src="//www.facebook.com/plugins/like.php?href=<?php the_permalink(); ?>;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=true&amp;action=recommend&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>                
+            <div class="headerBar">
+              <div class="socialBar">
+                <div class="facebook">
+                  <iframe src="//www.facebook.com/plugins/like.php?href=<?php the_permalink(); ?>;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=true&amp;action=recommend&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>                
+                </div>
+                <div class="twitter">
+                  <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </div>
+                <div class="gplus">
+                  <div class="g-plusone" data-size="medium"></div>
+                  <script type="text/javascript">
+                    (function() {
+                      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                      po.src = 'https://apis.google.com/js/plusone.js';
+                      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                    })();
+                  </script>                
+                </div>
               </div>
-              <div class="twitter">
-                <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-              </div>
-              <div class="gplus">
-                <div class="g-plusone" data-size="medium"></div>
-                <script type="text/javascript">
-                  (function() {
-                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                    po.src = 'https://apis.google.com/js/plusone.js';
-                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                  })();
-                </script>                
-              </div>
-            </div>
-            <?php
-              $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
-              echo "<a class=\"backLink\" href='$url'>BACK</a>"; 
-            ?>                
+              <?php
+                $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
+                echo "<a class=\"backLink\" href='$url'>BACK</a>"; 
+              ?>    
+            </div>    
+                    
             <div class="text">
               <h2><?php the_title(); ?></h2>
               <div class="content">
