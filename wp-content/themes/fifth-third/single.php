@@ -61,7 +61,7 @@
         <?php endwhile; wp_reset_query(); // End the loop. Whew. ?>
 
             <div class="moreTips">
-              <h2>More Tips</h2>
+              <h2>More Tips:</h2>
               <?php 
               // lets store the current post ID so we can get all the posts that are NOT this one
               $currentPostID = get_the_ID();
@@ -74,10 +74,14 @@
                 )
               );
               while ( have_posts() ) : the_post(); ?>              
-                <div class="otherStory">
-                  <img src="" />
-                  <h3><?php the_title(); ?></h3>
-                </div>
+                <a href="<?php the_permalink(); ?>" class="otherStory">
+                  <div class="innerPadding">
+                    <div class="image">
+                      <?php the_post_thumbnail(); ?>
+                    </div>
+                    <h3><?php the_title(); ?></h3>
+                  </div>
+                </a>
               <?php endwhile; ?>
             </div>
           </div>                

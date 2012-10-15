@@ -58,15 +58,28 @@
   }
 }
 
-/* post next and previous links */
-.nav {
-  text-align: right;
-  margin-top: -25px;
-  a {
-    font-weight: 800;
-    font-size: 13px;
-    color: #333;
-    margin-left: 15px;
+/* other stories */
+.moreTips {
+  clear: both;
+}
+.otherStory {
+  font-family: $adelle;
+  color: #1d2051;
+  font-size: 13px;
+  float: left;
+  width: 194px;
+  text-align: center;
+  &:hover {
+    text-decoration: underline;
+  }
+  .container {
+
+  }
+  .innerPadding {
+    padding: 15px;
+  }
+  h3 {
+    text-align: center;
   }
 }
 
