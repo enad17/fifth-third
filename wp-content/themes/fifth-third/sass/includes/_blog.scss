@@ -29,6 +29,18 @@
   }
 }
 
+/* post next and previous links */
+.nav {
+  text-align: right;
+  margin-top: -25px;
+  a {
+    font-weight: 800;
+    font-size: 13px;
+    color: #333;
+    margin-left: 15px;
+  }
+}
+
 article {
   margin-bottom: 50px;
   overflow: hidden;
@@ -69,7 +81,7 @@ article {
     font-size: 13px;
   }
   .content {
-    height: 330px;
+    height: 260px;
     overflow-y: auto;
     float: left;
     margin-top: 10px; 

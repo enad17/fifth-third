@@ -49,8 +49,8 @@ Template Name: Blog
                 </div>                
               </article>
               <div class="nav">
-                <?php previous_post_link(); ?>
-                <?php next_post_link(); ?>
+                <?php previous_post_link('%link', 'Previous'); ?> 
+                <?php next_post_link('%link', 'Next'); ?> 
               </div>              
               
           <?php endwhile; // End the loop. Whew. ?>

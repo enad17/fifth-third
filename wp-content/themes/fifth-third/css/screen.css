@@ -542,13 +542,27 @@ h2 {
   margin-top: 78px;
 }
 
-/* line 32, ../sass/includes/_blog.scss */
+/* post next and previous links */
+/* line 33, ../sass/includes/_blog.scss */
+.nav {
+  text-align: right;
+  margin-top: -25px;
+}
+/* line 36, ../sass/includes/_blog.scss */
+.nav a {
+  font-weight: 800;
+  font-size: 13px;
+  color: #333;
+  margin-left: 15px;
+}
+
+/* line 44, ../sass/includes/_blog.scss */
 article {
   margin-bottom: 50px;
   overflow: hidden;
   position: relative;
 }
-/* line 36, ../sass/includes/_blog.scss */
+/* line 48, ../sass/includes/_blog.scss */
 article .backLink {
   font-family: "adelle", serif;
   color: #262d63;
@@ -558,52 +572,52 @@ article .backLink {
   font-size: 12px;
   top: 10px;
 }
-/* line 44, ../sass/includes/_blog.scss */
+/* line 56, ../sass/includes/_blog.scss */
 article .backLink:hover {
   text-decoration: underline;
 }
-/* line 48, ../sass/includes/_blog.scss */
+/* line 60, ../sass/includes/_blog.scss */
 article .image {
   float: left;
 }
-/* line 51, ../sass/includes/_blog.scss */
+/* line 63, ../sass/includes/_blog.scss */
 article .text {
   float: left;
   width: 530px;
   margin-left: 28px;
 }
-/* line 56, ../sass/includes/_blog.scss */
+/* line 68, ../sass/includes/_blog.scss */
 article h2 {
   font-family: "adelle", serif;
   margin: 0;
   font-size: 20px;
   font-weight: 800;
 }
-/* line 61, ../sass/includes/_blog.scss */
+/* line 73, ../sass/includes/_blog.scss */
 article h2 a {
   color: #262d63;
 }
-/* line 63, ../sass/includes/_blog.scss */
+/* line 75, ../sass/includes/_blog.scss */
 article h2 a:hover {
   text-decoration: underline;
 }
-/* line 68, ../sass/includes/_blog.scss */
+/* line 80, ../sass/includes/_blog.scss */
 article .excerpt {
   font-size: 13px;
 }
-/* line 71, ../sass/includes/_blog.scss */
+/* line 83, ../sass/includes/_blog.scss */
 article .content {
-  height: 330px;
+  height: 260px;
   overflow-y: auto;
   float: left;
   margin-top: 10px;
 }
-/* line 76, ../sass/includes/_blog.scss */
+/* line 88, ../sass/includes/_blog.scss */
 article .content p {
   margin-bottom: 20px;
   font-size: 14px;
 }
-/* line 82, ../sass/includes/_blog.scss */
+/* line 94, ../sass/includes/_blog.scss */
 article .meta .sprite-facebook-small, article .meta .sprite-twitter-small {
   width: 13px;
   height: 12px;
@@ -611,17 +625,17 @@ article .meta .sprite-facebook-small, article .meta .sprite-twitter-small {
   text-indent: -9999px;
   margin: 0px 2px;
 }
-/* line 89, ../sass/includes/_blog.scss */
+/* line 101, ../sass/includes/_blog.scss */
 article .meta.single {
   width: 100%;
   display: block;
   float: left;
 }
-/* line 93, ../sass/includes/_blog.scss */
+/* line 105, ../sass/includes/_blog.scss */
 article .meta.single .sprite-facebook-small, article .meta.single .sprite-twitter-small {
   float: left;
 }
-/* line 97, ../sass/includes/_blog.scss */
+/* line 109, ../sass/includes/_blog.scss */
 article .meta .readMoreLink {
   color: #000;
   font-size: 11px;
@@ -633,7 +647,7 @@ article .meta .readMoreLink {
   margin-left: 10px;
   font-style: italic;
 }
-/* line 107, ../sass/includes/_blog.scss */
+/* line 119, ../sass/includes/_blog.scss */
 article .meta .readMoreLink:hover {
   text-decoration: underline;
 }
