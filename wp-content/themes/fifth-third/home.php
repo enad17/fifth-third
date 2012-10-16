@@ -61,17 +61,32 @@
               <a class="callToAction modalLink" data-name="twitterSweepstakes" href="#">See Details</a>
               <img src="<?php echo get_bloginfo('template_directory') ?>/images/gift-card.png" />
               <div class="blurb">Check back for a chance to win a $100 Fifth Third Bank Gift Card.</div>
-              <a href="https://www.twitter.com/FifthThird" target="_blank" class="sprite-follow-us-button" href="#">Like Us Now</a>
+              <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+              <?php
+                $now = strtotime("now");
+                $startDate = strtotime("10 November 2012");
+                $endDate = strtotime("26 November 2012");
+
+                if ($now >= $startDate && $now <= $endDate) {
+
+
+
+                    echo "<a href='https://twitter.com/intent/tweet?text=RT 4 chance 2 win a $100 Fifth Third Gift Card. Follow @FifthThird for &#35;HolidayPayback info. More at bit.ly/RetCAP.'>Tweet</a>";
+                } else {
+                    echo '<a href="https://twitter.com/intent/user/?screen_name=FifthThird" class="sprite-follow-us-button" href="#">Follow Us</a>';
+                }
+              ?> 
+
+              
             </div>
           </div>
 
           <!-- blog post -->
+
         <?php 
-          $wp_query = new WP_Query(
-          array(
-            'post_type' => 'post', 
-            'orderby' => 'date', 
-            'order' => 'DESC',
+          $wp_query = new WP_Query(array(
+            'meta_key' => 'featured',
+            'meta_value' => true,
             'posts_per_page' => 1
           ));
           while ( have_posts() ) : the_post();
