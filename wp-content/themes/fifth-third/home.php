@@ -64,16 +64,13 @@
               <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
               <?php
                 $now = strtotime("now");
-                $startDate = strtotime("10 November 2012");
+                $startDate = strtotime("21 November 2012");
                 $endDate = strtotime("26 November 2012");
 
                 if ($now >= $startDate && $now <= $endDate) {
-
-
-
-                    echo "<a href='https://twitter.com/intent/tweet?text=RT 4 chance 2 win a $100 Fifth Third Gift Card. Follow @FifthThird for &#35;HolidayPayback info. More at bit.ly/RetCAP.'>Tweet</a>";
+                  echo "<a class=\"sprite-tweet-now-button\" href='http://twitter.com/intent/tweet?text=RT 4 chance 2 win a $100 Fifth Third Gift Card. Follow @FifthThird for +%23HolidayPayback info. More at bit.ly/RetCAP.'>Tweet</a>";
                 } else {
-                    echo '<a href="https://twitter.com/intent/user/?screen_name=FifthThird" class="sprite-follow-us-button" href="#">Follow Us</a>';
+                  echo '<a href="https://twitter.com/intent/user/?screen_name=FifthThird" class="sprite-follow-us-button" href="#">Follow Us</a>';
                 }
               ?> 
 

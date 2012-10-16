@@ -426,7 +426,7 @@ h2 {
   margin-bottom: 9px;
 }
 /* line 96, ../sass/includes/_home.scss */
-.block .sprite-block-details-background .sprite-like-us-button, .block .sprite-block-details-background .sprite-follow-us-button {
+.block .sprite-block-details-background .sprite-like-us-button, .block .sprite-block-details-background .sprite-follow-us-button, .block .sprite-block-details-background .sprite-tweet-now-button {
   text-indent: -9999px;
   width: 139px;
   height: 30px;
