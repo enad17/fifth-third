@@ -31,8 +31,20 @@
               <div class="dates">Every Friday Between Nov. 9 – Dec. 28, 2012</div>
               <a class="callToAction modalLink" data-name="facebookSweepstakes" href="#">Details &amp; Prizes</a>
               <img src="<?php echo get_bloginfo('template_directory') ?>/images/fb-sweeps-photo.png" />
-              <div class="blurb">Check back Nov.9 to see the winner and the next week’s prize!</div>
-              <a href="https://www.facebook.com/FifthThirdBank" target="_blank" class="sprite-like-us-button" href="#">Like Us Now</a>
+              <?php
+                $nowFacebook = strtotime("now");
+                $startDateFacebook = strtotime("09 November 2012");
+                $endDateFacebook = strtotime("28 December 2012");
+
+                if ($nowFacebook >= $startDateFacebook && $nowFacebook <= $endDateFacebook) {
+                  echo '<div class="blurb">Enter now for a chance to win!</div>';
+                  echo "<a class=\"sprite-facebook-enter-now-button\" href='https://www.facebook.com/FifthThirdBank/app_117825708370606'>Enter Now</a>";
+                } else {
+                  echo '<div class="blurb">Check back Nov.9 to see the winner and the next week’s prize!</div>';
+                  echo '<a href="https://www.facebook.com/FifthThirdBank" target="_blank" class="sprite-like-us-button" href="#">Like Us Now</a>';
+                }
+              ?> 
+
             </div>
           </div>
 
@@ -72,9 +84,7 @@
                 } else {
                   echo '<a href="https://twitter.com/intent/user/?screen_name=FifthThird" class="sprite-follow-us-button" href="#">Follow Us</a>';
                 }
-              ?> 
-
-              
+              ?>               
             </div>
           </div>
 

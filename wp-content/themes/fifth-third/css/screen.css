@@ -63,9 +63,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 194, sprite/*.png */
-.sprite-sprite, .sprite-block-details-background, .sprite-block-pattern, .sprite-facebook-icon, .sprite-facebook-small, .sprite-fb-photo, .sprite-follow-us-button, .sprite-footer-logo, .sprite-github_logo, .sprite-green-border, .sprite-home-icon-1, .sprite-home-icon-2, .sprite-like-us-button, .sprite-logo-blog, .sprite-logo, .sprite-octocat, .sprite-tweet-background, .sprite-tweet-now-button, .sprite-tweet-quote, .sprite-twitter-icon, .sprite-twitter-small {
-  background: url('../images/sprite-sfce38a79b8.png') no-repeat;
+/* line 202, sprite/*.png */
+.sprite-sprite, .sprite-block-details-background, .sprite-block-pattern, .sprite-facebook-enter-now-button, .sprite-facebook-icon, .sprite-facebook-small, .sprite-fb-photo, .sprite-follow-us-button, .sprite-footer-logo, .sprite-github_logo, .sprite-green-border, .sprite-home-icon-1, .sprite-home-icon-2, .sprite-like-us-button, .sprite-logo-blog, .sprite-logo, .sprite-octocat, .sprite-tweet-background, .sprite-tweet-now-button, .sprite-tweet-quote, .sprite-twitter-icon, .sprite-twitter-small {
+  background: url('../images/sprite-s5a97269bf2.png') no-repeat;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -79,13 +79,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-facebook-enter-now-button {
+  background-position: 0 -1568px;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-facebook-icon {
   background-position: 0 -1264px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-facebook-small {
-  background-position: 0 -1701px;
+  background-position: 0 -1731px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -95,12 +100,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-follow-us-button {
-  background-position: 0 -1568px;
+  background-position: 0 -1598px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-footer-logo {
-  background-position: 0 -1598px;
+  background-position: 0 -1628px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -110,17 +115,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-green-border {
-  background-position: 0 -1768px;
+  background-position: 0 -1798px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-home-icon-1 {
-  background-position: 0 -1725px;
+  background-position: 0 -1755px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-home-icon-2 {
-  background-position: 0 -1630px;
+  background-position: 0 -1660px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -155,7 +160,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-tweet-quote {
-  background-position: 0 -1673px;
+  background-position: 0 -1703px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -165,7 +170,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-twitter-small {
-  background-position: 0 -1713px;
+  background-position: 0 -1743px;
 }
 
 /* line 4, ../sass/includes/_base.scss */
@@ -426,7 +431,7 @@ h2 {
   margin-bottom: 9px;
 }
 /* line 96, ../sass/includes/_home.scss */
-.block .sprite-block-details-background .sprite-like-us-button, .block .sprite-block-details-background .sprite-follow-us-button, .block .sprite-block-details-background .sprite-tweet-now-button {
+.block .sprite-block-details-background .sprite-like-us-button, .block .sprite-block-details-background .sprite-follow-us-button, .block .sprite-block-details-background .sprite-tweet-now-button, .block .sprite-block-details-background .sprite-facebook-enter-now-button {
   text-indent: -9999px;
   width: 139px;
   height: 30px;
