@@ -3,64 +3,94 @@
   <h2>Fifth Third Bank Holiday Payback Sweepstakes</h2>
   <h3>Alternate Entry</h3>
   <a class="officialRules" href="#">>> Offical Rules</a>
-  <form>
-
+  <form id="sweepStakesForm" method="POST">
     <div class="field">
       <label for="first-name">First Name:</label>
-      <input name-"first-name" type="text" />
+      <input name-"first-name" type="text" required />
     </div>
 
     <div class="field">
       <label for="last-name">Last Name:</label>
-      <input for="last-name" type="text" />
+      <input for="last-name" type="text" required />
     </div>
 
     <div class="field">
       <label for="address">Address:</label>
-      <input for="address" type="text" class="two-col" />
+      <input for="address" type="text" class="two-col" required />
     </div>    
 
     <div class="field">
       <label for="city">City:</label>
-      <input name="city" type="text" style="width: 140px;" />
+      <input name="city" type="text" style="width: 169px;" required />
     </div>
 
     <div class="field">
-      <label for="state">State:</label>
-      <input name="state" type="text" class="three-col" style="width: 35px;"/>
+      <label for="state" style="width:60px;">State:</label>
+      <input name="state" type="text" class="three-col" style="width: 35px;" required />
     </div>
 
     <div class="field">
       <label for="zip">Zip Code:</label>
-      <input name="zip" type="text" class="three-col" />
+      <input name="zip" type="text" class="three-col" required />
     </div>
 
     <div class="field">
       <label for="phone">Phone:</label>
-      <input name="phone" type="text" class="even" />
+      <input name="phone" type="text" class="even" required />
     </div>
 
     <div class="field">
-      <label for="email">Email:</label>
-      <input name="email" type="text" class="even" />
+      <label for="email" style="width: 60px;">Email:</label>
+      <input name="email" type="email" style="width: 208px;" required />
     </div>         
 
     <div class="field">
-      <p>Are you a fifth third bank customer?</p>
-      <label for="yes">Yes</label><input type="radio" name="sex" id="yes" />
-      <label for="no">No</label><input type="radio" name="sex" id="no" />
+      <p class="label">Are you a fifth third bank customer?</p>
+      <div class="radio">
+        <input id="yes" value="yes" type="radio" name="customer" required />
+        <label for="yes">Yes</label>
+     </div>
+      <div class="radio">
+        <input id="no" value="no" type="radio" name="customer" required />
+        <label for="no">No</label>
+     </div>     
     </div>
 
     <div class="field">
+      <p class="label" style="width: 300px;">PLEASE PLACE THIS ENTRY INTO THE <span>(SELECT ONE)</span></p>
+      <div class="radio big">
+        <input id="credit" value="credit" type="radio" name="customer" required />
+        <label for="credit">Credit</label>
+     </div>
+      <div class="radio big">
+        <input id="debit" value="debit" type="radio" name="customer" required />
+        <label for="debit">Debit</label>
+     </div>     
+      <p class="label" style="width: 150px;">PORTION OF THE SWEEPSTAKES.</p>
+    </div>    
+
+    <div class="field" style="clear:both;">
       <input name="accept" type="checkbox" />
-      <p>BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="#">OFFICAL RULES</a> OF THIS SWEEPSTAKES</p>
+      <p style="float:left; margin-right: 10px;">BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="#">OFFICAL RULES</a> OF THIS SWEEPSTAKES</p>
+      <button type="submit">Submit</button>
     </div>
 
-    <button type="submit">Submit</button>
-
-    <p class="required">ALL FIELDS ARE REQUIRED</p>
-
+    <div class="field" style="width:100%;">
+      <p class="required">ALL FIELDS ARE REQUIRED</p>
+    </div>
   </form>
+
+  <script>
+    $(document).ready(function(){
+        $('#sweepStakesForm').html5form({
+          async : false, // cancels the default submit method.
+          method : 'GET', // changes the request method.
+          action : '<?php echo get_template_directory_uri(); ?>/doFormSubmit.php', // changes the action method.
+          responseDiv : '#respuesta' // a content div to get the callback function response.
+        });    
+    });
+  </script>
+
 </div>
 
 <!-- official rules -->

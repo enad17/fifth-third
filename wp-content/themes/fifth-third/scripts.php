@@ -1,7 +1,7 @@
 <script>
   $.extend($.modal.defaults, {
     minWidth: 600,
-    minHeight: 360,        
+    minHeight: 425,        
     overlayClose: true,    
     position: [130],
     closeClass: "modalClose",

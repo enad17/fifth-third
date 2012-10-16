@@ -49,6 +49,7 @@
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script src="<?php echo get_bloginfo('template_directory') ?>/js/jquery.simplemodal.1.4.3.min.js"></script>
 <script src="<?php echo get_bloginfo('template_directory') ?>/js/jquery.tabs.js"></script>
+<script src="<?php echo get_bloginfo('template_directory') ?>/js/jquery.html5form.js"></script>
 <script src="<?php echo get_bloginfo('template_directory') ?>/js/chirp.min.js"></script>
 
 <script type="text/javascript" src="//use.typekit.net/hso5kae.js"></script>

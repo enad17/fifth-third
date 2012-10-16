@@ -3,26 +3,48 @@ input {
   font-size: 13px;
   border: 1px solid #97BEE1;
   padding: 2px;
-  width: 170px;
+  width: 177px;
+  &[type=checkbox] {
+    width: 20px;
+    float: left;    
+  }
   &.three-col {
     width: 90px;
   }
   &.two-col {
-    width: 415px;
+    width: 438px;
   }
   &.even {
     width: 170px;
   }
-
 }
+
+.radio {
+  float: left;
+  width: 55px;
+  &.big {
+    width: 75px;
+  }
+  input[type=radio] {
+    width: 15px;
+    position: relative;
+    top: 5px; 
+    float: left;
+  }
+  label {
+    width: 20px;
+    text-transform: none;
+  } 
+}
+
 label {
-  font-family: "Lato";
+  font-family: $adelle;
   text-transform: uppercase;
   font-size: 11px;
   color: #1D2051;
   text-align: right;
   float: left;
-  width: 75px;
+  width: 84px;
   font-weight: bold;
   padding-top: 7px;
   padding-right: 7px;  
@@ -35,15 +57,29 @@ label {
   }
 }
 
+.label {
+  @extend label;
+  width: 270px;
+  text-align: left;
+  span {
+    font-family: $proximaNova;
+    font-weight: normal;
+  }
+}
+
 button {
   cursor: pointer;
-  font-family: $proximaNova;
+  font-family: "adelle", serif;
   text-transform: uppercase;
-  background: #97bee1;
-  padding: 5px 10px;
-  color: #1d2051;
-  font-weight: bold;
+  background: #97BEE1;
+  padding: 7px 14px;
+  color: #1D2051;
+  font-weight: 800;
   border: none;
+  float: left;
+  position: relative;
+  top: -9px;
+  font-size: 13px;
 }
 
 .required {
