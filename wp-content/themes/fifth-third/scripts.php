@@ -22,6 +22,8 @@
   
     // callback function
     function modalOnShow(dialog) {
+      
+      dialog.container.css("height", "auto");
       var s = this; // refers to the simplemodal object
 
       $('a:not(".tabs a")', dialog.data[0]).click(function () { // use the modal data context

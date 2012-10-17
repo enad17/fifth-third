@@ -152,13 +152,12 @@
 <!-- facebook sweepstakes -->
 <div class="modal" id="facebookSweepstakes-modal">
   <h2>FACEBOOK SWEEPSTAKES</h2>
-  <p>Join us on Facebook every Friday - November 9, 2012 through December 28, 2012 for a chance to win great prizes.</p>
+  <p>Join us on Facebook every Friday &mdash; November 9, 2012 through December 28, 2012 for a chance to win great prizes.</p>
 
   <h2>HOW DO YOU ENTER?</h2>
-  <p><strong>Step One:</strong> Like us on Facebook at www.Facebook.com/FifthThirdBank</p>
+  <p><strong>Step One:</strong> Like us on Facebook at <a href="http://facebook.com/FifthThirdBank">facebook.com/FifthThirdBank</a></p>
 
-  <p><strong>Step Two:</strong> Click on the “Fifth Third Bank Holiday Payback tab” or click here</p>
-  [insert bit.ly link to tab]
+  <p><strong>Step Two:</strong> Click on the “Fifth Third Bank Holiday Payback tab” or <a href="https://www.facebook.com/FifthThirdBank/app_117825708370606" target="_blank">click here</a></p>
   
   <p><strong>Step Three:</strong> Provide an answer, right or wrong, to our weekly question and you’ll receive an entry for that week’s prize.</p>
 
@@ -167,7 +166,7 @@
 
   <a class="officialRules" href="#">>> Offical Rules</a>
 
-  <div class="sub">iPad® is a registered trademark of Apple Inc. All rights reserved. Apple is not a participant in or sponsor of this promotion. "Keurig"® and is a registered trademark of Keurig Incorporated. Keurig is not a participant in or sponsor of this promotion.</div>
+  <p class="sub">iPad® is a registered trademark of Apple Inc. All rights reserved. Apple is not a participant in or sponsor of this promotion. "Keurig"® and is a registered trademark of Keurig Incorporated. Keurig is not a participant in or sponsor of this promotion.</p>
 </div>
 
 <!-- "see details" -->

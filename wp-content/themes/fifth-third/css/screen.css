@@ -293,7 +293,7 @@ h2 {
 }
 /* line 96, ../sass/includes/_base.scss */
 #simplemodal-container p {
-  font-size: 11px;
+  font-size: 12px;
   margin-bottom: 10px;
 }
 /* line 99, ../sass/includes/_base.scss */
@@ -302,19 +302,24 @@ h2 {
   font-weight: bold;
   color: #1d2051;
 }
-/* line 105, ../sass/includes/_base.scss */
+/* line 104, ../sass/includes/_base.scss */
+#simplemodal-container p.sub {
+  padding-top: 10px;
+  font-size: 10px;
+}
+/* line 109, ../sass/includes/_base.scss */
 #simplemodal-container .rules-container {
   height: 265px;
   overflow-y: auto;
   margin-top: 10px;
 }
-/* line 110, ../sass/includes/_base.scss */
+/* line 114, ../sass/includes/_base.scss */
 #simplemodal-container .officialRules {
   color: #ff0000;
   font-size: 11px;
   margin: 15px 0;
 }
-/* line 115, ../sass/includes/_base.scss */
+/* line 119, ../sass/includes/_base.scss */
 #simplemodal-container .modalClose {
   font-family: "adelle", serif;
   color: #272d64;

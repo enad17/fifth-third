@@ -62,7 +62,7 @@
                   cacheExpire: 1000 * 60 * 2, //Number of milliseconds to cache tweets
                   templates: {
                     base:'<div class="sprite-tweet-quote"></div> {{tweets}}',
-                    tweet: '<p>{{html}}</p><a href="http://twitter.com/{{user.screen_name}}" class="user">-@{{user.screen_name}}</a>'
+                    tweet: '<p>{{html}}</p><a href="https://twitter.com/intent/user/?screen_name={{user.screen_name}}" class="user">-@{{user.screen_name}}</a>'
                   }
                 })
               </script>

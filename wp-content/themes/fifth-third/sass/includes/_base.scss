@@ -94,12 +94,16 @@ h2 {
     font-size: 13px;    
   }
   p {
-    font-size: 11px;
+    font-size: 12px;
     margin-bottom: 10px;
     &.larger {
       font-size: 14px;
       font-weight: bold;
       color: #1d2051;
+    }
+    &.sub {
+      padding-top: 10px;
+      font-size: 10px;
     }
   }
   .rules-container {
