@@ -61,7 +61,14 @@ h2 {
     font-weight: 800;
     margin: 0;
     &.blog-title {
+      line-height: 22px;
       text-transform: none;
+      a {
+        color: #242A5E;      
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 
