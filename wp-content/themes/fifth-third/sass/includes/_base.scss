@@ -99,6 +99,9 @@ h2 {
   p {
     font-size: 12px;
     margin-bottom: 10px;
+    &.largest {
+      font-size: 16px;
+    }
     &.larger {
       font-size: 14px;
       font-weight: bold;
@@ -117,6 +120,15 @@ h2 {
     overflow-y: auto;
     margin-top: 10px;
   }
+  .centered {
+    text-align: center;
+  }
+  .thanks {
+    color: #0db301;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+  }
   .officialRules {
     color: #ff0000;
     font-size: 11px;
@@ -130,5 +142,15 @@ h2 {
     top: 11px;
     font-weight: bold;    
     font-style: italic;
+  }
+  .social {
+    text-align: center;
+    margin-top: 20px;
+    .sprite-twitter-icon, .sprite-facebook-icon {
+        margin: 0px 5px;
+        display: inline-block;
+        width: sprite-sprite-width(facebook-icon);
+        height: sprite-sprite-height(facebook-icon);
+    }
   }
 }  

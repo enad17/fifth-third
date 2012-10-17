@@ -86,12 +86,22 @@
   <script> 
       // wait for the DOM to be loaded 
       $(document).ready(function() { 
-          // bind 'myForm' and provide a simple callback function 
+          // bind 'sweepStakesForm' and provide a simple callback function 
           $('#sweepStakesForm').ajaxForm(function() {
             $('#sweepStakesForm')[0].reset();
-            $('.success').show().transition({ opacity: 1 }, 350, 'in-out').delay(3000).transition({ opacity: 0 }, 350, 'in-out', function() {
-              $(this).remove();
-            });
+
+            // hide our form modal
+            $.modal.close();
+
+            // show the success moda
+            setTimeout(function () { // wait for 3/10ths of a second, then open the next dialog
+              $('#sweepStakesConfirm-modal').modal({
+                onShow: function (dialog) {
+                  dialog.container.css("height", "auto");
+                }              
+              });
+            }, 350);
+
           });
       }); 
   </script>  
@@ -204,9 +214,15 @@
 
 <!-- sweep stakes submit confirmation -->
 <div class="modal" id="sweepStakesConfirm-modal">
-  <h2>Fifth Third Bank Holiday Payback Sweepstakes</h2>
-  <div class="thanks">Thank You!</div>
-  <p>Your Entry Has Been Received.</p>
-  <p>Don’t Forget To Like Us On <strong>Facebook</strong> Or Follow Us On <strong>Twitter</strong> For Even More Chances To Win!</p>
-  <a class="officialRules" href="#">>> Offical Rules</a>
+  <div class="centered">
+    <h2>Fifth Third Bank Holiday Payback Sweepstakes</h2>
+    <div class="thanks">Thank You!</div>
+    <p class="largest" style="margin-bottom: 40px;">Your Entry Has Been Received.</p>
+    <p class="largest">Don’t forget to like us on <strong>FACEBOOK</strong><br /> or follow us on <strong>twitter</strong> for even more chances to win!</p>
+
+    <div class="social">
+      <a href="http://facebook.com/FifthThirdBank" target="_blank" class="sprite-facebook-icon"></a>
+      <a href="https://twitter.com/intent/user/?screen_name=FifthThird" class="sprite-twitter-icon"></a>
+    </div>
+  </div>
 </div>

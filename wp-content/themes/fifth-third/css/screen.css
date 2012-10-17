@@ -301,33 +301,48 @@ h2 {
   margin-bottom: 10px;
 }
 /* line 102, ../sass/includes/_base.scss */
+#simplemodal-container p.largest {
+  font-size: 16px;
+}
+/* line 105, ../sass/includes/_base.scss */
 #simplemodal-container p.larger {
   font-size: 14px;
   font-weight: bold;
   color: #1d2051;
 }
-/* line 107, ../sass/includes/_base.scss */
+/* line 110, ../sass/includes/_base.scss */
 #simplemodal-container p.sub {
   padding-top: 10px;
   font-size: 10px;
 }
-/* line 111, ../sass/includes/_base.scss */
+/* line 114, ../sass/includes/_base.scss */
 #simplemodal-container p.indent {
   padding-left: 20px;
 }
-/* line 115, ../sass/includes/_base.scss */
+/* line 118, ../sass/includes/_base.scss */
 #simplemodal-container .rules-container {
   height: 265px;
   overflow-y: auto;
   margin-top: 10px;
 }
-/* line 120, ../sass/includes/_base.scss */
+/* line 123, ../sass/includes/_base.scss */
+#simplemodal-container .centered {
+  text-align: center;
+}
+/* line 126, ../sass/includes/_base.scss */
+#simplemodal-container .thanks {
+  color: #0db301;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+}
+/* line 132, ../sass/includes/_base.scss */
 #simplemodal-container .officialRules {
   color: #ff0000;
   font-size: 11px;
   margin: 15px 0;
 }
-/* line 125, ../sass/includes/_base.scss */
+/* line 137, ../sass/includes/_base.scss */
 #simplemodal-container .modalClose {
   font-family: "adelle", serif;
   color: #272d64;
@@ -336,6 +351,18 @@ h2 {
   top: 11px;
   font-weight: bold;
   font-style: italic;
+}
+/* line 146, ../sass/includes/_base.scss */
+#simplemodal-container .social {
+  text-align: center;
+  margin-top: 20px;
+}
+/* line 149, ../sass/includes/_base.scss */
+#simplemodal-container .social .sprite-twitter-icon, #simplemodal-container .social .sprite-facebook-icon {
+  margin: 0px 5px;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
 }
 
 /* line 1, ../sass/includes/_home.scss */
