@@ -217,7 +217,7 @@
   <div class="centered">
     <h2>Fifth Third Bank Holiday Payback Sweepstakes</h2>
     <div class="thanks">Thank You!</div>
-    <p class="largest" style="margin-bottom: 40px;">Your Entry Has Been Received.</p>
+    <p class="largest" style="margin-bottom: 40px;">Your entry has been received.</p>
     <p class="largest">Don’t forget to like us on <strong>FACEBOOK</strong><br /> or follow us on <strong>twitter</strong> for even more chances to win!</p>
 
     <div class="social">
