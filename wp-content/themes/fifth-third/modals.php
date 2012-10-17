@@ -135,18 +135,19 @@
   <p>Join us on Twitter between November 21 and November 26 for a chance to win!</p>
 
   <h2>how Do You Enter?</h2>
-  <p><strong>Step One:</strong> Follow @Fifth Third on Twitter.</p>
+  <p><strong>Step One:</strong> <a class="notModal" href="https://twitter.com/intent/user/?screen_name=FifthThird">Follow @Fifth Third</a> on Twitter.</p>
 
-  <p><strong>Step Two:</strong> Tweet the following between 11/12 and 11/26:
-         RT 4 chance 2 win a $100 Fifth Third Bank Gift Card. Follow @Fifth Third for 
-         #HolidayPayback info. More at bit.ly/RetCAP. </p>
+
+  <p><strong>Step Two:</strong> Tweet the following between 11/21 and 11/26:</p>
+  <p class="indent">RT 4 chance 2 win a $100 Fifth Third Bank Gift Card. Follow @Fifth Third for #HolidayPayback info. More at bit.ly/RetCAP. </p>
     
   <p><strong>Step Three:</strong> Tweet every day for more chances to win!</p>
 
   <h2>what Could You Win?</h2>
-  <p>Each day, we’ll select 5 followers to win a $100 Fifth Third Bank Gift Card!</p>
+  <p>Each day, we’ll select <strong>5 followers</strong> to win a <strong>$100 Fifth Third Bank Gift Card!</strong></p>
 
-  <a class="officialRules" id="officialRules" href="#">Offical Rules</a>
+  <a class="officialRules" id="officialRules" href="#">>> Offical Rules</a>
+
 </div>
 
 <!-- facebook sweepstakes -->

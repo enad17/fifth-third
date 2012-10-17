@@ -22,11 +22,11 @@
   
     // callback function
     function modalOnShow(dialog) {
-      
+
       dialog.container.css("height", "auto");
       var s = this; // refers to the simplemodal object
 
-      $('a:not(".tabs a")', dialog.data[0]).click(function () { // use the modal data context
+      $('a:not(".tabs a, .notModal")', dialog.data[0]).click(function () { // use the modal data context
         var id = '#' + this.className + '-modal'; // dynamically determine the modal content id based on the link id
         s.close(); // close the current dialog
 

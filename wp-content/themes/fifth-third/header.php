@@ -51,6 +51,7 @@
 <script src="<?php echo get_bloginfo('template_directory') ?>/js/jquery.tabs.js"></script>
 <script src="<?php echo get_bloginfo('template_directory') ?>/js/jquery.html5form.js"></script>
 <script src="<?php echo get_bloginfo('template_directory') ?>/js/chirp.min.js"></script>
+<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
 
 <script type="text/javascript" src="//use.typekit.net/hso5kae.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
