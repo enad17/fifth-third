@@ -5,7 +5,10 @@ h2 {
 .item {
   margin-bottom: 30px;
   height: 43px;
-  font-size: 13px;
+  font-size: 11px;
+  p {
+    padding-top: 5px;
+  }
 }
 .callToAction {
   background-image: inline-image('link-arrows.png');
