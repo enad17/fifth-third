@@ -2,21 +2,21 @@
 <div class="modal" id="alternateEntry-modal">
   <h2>Fifth Third Bank Holiday Payback Sweepstakes</h2>
   <h3>Alternate Entry</h3>
-  <a class="officialRules" href="#">>> Offical Rules</a>
-  <form id="sweepStakesForm" method="POST">
+  <a class="officialRules" href="#">>> Official Rules</a>
+  <form id="sweepStakesForm" method="POST" action="<?php echo get_template_directory_uri(); ?>/doFormSubmit.php">
     <div class="field">
-      <label for="first-name">First Name:</label>
-      <input name-"first-name" type="text" required />
+      <label for="first_name">First Name:</label>
+      <input name="first_name" type="text" required />
     </div>
 
     <div class="field">
-      <label for="last-name">Last Name:</label>
-      <input for="last-name" type="text" required />
+      <label for="last_name">Last Name:</label>
+      <input name="last_name" type="text" required />
     </div>
 
     <div class="field">
       <label for="address">Address:</label>
-      <input for="address" type="text" class="two-col" required />
+      <input name="address" type="text" class="two-col" required />
     </div>    
 
     <div class="field">
@@ -59,11 +59,11 @@
     <div class="field">
       <p class="label" style="width: 300px;">PLEASE PLACE THIS ENTRY INTO THE <span>(SELECT ONE)</span></p>
       <div class="radio big">
-        <input id="credit" value="credit" type="radio" name="customer" required />
+        <input id="credit" value="credit" type="radio" name="type" required />
         <label for="credit">Credit</label>
      </div>
       <div class="radio big">
-        <input id="debit" value="debit" type="radio" name="customer" required />
+        <input id="debit" value="debit" type="radio" name="type" required />
         <label for="debit">Debit</label>
      </div>     
       <p class="label" style="width: 150px;">PORTION OF THE SWEEPSTAKES.</p>
@@ -71,7 +71,7 @@
 
     <div class="field" style="clear:both;">
       <input name="accept" type="checkbox" />
-      <p style="float:left; margin-right: 10px;">BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="#">OFFICAL RULES</a> OF THIS SWEEPSTAKES</p>
+      <p style="float:left; margin-right: 10px;">BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="#">OFFICIAL RULES</a> OF THIS SWEEPSTAKES</p>
       <button type="submit">Submit</button>
     </div>
 
@@ -79,9 +79,22 @@
       <p class="required">ALL FIELDS ARE REQUIRED</p>
     </div>
 
-    <div class="response"></div>
+    <div class="success" style="display: none;"><p>Form Sent yay</p></div>
 
   </form>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.form.js"></script> 
+  <script> 
+      // wait for the DOM to be loaded 
+      $(document).ready(function() { 
+          // bind 'myForm' and provide a simple callback function 
+          $('#sweepStakesForm').ajaxForm(function() {
+            $('#sweepStakesForm')[0].reset();
+            $('.success').show().transition({ opacity: 1 }, 350, 'in-out').delay(3000).transition({ opacity: 0 }, 350, 'in-out', function() {
+              $(this).remove();
+            });
+          });
+      }); 
+  </script>  
 </div>
 
 <!-- official rules -->

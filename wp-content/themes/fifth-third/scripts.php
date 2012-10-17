@@ -10,15 +10,15 @@
   
   $(function() {
 
-    $('#sweepStakesForm').html5form({
-      allBrowsers: true,
-      async : false, // cancels the default submit method.
-      method : 'GET', // changes the request method.
-      action : '<?php echo get_template_directory_uri(); ?>/doFormSubmit.php', // changes the action method.
-      emptyMessage : 'This is a required field',
-      emailMessage : 'This email address is not correct, please try again',
-      responseDiv : '.response' // a content div to get the callback function response.
-    });
+    // $('#sweepStakesForm').html5form({
+    //   allBrowsers: true,
+    //   async : false, // cancels the default submit method.
+    //   method : 'GET', // changes the request method.
+    //   action : '<?php echo get_template_directory_uri(); ?>/doFormSubmit.php', // changes the action method.
+    //   emptyMessage : 'This is a required field',
+    //   emailMessage : 'This email address is not correct, please try again',
+    //   responseDiv : '.response' // a content div to get the callback function respon
+    // });
   
     // callback function
     function modalOnShow(dialog) {

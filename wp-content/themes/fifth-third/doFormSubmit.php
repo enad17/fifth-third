@@ -8,16 +8,28 @@
   $zip = htmlspecialchars($_POST['zip']);
   $phone = htmlspecialchars($_POST['phone']);
   $email = htmlspecialchars($_POST['email']);
+  $areCustomer = htmlspecialchars($_POST['customer']);
+  $type = htmlspecialchars($_POST['type']);
 
   // make a mysql connection
-  mysql_connect("127.0.0.1", "root", "") or die(mysql_error());
-  mysql_select_db("wordpress") or die(mysql_error());
+$con = mysql_connect("127.0.0.1", "root", "");
+if (!$con)
+  {
+  die('Could not connect: ' . mysql_error());
+  }
 
-  // insert a row of information into the table "example"
-  mysql_query("INSERT INTO example 
-    (name, age) VALUES('Timmy Mellowman', '23' ) ") 
-  or die(mysql_error());  
+mysql_select_db("wordpress", $con);
 
-  echo "Data Inserted!";
+$sql = "INSERT INTO sweepstakes (first_name, last_name, address, city, state, phone, email, isCustomer, type)
+VALUES
+('$first_name', '$last_name', '$address', '$city', '$state', '$phone', '$email', '$areCustomer', '$type')";
+
+if (!mysql_query($sql,$con)) {
+  die('Error: ' . mysql_error());
+}
+
+echo '{ "message": "success" }';
+
+mysql_close($con);
 
 ?>
