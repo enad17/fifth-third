@@ -78,19 +78,10 @@
     <div class="field" style="width:100%;">
       <p class="required">ALL FIELDS ARE REQUIRED</p>
     </div>
+
+    <div class="response"></div>
+
   </form>
-
-  <script>
-    $(document).ready(function(){
-        $('#sweepStakesForm').html5form({
-          async : false, // cancels the default submit method.
-          method : 'GET', // changes the request method.
-          action : '<?php echo get_template_directory_uri(); ?>/doFormSubmit.php', // changes the action method.
-          responseDiv : '#respuesta' // a content div to get the callback function response.
-        });    
-    });
-  </script>
-
 </div>
 
 <!-- official rules -->
