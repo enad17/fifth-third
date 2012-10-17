@@ -40,7 +40,7 @@
                   echo '<div class="blurb">Enter now for a chance to win!</div>';
                   echo "<a class=\"sprite-facebook-enter-now-button\" href='https://www.facebook.com/FifthThirdBank/app_117825708370606'>Enter Now</a>";
                 } else {
-                  echo '<div class="blurb">Check back Nov.9 to see the winner and the next week’s prize!</div>';
+                  echo '<div class="blurb">Check back Nov. 9 to see the winner and the next week’s prize!</div>';
                   echo '<a href="https://www.facebook.com/FifthThirdBank" target="_blank" class="sprite-like-us-button" href="#">Like Us Now</a>';
                 }
               ?> 
