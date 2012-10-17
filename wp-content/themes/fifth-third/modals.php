@@ -70,8 +70,8 @@
     </div>    
 
     <div class="field" style="clear:both;">
-      <input name="accept" type="checkbox" />
-      <p style="float:left; margin-right: 10px;">BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="#">OFFICIAL RULES</a> OF THIS SWEEPSTAKES</p>
+      <input name="accept" type="checkbox" required />
+      <p style="margin-right: 15px;font-size: 10px;">BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="#">OFFICIAL RULES</a> OF THIS SWEEPSTAKES</p>
       <button type="submit">Submit</button>
     </div>
 
@@ -169,7 +169,7 @@
   <h2>what Could You Win?</h2>
   <p>Each day, we’ll select <strong>5 followers</strong> to win a <strong>$100 Fifth Third Bank Gift Card!</strong></p>
 
-  <a class="officialRules" id="officialRules" href="#">>> Offical Rules</a>
+  <a class="officialRules" id="officialRules" href="#">>> Official Rules</a>
 
 </div>
 
@@ -188,7 +188,7 @@
   <h2>WHAT COULD YOU WIN?</h2>
   <p>Each week, we’ll be selecting one (1) winner to win great prizes like iPads, Keurigs, and other great stuff!</p>
 
-  <a class="officialRules" href="#">>> Offical Rules</a>
+  <a class="officialRules" href="#">>> Official Rules</a>
 
   <p class="sub">iPad® is a registered trademark of Apple Inc. All rights reserved. Apple is not a participant in or sponsor of this promotion. "Keurig"® and is a registered trademark of Keurig Incorporated. Keurig is not a participant in or sponsor of this promotion.</p>
 </div>

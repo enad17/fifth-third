@@ -325,24 +325,28 @@ h2 {
   overflow-y: auto;
   margin-top: 10px;
 }
-/* line 123, ../sass/includes/_base.scss */
+/* line 122, ../sass/includes/_base.scss */
+#simplemodal-container .rules-container p {
+  font-weight: normal;
+}
+/* line 126, ../sass/includes/_base.scss */
 #simplemodal-container .centered {
   text-align: center;
 }
-/* line 126, ../sass/includes/_base.scss */
+/* line 129, ../sass/includes/_base.scss */
 #simplemodal-container .thanks {
   color: #0db301;
   text-transform: uppercase;
   font-size: 50px;
   text-align: center;
 }
-/* line 132, ../sass/includes/_base.scss */
+/* line 135, ../sass/includes/_base.scss */
 #simplemodal-container .officialRules {
   color: #ff0000;
   font-size: 11px;
   margin: 15px 0;
 }
-/* line 137, ../sass/includes/_base.scss */
+/* line 140, ../sass/includes/_base.scss */
 #simplemodal-container .modalClose {
   font-family: "adelle", serif;
   color: #272d64;
@@ -352,12 +356,12 @@ h2 {
   font-weight: bold;
   font-style: italic;
 }
-/* line 146, ../sass/includes/_base.scss */
+/* line 149, ../sass/includes/_base.scss */
 #simplemodal-container .social {
   text-align: center;
   margin-top: 20px;
 }
-/* line 149, ../sass/includes/_base.scss */
+/* line 152, ../sass/includes/_base.scss */
 #simplemodal-container .social .sprite-twitter-icon, #simplemodal-container .social .sprite-facebook-icon {
   margin: 0px 5px;
   display: inline-block;
