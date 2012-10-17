@@ -57,7 +57,7 @@
     </div>
 
     <div class="field">
-      <p class="label" style="width: 300px;">PLEASE PLACE THIS ENTRY INTO THE <span>(SELECT ONE)</span></p>
+      <p class="label" style="width: 315px;">PLEASE PLACE THIS ENTRY INTO THE <span>(SELECT ONE)</span></p>
       <div class="radio big">
         <input id="credit" value="credit" type="radio" name="type" required />
         <label for="credit">Credit</label>
@@ -209,7 +209,7 @@
 
   <p class="larger">The more you use your card, the more chances to win, and the bigger the payback!</p>
 
-  <a class="officialRules" id="officialRules">Official Rules</a>
+  <a class="officialRules" id="officialRules">>> Official Rules</a>
 </div>
 
 <!-- sweep stakes submit confirmation -->
