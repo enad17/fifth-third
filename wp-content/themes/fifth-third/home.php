@@ -13,7 +13,7 @@
           </div>
           <div class="item">
             <div class="sprite-home-icon-2"></div>
-            <p>We’re selecting <strong>100 customers</strong> to win a “Holiday Payback” &mdash; a statement credit for every card purchase made that day &mdash; <strong>up to $2,000</strong></p>
+            <p>We’re selecting <strong>100 customers</strong> to win a “Holiday Payback” &mdash; a statement credit for every card purchase made that day &mdash; <strong>up to $2,000.</strong></p>
           </div>
           <a class="callToAction modalLink" data-name="seeDetails" href="#">See Details</a>
         </div>
