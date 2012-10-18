@@ -97,7 +97,7 @@
               </div> -->
               <?php
                 $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
-                echo "<a class=\"backLink\" href='$url'>BACK</a>"; 
+                echo "<a class=\"backLink\" href='$url'><< BACK</a>"; 
               ?>    
             </div>    
                     
