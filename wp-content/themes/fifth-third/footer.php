@@ -7,9 +7,9 @@
 		</div>
 		<div class="links">
 			<ul>
-				<li><a href="#">Home</a></li>
+				<li><a href="<?php echo home_url(); ?>">Home</a></li>
 				<li>|</li>				
-				<li><a href="#">Tips</a></li>
+				<li><a href="<?php echo home_url(); ?>/blog">Tips</a></li>
 				<li>|</li>				
 				<li><a class="modalLink" data-name="alternateEntry" href="#">Alternate Entry</a></li>
 				<li>|</li>
