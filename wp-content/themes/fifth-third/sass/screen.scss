@@ -6,6 +6,8 @@ $mysprite-layout: smart;
 @import "sprite/*.png";
 @include all-sprite-sprites;
 
+$sprite: sprite-map("sprite/*.png");
+
 @import "includes/base";
 @import "includes/home";
 @import "includes/blog";

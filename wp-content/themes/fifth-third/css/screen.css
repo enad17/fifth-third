@@ -1,4 +1,4 @@
-/* line 17, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,161 +20,178 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 210, sprite/*.png */
-.sprite-sprite, .sprite-block-details-background, .sprite-block-pattern, .sprite-facebook-enter-now-button, .sprite-facebook-icon, .sprite-facebook-small, .sprite-fb-photo, .sprite-follow-us-button, .sprite-footer-logo, .sprite-github_logo, .sprite-green-border, .sprite-home-icon-1, .sprite-home-icon-2, .sprite-like-us-button, .sprite-logo-blog, .sprite-logo, .sprite-octocat, .sprite-tweet-background, .sprite-tweet-now-button, .sprite-tweet-quote, .sprite-twitter-icon, .sprite-twitter-small {
-  background: url('../images/sprite-s8cd2bc9e7c.png') no-repeat;
+/* line 242, sprite/*.png */
+.sprite-sprite, .sprite-block-details-background, .sprite-block-pattern, .sprite-facebook-enter-now-button, .sprite-facebook-icon, .sprite-facebook-small, .sprite-fb-photo, .sprite-follow-us-button, .sprite-footer-logo, .sprite-github_logo, .sprite-green-border, .sprite-home-icon-1, .sprite-home-icon-2, .sprite-like-us-button, .sprite-logo-blog, .sprite-logo, .sprite-octocat, .sprite-tweet-background, .sprite-tweet-now-button, .sprite-tweet-quote, .sprite-twitter-icon, .sprite-twitter-small, .sprite-view-all-tips-button {
+  background: url('../images/sprite-s279aa8404c.png') no-repeat;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-block-details-background {
   background-position: 0 -343px;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-block-pattern {
   background-position: 0 -147px;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-facebook-enter-now-button {
   background-position: 0 -1568px;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-facebook-icon {
   background-position: 0 -1264px;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-facebook-small {
-  background-position: 0 -1761px;
+  background-position: 0 -1881px;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-fb-photo {
   background-position: 0 -919px;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-follow-us-button {
   background-position: 0 -1598px;
 }
+/* line 43, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-follow-us-button:hover, .sprite-follow-us-button.follow-us-button_hover, .sprite-follow-us-button.follow-us-button-hover {
+  background-position: 0 -1780px;
+}
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-footer-logo {
   background-position: 0 -1628px;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-github_logo {
   background-position: 0 -1334px;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-green-border {
-  background-position: 0 -1828px;
+  background-position: 0 -1948px;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-home-icon-1 {
-  background-position: 0 -1785px;
+  background-position: 0 -1905px;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-home-icon-2 {
-  background-position: 0 -1690px;
+  background-position: 0 -1810px;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-like-us-button {
   background-position: 0 -1538px;
 }
-/* line 43, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 43, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-like-us-button:hover, .sprite-like-us-button.like-us-button_hover, .sprite-like-us-button.like-us-button-hover {
-  background-position: 0 -1660px;
+  background-position: 0 -1690px;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-logo-blog {
   background-position: 0 0;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-logo {
   background-position: 0 -539px;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-octocat {
   background-position: 0 -1020px;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-tweet-background {
   background-position: 0 -723px;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-tweet-now-button {
   background-position: 0 -1508px;
 }
-
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-tweet-quote {
-  background-position: 0 -1733px;
+/* line 43, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-tweet-now-button:hover, .sprite-tweet-now-button.tweet-now-button_hover, .sprite-tweet-now-button.tweet-now-button-hover {
+  background-position: 0 -1720px;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-tweet-quote {
+  background-position: 0 -1853px;
+}
+
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-twitter-icon {
   background-position: 0 -1194px;
 }
 
-/* line 60, ../../../../../../.rvm/rubies/ruby-1.9.3-p125/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-twitter-small {
-  background-position: 0 -1773px;
+  background-position: 0 -1893px;
+}
+
+/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-view-all-tips-button {
+  background-position: 0 -1660px;
+}
+/* line 43, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-view-all-tips-button:hover, .sprite-view-all-tips-button.view-all-tips-button_hover, .sprite-view-all-tips-button.view-all-tips-button-hover {
+  background-position: 0 -1750px;
 }
 
 /* line 4, ../sass/includes/_base.scss */
@@ -490,37 +507,49 @@ h2 {
   margin-bottom: 9px;
 }
 /* line 106, ../sass/includes/_home.scss */
-.block .sprite-block-details-background .sprite-like-us-button, .block .sprite-block-details-background .sprite-follow-us-button, .block .sprite-block-details-background .sprite-tweet-now-button, .block .sprite-block-details-background .sprite-facebook-enter-now-button {
+.block .sprite-block-details-background .sprite-like-us-button, .block .sprite-block-details-background .sprite-follow-us-button, .block .sprite-block-details-background .sprite-tweet-now-button, .block .sprite-block-details-background .sprite-facebook-enter-now-button, .block .sprite-block-details-background .sprite-view-all-tips-button {
   text-indent: -9999px;
   width: 139px;
   height: 30px;
   float: right;
 }
+/* line 113, ../sass/includes/_home.scss */
+.block .sprite-block-details-background .sprite-like-us-button:hover {
+  background-position: 0 -1690px;
+}
 /* line 116, ../sass/includes/_home.scss */
+.block .sprite-block-details-background .follow-us-button:hover {
+  background-position: 0 -1780px;
+}
+/* line 119, ../sass/includes/_home.scss */
+.block .sprite-block-details-background .tweet-now-button:hover {
+  background-position: 0 -1720px;
+}
+/* line 126, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .callToAction {
   position: absolute;
   bottom: 20px;
   right: 25px;
   font-size: 12px;
 }
-/* line 124, ../sass/includes/_home.scss */
+/* line 134, ../sass/includes/_home.scss */
 .block .dates {
   font-size: 12px;
   margin-top: -4px;
   color: #1D2052;
   font-weight: bold;
 }
-/* line 131, ../sass/includes/_home.scss */
+/* line 141, ../sass/includes/_home.scss */
 .block .no-margin {
   margin-bottom: 0;
 }
-/* line 134, ../sass/includes/_home.scss */
+/* line 144, ../sass/includes/_home.scss */
 .block .sprite-green-border {
   float: left;
   width: 16px;
   height: 196px;
 }
-/* line 139, ../sass/includes/_home.scss */
+/* line 149, ../sass/includes/_home.scss */
 .block .prize {
   position: relative;
   float: left;
@@ -529,47 +558,47 @@ h2 {
   padding: 12px 0px 0px 18px;
   background: #242a5e;
 }
-/* line 146, ../sass/includes/_home.scss */
+/* line 156, ../sass/includes/_home.scss */
 .block .prize img {
   position: absolute;
   bottom: 0;
   left: 23px;
 }
-/* line 151, ../sass/includes/_home.scss */
+/* line 161, ../sass/includes/_home.scss */
 .block .prize .week {
   color: #fff;
   font-size: 17px;
 }
-/* line 155, ../sass/includes/_home.scss */
+/* line 165, ../sass/includes/_home.scss */
 .block .prize .prize-name {
   color: #4fd0e7;
   font-weight: 900;
   margin-top: -5px;
   font-size: 18px;
 }
-/* line 163, ../sass/includes/_home.scss */
+/* line 173, ../sass/includes/_home.scss */
 .block .sprite-tweet-background {
   float: left;
   width: 169px;
   height: 196px;
   padding: 30px 15px;
 }
-/* line 168, ../sass/includes/_home.scss */
+/* line 178, ../sass/includes/_home.scss */
 .block .sprite-tweet-background .sprite-tweet-quote {
   width: 28px;
   height: 28px;
   float: left;
   margin: 0px 10px 10px 0px;
 }
-/* line 174, ../sass/includes/_home.scss */
+/* line 184, ../sass/includes/_home.scss */
 .block .sprite-tweet-background p {
   font-size: 12px;
 }
-/* line 176, ../sass/includes/_home.scss */
+/* line 186, ../sass/includes/_home.scss */
 .block .sprite-tweet-background p a {
   color: #6693c1;
 }
-/* line 180, ../sass/includes/_home.scss */
+/* line 190, ../sass/includes/_home.scss */
 .block .sprite-tweet-background .user {
   color: #6693c1;
   font-weight: bold;

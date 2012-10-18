@@ -103,11 +103,21 @@ h2 {
     }
 
     /* buttons */
-    .sprite-like-us-button, .sprite-follow-us-button, .sprite-tweet-now-button, .sprite-facebook-enter-now-button  {
+    .sprite-like-us-button, .sprite-follow-us-button, .sprite-tweet-now-button, .sprite-facebook-enter-now-button, .sprite-view-all-tips-button  {
       text-indent: -9999px;
       width: sprite-sprite-width(like-us-button);
       height: sprite-sprite-height(like-us-button);
       float: right;
+    }
+
+    .sprite-like-us-button:hover {
+      background-position: sprite-position($sprite, like-us-button_hover);
+    }
+    .follow-us-button:hover {
+      background-position: sprite-position($sprite, follow-us-button_hover);
+    }
+    .tweet-now-button:hover {
+      background-position: sprite-position($sprite, tweet-now-button_hover);
     }
 
     
