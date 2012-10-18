@@ -179,9 +179,9 @@
   <p>Join us on Facebook every Friday &mdash; November 9, 2012 through December 28, 2012 for a chance to win great prizes.</p>
 
   <h2>HOW DO YOU ENTER?</h2>
-  <p><strong>Step One:</strong> Like us on Facebook at <a href="http://facebook.com/FifthThirdBank">facebook.com/FifthThirdBank</a></p>
+  <p><strong>Step One:</strong> <a class="notModal" target="_blank" href="http://facebook.com/FifthThirdBank">Like us on Facebook</a></p>
 
-  <p><strong>Step Two:</strong> Click on the “Fifth Third Bank Holiday Payback tab” or <a href="https://www.facebook.com/FifthThirdBank/app_117825708370606" target="_blank">click here</a></p>
+  <p><strong>Step Two:</strong> Click on the “Fifth Third Bank Holiday Payback tab” or <a class="notModal" href="https://www.facebook.com/FifthThirdBank/app_117825708370606" target="_blank">click here</a></p>
   
   <p><strong>Step Three:</strong> Provide an answer, right or wrong, to our weekly question and you’ll receive an entry for that week’s prize.</p>
 
@@ -218,7 +218,7 @@
     <h2>Fifth Third Bank Holiday Payback Sweepstakes</h2>
     <div class="thanks">Thank You!</div>
     <p class="largest" style="margin-bottom: 40px;">Your entry has been received.</p>
-    <p class="largest">Don’t forget to like us on <strong>FACEBOOK</strong><br /> or follow us on <strong>twitter</strong> for even more chances to win!</p>
+    <p class="largest">Don’t forget to like us on <strong>FACEBOOK</strong><br /> or follow us on <strong>TWITTER</strong> for even more chances to win!</p>
 
     <div class="social">
       <a href="http://facebook.com/FifthThirdBank" target="_blank" class="sprite-facebook-icon"></a>
