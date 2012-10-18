@@ -175,6 +175,9 @@ h2 {
     width: sprite-sprite-width(tweet-background);
     height: sprite-sprite-height(tweet-background);    
     padding: 30px 15px;
+    &.no-padding {
+      padding: 0;
+    }
     .sprite-tweet-quote {
       width: sprite-sprite-width(tweet-quote);
       height: sprite-sprite-height(tweet-quote);  

@@ -39,7 +39,7 @@ Template Name: Blog
           while ( have_posts() ) : the_post(); ?>
               <article>
                 <div class="image">
-                  <?php the_post_thumbnail(); ?>
+                  <?php the_post_thumbnail(array(75, 75)); ?>
                 </div>
                 <div class="text">
                   <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>

@@ -589,21 +589,25 @@ h2 {
   padding: 30px 15px;
 }
 /* line 178, ../sass/includes/_home.scss */
+.block .sprite-tweet-background.no-padding {
+  padding: 0;
+}
+/* line 181, ../sass/includes/_home.scss */
 .block .sprite-tweet-background .sprite-tweet-quote {
   width: 28px;
   height: 28px;
   float: left;
   margin: 0px 10px 0px 0px;
 }
-/* line 184, ../sass/includes/_home.scss */
+/* line 187, ../sass/includes/_home.scss */
 .block .sprite-tweet-background p {
   font-size: 12px;
 }
-/* line 186, ../sass/includes/_home.scss */
+/* line 189, ../sass/includes/_home.scss */
 .block .sprite-tweet-background p a {
   color: #6693c1;
 }
-/* line 190, ../sass/includes/_home.scss */
+/* line 193, ../sass/includes/_home.scss */
 .block .sprite-tweet-background .user {
   color: #6693c1;
   font-weight: bold;

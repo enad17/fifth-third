@@ -103,7 +103,7 @@
           ?>
           <div class="block no-margin">
             <div class="sprite-green-border"></div>
-            <div class="sprite-tweet-background">
+            <div class="sprite-tweet-background no-padding">
               <?php the_post_thumbnail(); ?>
             </div>
             <div class="sprite-block-details-background">
