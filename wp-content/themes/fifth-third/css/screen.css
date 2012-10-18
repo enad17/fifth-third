@@ -448,9 +448,10 @@ h2 {
 .item p {
   padding-top: 0px;
   font-size: 14px;
+  line-height: 17px;
 }
 
-/* line 13, ../sass/includes/_home.scss */
+/* line 14, ../sass/includes/_home.scss */
 .callToAction {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAECAYAAABCxiV9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowNzgwMTE3NDA3MjA2ODExODA4M0U0OTgxQjg3NjQwRSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1QjRFQUM3QTBDQjYxMUUyQUIzRUZCNzk3RUVDQjYwMyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1QjRFQUM3OTBDQjYxMUUyQUIzRUZCNzk3RUVDQjYwMyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Rjk3RjExNzQwNzIwNjgxMTgyMkFFNDRFOThEMEZDNEQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDc4MDExNzQwNzIwNjgxMTgwODNFNDk4MUI4NzY0MEUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz60bu+ZAAAATElEQVR42mJgYGBYBcRK////B1IMgkA8E8QGYSYgZzUQn2FkZAQJvgey7wHZ74C4HKRaCar7HVSnMRDfBeLdDFBGOZKxIL4LiA8QYABK0R7O7XqpoQAAAABJRU5ErkJggg==');
   background-repeat: no-repeat;
@@ -459,23 +460,23 @@ h2 {
   font-style: italic;
   float: right;
   text-align: right;
-  margin-top: 20px;
+  margin-top: 10px;
   color: #333;
 }
-/* line 23, ../sass/includes/_home.scss */
+/* line 24, ../sass/includes/_home.scss */
 .callToAction:hover {
   text-decoration: underline;
 }
 
-/* line 28, ../sass/includes/_home.scss */
+/* line 29, ../sass/includes/_home.scss */
 .sprite-logo {
   display: block;
-  margin: 90px 0px 29px 0px;
+  margin: 70px 0px 49px 0px;
   width: 395px;
   height: 184px;
 }
 
-/* line 35, ../sass/includes/_home.scss */
+/* line 36, ../sass/includes/_home.scss */
 .sprite-home-icon-1 {
   width: 44px;
   height: 43px;
@@ -484,7 +485,7 @@ h2 {
   margin-top: 4px;
 }
 
-/* line 43, ../sass/includes/_home.scss */
+/* line 44, ../sass/includes/_home.scss */
 .sprite-home-icon-2 {
   width: 44px;
   height: 43px;
@@ -494,7 +495,7 @@ h2 {
 }
 
 /* right side, blocks */
-/* line 52, ../sass/includes/_home.scss */
+/* line 53, ../sass/includes/_home.scss */
 .block {
   width: 493px;
   height: 196px;
@@ -502,7 +503,7 @@ h2 {
   margin-bottom: 3px;
   /* the right portion of the blocks */
 }
-/* line 58, ../sass/includes/_home.scss */
+/* line 59, ../sass/includes/_home.scss */
 .block h2 {
   color: #242A5E;
   font-family: "adelle", serif;
@@ -512,20 +513,20 @@ h2 {
   font-weight: 700;
   margin: 0;
 }
-/* line 66, ../sass/includes/_home.scss */
+/* line 67, ../sass/includes/_home.scss */
 .block h2.blog-title {
   line-height: 22px;
   text-transform: none;
 }
-/* line 69, ../sass/includes/_home.scss */
+/* line 70, ../sass/includes/_home.scss */
 .block h2.blog-title a {
   color: #242A5E;
 }
-/* line 71, ../sass/includes/_home.scss */
+/* line 72, ../sass/includes/_home.scss */
 .block h2.blog-title a:hover {
   text-decoration: underline;
 }
-/* line 79, ../sass/includes/_home.scss */
+/* line 80, ../sass/includes/_home.scss */
 .block .sprite-block-details-background {
   float: left;
   width: 308px;
@@ -538,12 +539,12 @@ h2 {
   /* buttons */
   /* position our call to actions in the bottom right, always */
 }
-/* line 87, ../sass/includes/_home.scss */
+/* line 88, ../sass/includes/_home.scss */
 .block .sprite-block-details-background img {
   float: left;
   margin-top: 13px;
 }
-/* line 93, ../sass/includes/_home.scss */
+/* line 94, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .blurb {
   color: #1D2052;
   font-size: 12px;
@@ -553,60 +554,62 @@ h2 {
   line-height: 14px;
   margin-bottom: 9px;
 }
-/* line 104, ../sass/includes/_home.scss */
+/* line 105, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .excerpt {
   font-size: 12px;
   padding-top: 9px;
   line-height: 14px;
+  color: #1D2052;
+  font-weight: bold;
 }
-/* line 111, ../sass/includes/_home.scss */
+/* line 114, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .sprite-like-us-button, .block .sprite-block-details-background .sprite-follow-us-button, .block .sprite-block-details-background .sprite-tweet-now-button, .block .sprite-block-details-background .sprite-facebook-enter-now-button, .block .sprite-block-details-background .sprite-view-all-tips-button {
   text-indent: -9999px;
   width: 139px;
   height: 30px;
   float: right;
 }
-/* line 118, ../sass/includes/_home.scss */
+/* line 121, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .sprite-like-us-button:hover {
   background-position: 0 -2203px;
 }
-/* line 121, ../sass/includes/_home.scss */
+/* line 124, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .follow-us-button:hover {
   background-position: 0 -2113px;
 }
-/* line 124, ../sass/includes/_home.scss */
+/* line 127, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .tweet-now-button:hover {
   background-position: 0 -2053px;
 }
-/* line 127, ../sass/includes/_home.scss */
+/* line 130, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .sprite-enter-now-button {
   background-position: 0 -2083px;
 }
-/* line 134, ../sass/includes/_home.scss */
+/* line 137, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .callToAction {
   position: absolute;
   bottom: 20px;
   right: 25px;
   font-size: 12px;
 }
-/* line 142, ../sass/includes/_home.scss */
+/* line 145, ../sass/includes/_home.scss */
 .block .dates {
   font-size: 12px;
   margin-top: -4px;
   color: #1D2052;
   font-weight: bold;
 }
-/* line 149, ../sass/includes/_home.scss */
+/* line 152, ../sass/includes/_home.scss */
 .block .no-margin {
   margin-bottom: 0;
 }
-/* line 152, ../sass/includes/_home.scss */
+/* line 155, ../sass/includes/_home.scss */
 .block .sprite-green-border {
   float: left;
   width: 16px;
   height: 196px;
 }
-/* line 157, ../sass/includes/_home.scss */
+/* line 160, ../sass/includes/_home.scss */
 .block .prize {
   position: relative;
   float: left;
@@ -615,51 +618,51 @@ h2 {
   padding: 12px 0px 0px 18px;
   background: #242a5e;
 }
-/* line 164, ../sass/includes/_home.scss */
+/* line 167, ../sass/includes/_home.scss */
 .block .prize img {
   position: absolute;
   bottom: 0;
   left: 23px;
 }
-/* line 169, ../sass/includes/_home.scss */
+/* line 172, ../sass/includes/_home.scss */
 .block .prize .week {
   color: #fff;
   font-size: 17px;
 }
-/* line 173, ../sass/includes/_home.scss */
+/* line 176, ../sass/includes/_home.scss */
 .block .prize .prize-name {
   color: #4fd0e7;
   font-weight: 900;
   margin-top: -5px;
   font-size: 18px;
 }
-/* line 181, ../sass/includes/_home.scss */
+/* line 184, ../sass/includes/_home.scss */
 .block .sprite-tweet-background {
   float: left;
   width: 169px;
   height: 196px;
   padding: 30px 15px;
 }
-/* line 186, ../sass/includes/_home.scss */
+/* line 189, ../sass/includes/_home.scss */
 .block .sprite-tweet-background.no-padding {
   padding: 0;
 }
-/* line 189, ../sass/includes/_home.scss */
+/* line 192, ../sass/includes/_home.scss */
 .block .sprite-tweet-background .sprite-tweet-quote {
   width: 28px;
   height: 28px;
   float: left;
   margin: 0px 10px 0px 0px;
 }
-/* line 195, ../sass/includes/_home.scss */
+/* line 198, ../sass/includes/_home.scss */
 .block .sprite-tweet-background p {
   font-size: 12px;
 }
-/* line 197, ../sass/includes/_home.scss */
+/* line 200, ../sass/includes/_home.scss */
 .block .sprite-tweet-background p a {
   color: #6693c1;
 }
-/* line 201, ../sass/includes/_home.scss */
+/* line 204, ../sass/includes/_home.scss */
 .block .sprite-tweet-background .user {
   color: #6693c1;
   font-weight: bold;
@@ -964,7 +967,7 @@ ul#article-tools {
   margin-top: 10px;
   padding-right: 30px;
 }
-/* line 247, ../sass/includes/_blog.scss */
+/* line 253, ../sass/includes/_blog.scss */
 .article-content .content p {
   margin-bottom: 20px;
   font-size: 14px;
