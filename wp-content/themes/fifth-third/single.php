@@ -14,7 +14,7 @@
       <div class="inner clearfix">
 
         <div class="blog-header">
-          <a class="sprite-logo-blog modalLink" data-name="seeDetails" href="#" target="_blank"></a>
+          <a class="sprite-logo-blog modalLink" href="<?php echo home_url(); ?>"></a>
           <div class="right-side">
             <div class="item">
               <div class="sprite-home-icon-1"></div>
