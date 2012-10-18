@@ -71,7 +71,10 @@
 
     <div class="field" style="clear:both;">
       <input name="accept" type="checkbox" required />
-      <p style="margin-right: 15px;font-size: 10px;">BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="#">OFFICIAL RULES</a> OF THIS SWEEPSTAKES</p>
+      <p style="margin-right: 15px;
+font-size: 10px;
+width: 377px;
+float: left;">BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="#">OFFICIAL RULES</a> OF THIS SWEEPSTAKES</p>
       <button type="submit">Submit</button>
     </div>
 
@@ -86,23 +89,36 @@
   <script> 
       // wait for the DOM to be loaded 
       $(document).ready(function() { 
-          // bind 'sweepStakesForm' and provide a simple callback function 
-          $('#sweepStakesForm').ajaxForm(function() {
-            $('#sweepStakesForm')[0].reset();
+            $('#sweepStakesForm').ajaxForm({
 
-            // hide our form modal
-            $.modal.close();
+              beforeSubmit: function() {
+                if ($.cookie('sweepStakesSubmitted')) {
+                  alert('You can only submit once per day. Try again tomorrow!')
+                  return false;
+                }                 
+              },
 
-            // show the success moda
-            setTimeout(function () { // wait for 3/10ths of a second, then open the next dialog
-              $('#sweepStakesConfirm-modal').modal({
-                onShow: function (dialog) {
-                  dialog.container.css("height", "auto");
-                }              
-              });
-            }, 350);
+              success: function() {
 
-          });
+                // this is the first time they've done this today, so create the cookie
+                $.cookie('sweepStakesSubmitted', 'sweepStakesSubmitted', { expires: 1 });
+
+                // clear the form
+                $('#sweepStakesForm')[0].reset();
+            
+                // hide our form modal
+                $.modal.close();
+
+                // show the success modal
+                setTimeout(function () { // wait for 3/10ths of a second, then open the next dialog
+                  $('#sweepStakesConfirm-modal').modal({
+                    onShow: function (dialog) {
+                      dialog.container.css("height", "auto");
+                    }              
+                  });
+                }, 350);
+              }
+            });
       }); 
   </script>  
 </div>
