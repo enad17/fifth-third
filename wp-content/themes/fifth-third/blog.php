@@ -49,7 +49,7 @@ Template Name: Blog
                   <div class="meta">
                     <a class="readMoreLink" href="<?php the_permalink() ?>">Read More</a>
                     <a class="sprite-facebook-small" href="#">Share <?php the_title(); ?> on Facebook</a>
-                    <a class="sprite-twitter-small" href="#">Share <?php the_title(); ?> on Twitter</a>
+                    <a class="sprite-twitter-small" href="http://twitter.com/intent/tweet?text=<?php the_title(); ?> &rarr; <?php the_permalink(); ?>">Share <?php the_title(); ?> on Twitter</a>
                     
                   </div>
                 </div>
