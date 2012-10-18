@@ -126,23 +126,23 @@ float: left;">BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="
 <!-- official rules -->
 <div class="modal" id="officialRules-modal">
   <ul class="tabs">
-      <li class="selected"><a href="#credit">Credit</a></li>
+      <li class="selected"><a href="#creditTab">Credit</a></li>
       <li class="sep">|</li>
-      <li><a href="#debit">Debit</a></li>
+      <li><a href="#debitTab">Debit</a></li>
       <li class="sep">|</li>
       <li><a href="#facebook">Facebook</a></li>
       <li class="sep">|</li>
       <li><a href="#twitter">Twitter</a></li>
       <!-- ... -->
   </ul>
-  <div class="tab" id="credit">
+  <div class="tab" id="creditTab">
     <div class="rules-container">
       <?php include('credit-rules.php'); ?>
     </div>
   </div>
 
   <!-- debit -->
-  <div class="tab" id="debit">
+  <div class="tab" id="debitTab">
     <div class="rules-container">
       <?php include('debit-rules.php'); ?>
     </div>
