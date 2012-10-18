@@ -124,6 +124,9 @@ h2 {
     .tweet-now-button:hover {
       background-position: sprite-position($sprite, tweet-now-button_hover);
     }
+    .sprite-enter-now-button {
+      background-position: sprite-position($sprite, enter-now-button_hover); 
+    }
 
     
 
