@@ -11,7 +11,7 @@
   <div class="wrap">
     
     <section role="main" class="main blog single">
-      <div class="inner">
+      <div class="inner clearfix">
 
         <div class="blog-header">
           <a class="sprite-logo-blog modalLink" data-name="seeDetails" href="#" target="_blank"></a>

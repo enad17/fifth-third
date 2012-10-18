@@ -40,7 +40,7 @@ Template Name: Blog
           $customField = get_post_custom(get_the_ID());
 
           ?>
-              <article>
+              <article class="clearfix">
                 <div class="image">
                   <?php the_post_thumbnail(array(75, 75)); ?>
                 </div>
@@ -49,7 +49,7 @@ Template Name: Blog
                   <div class="excerpt">
                     <?php echo $customField['home_teaser'][0]; ?>
                   </div>
-                  <div class="meta">
+                  <div class="meta clearfix">
                     <a class="readMoreLink" href="<?php the_permalink() ?>">Read More</a>
                     <a class="sprite-facebook-small" href="#">Share <?php the_title(); ?> on Facebook</a>
                     <a class="sprite-twitter-small" href="http://twitter.com/intent/tweet?text=<?php the_title(); ?> &rarr; <?php the_permalink(); ?>">Share <?php the_title(); ?> on Twitter</a>
