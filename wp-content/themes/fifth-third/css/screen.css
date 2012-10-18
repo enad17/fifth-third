@@ -1,4 +1,4 @@
-/* line 17, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,202 +20,207 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 266, sprite/*.png */
-.sprite-sprite, .sprite-block-details-background, .sprite-block-pattern, .sprite-enter-now-button, .sprite-facebook-enter-now-button, .sprite-facebook-icon, .sprite-facebook-small, .sprite-fb-photo, .sprite-follow-us-button, .sprite-footer-logo, .sprite-github_logo, .sprite-green-border, .sprite-home-icon-1, .sprite-home-icon-2, .sprite-like-us-button, .sprite-logo-blog, .sprite-logo, .sprite-octocat, .sprite-reflection, .sprite-tweet-background, .sprite-tweet-now-button, .sprite-tweet-quote, .sprite-twitter-icon, .sprite-twitter-small, .sprite-view-all-tips-button {
-  background: url('../images/sprite-sf65ac32e7e.png') no-repeat;
+/* line 274, sprite/*.png */
+.sprite-sprite, .sprite-block-details-background, .sprite-block-pattern, .sprite-enter-now-button, .sprite-facebook-enter-now-button, .sprite-facebook-icon, .sprite-facebook-small, .sprite-fb-photo, .sprite-follow-us-button, .sprite-footer-logo, .sprite-github_logo, .sprite-green-border, .sprite-home-icon-1, .sprite-home-icon-2, .sprite-like-us-button, .sprite-logo-blog, .sprite-logo, .sprite-octocat, .sprite-reflection-single, .sprite-reflection, .sprite-tweet-background, .sprite-tweet-now-button, .sprite-tweet-quote, .sprite-twitter-icon, .sprite-twitter-small, .sprite-view-all-tips-button {
+  background: url('../images/sprite-s9d0d000d3b.png') no-repeat;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-block-details-background {
   background-position: 0 -343px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-block-pattern {
   background-position: 0 -147px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-enter-now-button {
-  background-position: 0 -1993px;
+  background-position: 0 -2388px;
 }
-/* line 43, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 43, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-enter-now-button:hover, .sprite-enter-now-button.enter-now-button_hover, .sprite-enter-now-button.enter-now-button-hover {
-  background-position: 0 -2083px;
+  background-position: 0 -2478px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-facebook-enter-now-button {
-  background-position: 0 -2173px;
+  background-position: 0 -2568px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-facebook-icon {
-  background-position: 0 -1659px;
+  background-position: 0 -2054px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-facebook-small {
-  background-position: 0 -2336px;
+  background-position: 0 -2731px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-fb-photo {
   background-position: 0 -919px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-follow-us-button {
-  background-position: 0 -1963px;
+  background-position: 0 -2358px;
 }
-/* line 43, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 43, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-follow-us-button:hover, .sprite-follow-us-button.follow-us-button_hover, .sprite-follow-us-button.follow-us-button-hover {
-  background-position: 0 -2113px;
+  background-position: 0 -2508px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-footer-logo {
-  background-position: 0 -2233px;
+  background-position: 0 -2628px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-github_logo {
-  background-position: 0 -1729px;
+  background-position: 0 -2124px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-green-border {
-  background-position: 0 -2403px;
+  background-position: 0 -2798px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-home-icon-1 {
-  background-position: 0 -2360px;
+  background-position: 0 -2755px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-home-icon-2 {
-  background-position: 0 -2265px;
+  background-position: 0 -2660px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-like-us-button {
-  background-position: 0 -1903px;
+  background-position: 0 -2298px;
 }
-/* line 43, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 43, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-like-us-button:hover, .sprite-like-us-button.like-us-button_hover, .sprite-like-us-button.like-us-button-hover {
-  background-position: 0 -2203px;
+  background-position: 0 -2598px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-logo-blog {
   background-position: 0 0;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-logo {
   background-position: 0 -539px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-octocat {
-  background-position: 0 -1415px;
+  background-position: 0 -1810px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-reflection {
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-reflection-single {
   background-position: 0 -1020px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-reflection {
+  background-position: 0 -1415px;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-tweet-background {
   background-position: 0 -723px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-tweet-now-button {
-  background-position: 0 -1933px;
+  background-position: 0 -2328px;
 }
-/* line 43, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 43, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-tweet-now-button:hover, .sprite-tweet-now-button.tweet-now-button_hover, .sprite-tweet-now-button.tweet-now-button-hover {
-  background-position: 0 -2053px;
+  background-position: 0 -2448px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-tweet-quote {
-  background-position: 0 -2308px;
+  background-position: 0 -2703px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-twitter-icon {
-  background-position: 0 -1589px;
+  background-position: 0 -1984px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-twitter-small {
-  background-position: 0 -2348px;
+  background-position: 0 -2743px;
 }
 
-/* line 60, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-view-all-tips-button {
-  background-position: 0 -2023px;
+  background-position: 0 -2418px;
 }
-/* line 43, /Users/dave/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 43, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-view-all-tips-button:hover, .sprite-view-all-tips-button.view-all-tips-button_hover, .sprite-view-all-tips-button.view-all-tips-button-hover {
-  background-position: 0 -2143px;
+  background-position: 0 -2538px;
 }
 
-/* line 4, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 4, ../sass/includes/_base.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 8, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 8, ../sass/includes/_base.scss */
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -225,30 +230,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 0;
 }
 
-/* line 16, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 16, ../sass/includes/_base.scss */
 .clearfix {
   display: inline-block;
 }
 
 /* start commented backslash hack \*/
-/* line 18, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 18, ../sass/includes/_base.scss */
 * html .clearfix {
   height: 1%;
 }
 
-/* line 19, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 19, ../sass/includes/_base.scss */
 .clearfix {
   display: block;
 }
 
 /* close commented backslash hack */
-/* line 22, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 22, ../sass/includes/_base.scss */
 html, body {
   width: 100%;
   height: 100%;
 }
 
-/* line 27, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 27, ../sass/includes/_base.scss */
 html {
   font: 15px/1.5 "proxima-nova", sans-serif;
   color: #252525;
@@ -257,42 +262,42 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
-/* line 35, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 35, ../sass/includes/_base.scss */
 body {
   background: #98BEE2;
 }
 
-/* line 39, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 39, ../sass/includes/_base.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 43, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 43, ../sass/includes/_base.scss */
 a {
   text-decoration: none;
 }
-/* line 45, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 45, ../sass/includes/_base.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 50, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 50, ../sass/includes/_base.scss */
 h1, h2, h3, h4 {
   font-weight: bold;
 }
 
-/* line 54, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 54, ../sass/includes/_base.scss */
 h2 {
   font-size: 18px;
   font-weight: bold;
 }
 
-/* line 60, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 60, ../sass/includes/_base.scss */
 .wrap {
   position: relative;
 }
 
-/* line 64, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 64, ../sass/includes/_base.scss */
 .left {
   float: left;
   width: 50%;
@@ -302,20 +307,20 @@ h2 {
   height: 594px;
 }
 
-/* line 73, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 73, ../sass/includes/_base.scss */
 .right {
   float: right;
   width: 50%;
   background: white;
 }
 
-/* line 79, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 79, ../sass/includes/_base.scss */
 .inner {
   width: 1000px;
   margin: 0px auto;
 }
 
-/* line 84, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 84, ../sass/includes/_base.scss */
 .main {
   padding: 5px 0;
   background: #fff;
@@ -324,17 +329,17 @@ h2 {
 }
 
 /* modals */
-/* line 92, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 92, ../sass/includes/_base.scss */
 .modal {
   display: none;
 }
 
-/* line 95, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 95, ../sass/includes/_base.scss */
 #simplemodal-overlay {
   background-color: #242424;
 }
 
-/* line 98, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 98, ../sass/includes/_base.scss */
 #simplemodal-container {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -345,7 +350,7 @@ h2 {
   border: 8px solid #97bee1;
   padding: 20px;
 }
-/* line 103, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 103, ../sass/includes/_base.scss */
 #simplemodal-container h2 {
   text-transform: uppercase;
   font-size: 13px;
@@ -354,64 +359,64 @@ h2 {
   color: #1d2051;
   margin-bottom: 0;
 }
-/* line 111, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 111, ../sass/includes/_base.scss */
 #simplemodal-container h3 {
   font-family: "proxima-nova", sans-serif;
   text-transform: uppercase;
   font-size: 13px;
 }
-/* line 116, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 116, ../sass/includes/_base.scss */
 #simplemodal-container p {
   font-size: 12px;
   margin-bottom: 10px;
 }
-/* line 119, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 119, ../sass/includes/_base.scss */
 #simplemodal-container p.largest {
   font-size: 16px;
 }
-/* line 122, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 122, ../sass/includes/_base.scss */
 #simplemodal-container p.larger {
   font-size: 14px;
   font-weight: bold;
   color: #1d2051;
 }
-/* line 127, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 127, ../sass/includes/_base.scss */
 #simplemodal-container p.sub {
   padding-top: 10px;
   font-size: 10px;
 }
-/* line 131, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 131, ../sass/includes/_base.scss */
 #simplemodal-container p.indent {
   padding-left: 20px;
 }
-/* line 135, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 135, ../sass/includes/_base.scss */
 #simplemodal-container .rules-container {
   height: 265px;
   overflow-y: auto;
   margin-top: 10px;
 }
-/* line 139, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 139, ../sass/includes/_base.scss */
 #simplemodal-container .rules-container p {
   font-weight: normal;
 }
-/* line 143, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 143, ../sass/includes/_base.scss */
 #simplemodal-container .centered {
   text-align: center;
 }
-/* line 146, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 146, ../sass/includes/_base.scss */
 #simplemodal-container .thanks {
   color: #0db301;
   text-transform: uppercase;
   font-size: 50px;
   text-align: center;
 }
-/* line 152, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 152, ../sass/includes/_base.scss */
 #simplemodal-container .officialRules {
   color: #ff0000;
   font-size: 11px;
   margin: 15px 0;
 }
-/* line 157, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 157, ../sass/includes/_base.scss */
 #simplemodal-container .modalClose {
   font-family: "adelle", serif;
   color: #272d64;
@@ -421,12 +426,12 @@ h2 {
   font-weight: bold;
   font-style: italic;
 }
-/* line 166, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 166, ../sass/includes/_base.scss */
 #simplemodal-container .social {
   text-align: center;
   margin-top: 20px;
 }
-/* line 169, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_base.scss */
+/* line 169, ../sass/includes/_base.scss */
 #simplemodal-container .social .sprite-twitter-icon, #simplemodal-container .social .sprite-facebook-icon {
   margin: 0px 5px;
   display: inline-block;
@@ -434,24 +439,24 @@ h2 {
   height: 70px;
 }
 
-/* line 1, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 1, ../sass/includes/_home.scss */
 h2 {
   margin-bottom: 24px;
 }
 
-/* line 5, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 5, ../sass/includes/_home.scss */
 .item {
   margin-bottom: 30px;
   height: 55px;
 }
-/* line 8, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 8, ../sass/includes/_home.scss */
 .item p {
   padding-top: 0px;
   font-size: 14px;
   line-height: 17px;
 }
 
-/* line 14, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 14, ../sass/includes/_home.scss */
 .callToAction {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAECAYAAABCxiV9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowNzgwMTE3NDA3MjA2ODExODA4M0U0OTgxQjg3NjQwRSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1QjRFQUM3QTBDQjYxMUUyQUIzRUZCNzk3RUVDQjYwMyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1QjRFQUM3OTBDQjYxMUUyQUIzRUZCNzk3RUVDQjYwMyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Rjk3RjExNzQwNzIwNjgxMTgyMkFFNDRFOThEMEZDNEQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDc4MDExNzQwNzIwNjgxMTgwODNFNDk4MUI4NzY0MEUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz60bu+ZAAAATElEQVR42mJgYGBYBcRK////B1IMgkA8E8QGYSYgZzUQn2FkZAQJvgey7wHZ74C4HKRaCar7HVSnMRDfBeLdDFBGOZKxIL4LiA8QYABK0R7O7XqpoQAAAABJRU5ErkJggg==');
   background-repeat: no-repeat;
@@ -463,12 +468,12 @@ h2 {
   margin-top: 10px;
   color: #333;
 }
-/* line 24, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 24, ../sass/includes/_home.scss */
 .callToAction:hover {
   text-decoration: underline;
 }
 
-/* line 29, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 29, ../sass/includes/_home.scss */
 .sprite-logo {
   display: block;
   margin: 70px 0px 49px 0px;
@@ -476,7 +481,7 @@ h2 {
   height: 184px;
 }
 
-/* line 36, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 36, ../sass/includes/_home.scss */
 .sprite-home-icon-1 {
   width: 44px;
   height: 43px;
@@ -485,7 +490,7 @@ h2 {
   margin-top: 4px;
 }
 
-/* line 44, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 44, ../sass/includes/_home.scss */
 .sprite-home-icon-2 {
   width: 44px;
   height: 43px;
@@ -495,7 +500,7 @@ h2 {
 }
 
 /* right side, blocks */
-/* line 53, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 53, ../sass/includes/_home.scss */
 .block {
   width: 493px;
   height: 196px;
@@ -503,7 +508,7 @@ h2 {
   margin-bottom: 3px;
   /* the right portion of the blocks */
 }
-/* line 59, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 59, ../sass/includes/_home.scss */
 .block h2 {
   color: #242A5E;
   font-family: "adelle", serif;
@@ -513,20 +518,20 @@ h2 {
   font-weight: 700;
   margin: 0;
 }
-/* line 67, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 67, ../sass/includes/_home.scss */
 .block h2.blog-title {
   line-height: 22px;
   text-transform: none;
 }
-/* line 70, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 70, ../sass/includes/_home.scss */
 .block h2.blog-title a {
   color: #242A5E;
 }
-/* line 72, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 72, ../sass/includes/_home.scss */
 .block h2.blog-title a:hover {
   text-decoration: underline;
 }
-/* line 80, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 80, ../sass/includes/_home.scss */
 .block .sprite-block-details-background {
   float: left;
   width: 308px;
@@ -539,12 +544,12 @@ h2 {
   /* buttons */
   /* position our call to actions in the bottom right, always */
 }
-/* line 88, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 88, ../sass/includes/_home.scss */
 .block .sprite-block-details-background img {
   float: left;
   margin-top: 13px;
 }
-/* line 94, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 94, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .blurb {
   color: #1D2052;
   font-size: 12px;
@@ -554,7 +559,7 @@ h2 {
   line-height: 14px;
   margin-bottom: 9px;
 }
-/* line 105, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 105, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .excerpt {
   font-size: 12px;
   padding-top: 9px;
@@ -562,54 +567,54 @@ h2 {
   color: #1D2052;
   font-weight: bold;
 }
-/* line 114, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 114, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .sprite-like-us-button, .block .sprite-block-details-background .sprite-follow-us-button, .block .sprite-block-details-background .sprite-tweet-now-button, .block .sprite-block-details-background .sprite-facebook-enter-now-button, .block .sprite-block-details-background .sprite-view-all-tips-button {
   text-indent: -9999px;
   width: 139px;
   height: 30px;
   float: right;
 }
-/* line 121, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 121, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .sprite-like-us-button:hover {
-  background-position: 0 -2203px;
+  background-position: 0 -2598px;
 }
-/* line 124, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 124, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .follow-us-button:hover {
-  background-position: 0 -2113px;
+  background-position: 0 -2508px;
 }
-/* line 127, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 127, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .tweet-now-button:hover {
-  background-position: 0 -2053px;
+  background-position: 0 -2448px;
 }
-/* line 130, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 130, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .sprite-enter-now-button {
-  background-position: 0 -2083px;
+  background-position: 0 -2478px;
 }
-/* line 137, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 137, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .callToAction {
   position: absolute;
   bottom: 20px;
   right: 25px;
   font-size: 12px;
 }
-/* line 145, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 145, ../sass/includes/_home.scss */
 .block .dates {
   font-size: 12px;
   margin-top: -4px;
   color: #1D2052;
   font-weight: bold;
 }
-/* line 152, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 152, ../sass/includes/_home.scss */
 .block .no-margin {
   margin-bottom: 0;
 }
-/* line 155, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 155, ../sass/includes/_home.scss */
 .block .sprite-green-border {
   float: left;
   width: 16px;
   height: 196px;
 }
-/* line 160, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 160, ../sass/includes/_home.scss */
 .block .prize {
   position: relative;
   float: left;
@@ -618,51 +623,51 @@ h2 {
   padding: 12px 0px 0px 18px;
   background: #242a5e;
 }
-/* line 167, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 167, ../sass/includes/_home.scss */
 .block .prize img {
   position: absolute;
   bottom: 0;
   left: 23px;
 }
-/* line 172, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 172, ../sass/includes/_home.scss */
 .block .prize .week {
   color: #fff;
   font-size: 17px;
 }
-/* line 176, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 176, ../sass/includes/_home.scss */
 .block .prize .prize-name {
   color: #4fd0e7;
   font-weight: 900;
   margin-top: -5px;
   font-size: 18px;
 }
-/* line 184, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 184, ../sass/includes/_home.scss */
 .block .sprite-tweet-background {
   float: left;
   width: 169px;
   height: 196px;
   padding: 30px 15px;
 }
-/* line 189, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 189, ../sass/includes/_home.scss */
 .block .sprite-tweet-background.no-padding {
   padding: 0;
 }
-/* line 192, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 192, ../sass/includes/_home.scss */
 .block .sprite-tweet-background .sprite-tweet-quote {
   width: 28px;
   height: 28px;
   float: left;
   margin: 0px 10px 0px 0px;
 }
-/* line 198, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 198, ../sass/includes/_home.scss */
 .block .sprite-tweet-background p {
   font-size: 12px;
 }
-/* line 200, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 200, ../sass/includes/_home.scss */
 .block .sprite-tweet-background p a {
   color: #6693c1;
 }
-/* line 204, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_home.scss */
+/* line 204, ../sass/includes/_home.scss */
 .block .sprite-tweet-background .user {
   color: #6693c1;
   font-weight: bold;
@@ -671,29 +676,29 @@ h2 {
   margin-top: 7px;
 }
 
-/* line 1, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 1, ../sass/includes/_blog.scss */
 .blog {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAADawAAALKCAIAAADr9WDmAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5MzhBMzA5ODExNDMxMUUyOTJDNEE3NUYzOUQ5NzcyMiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5MzhBMzA5OTExNDMxMUUyOTJDNEE3NUYzOUQ5NzcyMiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjkzOEEzMDk2MTE0MzExRTI5MkM0QTc1RjM5RDk3NzIyIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjkzOEEzMDk3MTE0MzExRTI5MkM0QTc1RjM5RDk3NzIyIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+t4T8LAAAQmNJREFUeNrs3dFW6kCChlHKdR5mruax5t37di7npkYSiIBJCEig/mTv7mUrimJZktj5TlWptR4AAACA1dSP3fkvX6o28M1/5kvVv3yF+qfHU984jI/+H0KPPra66HPWl/+c6sPfe336+60vetB1he/lT4+/Pj8f6uNTrj44LMumQX3oW150e10wVZZ8rfqiafDo91XHx2fR418yzSbuWxf8+k9+7/X+ZHr0MdTDa77WksdcF82gyYPvo19i2cc/P7Xqw0Ox5OMf/FEu+JyTX6s+Py0nH8Oir1sXjP/E51zw+SdvXzRWC8Z/wXxziYkd/5Vn9gMAQEO+DAEAAAAAAAAAAACQSAQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJAAAAAAAAAAAARBJBAgAAAAAAAAAAAJFEkAAAAAAAAAAAAEAkESQAAAAAAAAAAAAQSQQJ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CQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACEJAQJAAAAAAAAAAAAhCQECQAAAAAAAAAAAIQkBAkAAAAAAAAAAACElHLORgEAAAAAAAAAAAAIRyVIAAAAAAAAAAAAICQhSAAAAAAAAAAAACAkIUgAAAAAAAAAAAAgpP8LMACUJ7zjzCYV5QAAAABJRU5ErkJggg==');
   background-repeat: no-repeat;
   background-position: top center;
   /* re-work the layout for single page */
 }
-/* line 5, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 5, ../sass/includes/_blog.scss */
 .blog.single {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAADawAAAMgCAIAAAD6XVO2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4MjkwRDEwNTExM0UxMUUyOTJDNEE3NUYzOUQ5NzcyMiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo4MjkwRDEwNjExM0UxMUUyOTJDNEE3NUYzOUQ5NzcyMiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjgyOTBEMTAzMTEzRTExRTI5MkM0QTc1RjM5RDk3NzIyIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjgyOTBEMTA0MTEzRTExRTI5MkM0QTc1RjM5RDk3NzIyIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+uRW39QAARQZJREFUeNrs3eF62jqihlHUpxczv+ay5v7vQBMscIBAikls6cNr7fNkE1J2W42C1eO30t9a6wEAAABYTe324p/8VHWA33yfn6r+5GeoP/r11A2Hcen/Q2jpr60+9d+sv/6/U138e68v/37rL/2i6wq/lx/9+uvr86Eun3J14bA8Nw3qot/yU8/XJ6bKMz9X/aVpsPT3Ve+Pz1O//mem2YPX1ie+/R/+3uu/J9PSX0M9/M7P9cyvuT41gx5efJf+FM/9+NenVl08FM/8+IX/Uz7x33z4c9XXp+XDX8NTP299Yvwf/Def+O8/fP6psXpi/J+Yb24xAQAAMII/hgAAAAAAAAAAAABIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACIJIIEAAAAAAAAAAAAIokgAQAAAAAAAAAAgEgiSAAAAAAAAAAAACCSCBIAAAAAAAAAAACI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AACAlESQAAAAAAAAAAAAQEoiSAAAAAAAAAAAACAlESQAAAAAAAAAAACQkggSAAAAAAAAAAAASEkECQAAAAAAAAAAAKQkggQAAAAAAAAAAABSEkECAAAAAAAAAAAAKYkgAQAAAAAAAAAAgJREkAAAAAAAAAAAAEBKIkgAAAAAAAAAAAAgJREkAAAAAAAAAAAAkJIIEgAAAAAAAAAAAEhJBAkAAAAAAAAAAACkJIIEAAAAAAAAAAAAUhJBAgAAAAAAAAAAACmJIAEAAAAAAAAAAICURJAAAAAAAAAAAABASiJIAAAAAAAAAAAAICURJAAAAAAAAAAAAJCSCBIAAAAAAAAAAABISQQJAAAAAAAAAAAApCSCBAAAAAAAAAAAAFISQQIAAAAAAAAAAAApiSABAAAAAAAAAACAlESQAAAAAAAAAAAAQEoiSAAAAAAAAAAAACAlESQAAAAAAAAAAACQkggSAAAAAAAAAAAASEkECQAAAAAAAAAAAKQkggQAAAAAAAAAAABSEkECAAAAAAAAAAAAKYkgAQAAAAAAAAAAgJREkAAAAAAAAAAAAEBKIkgAAAAAAAAAAAAgJREkAAAAAAAAAAAAkJIIEgAAAAAAAAAAAEhJBAkAAAAAAAAAAACkJIIEAAAAAAAAAAAAUhJBAgAAAAAAAAAAACmJIAEAAAAAAAAAAICURJAAAAAAAAAAAABASiJIAAAAAAAAAAAAICURJAAAAAAAAAAAAJCSCBIAAAAAAAAAAABISQQJAAAAAAAAAAAApCSCBAAAAAAAAAAAAFISQQIAAAAAAAAAAAApiSABAAAAAAAAAACAlESQAAAAAAAAAAAAQEoiSAAAAAAAAAAAACAlESQAAAAAAAAAAACQkggSAAAAAAAAAAAASEkECQAAAAAAAAAAAKQkggQAAAAAAAAAAABSEkECAAAAAAAAAAAAKYkgAQAAAAAAAAAAgJREkAAAAAAAAAAAAEBKIkgAAAAAAAAAAAAgJREkAAAAAAAAAAAAkJIIEgAAAAAAAAAAAEhJBAkAAAAAAAAAAACkJIIEAAAAAAAAAAAAUhJBAgAAAAAAAAAAACmJIAEAAAAAAAAAAICURJAAAAAAAAAAAABASiJIAAAAAAAAAAAAICURJAAAAAAAAAAAAJCSCBIAAAAAAAAAAABISQQJAAAAAAAAAAAApCSCBAAAAAAAAAAAAFISQQIAAAAAAAAAAAApiSABAAAAAAAAAACAlESQAAAAAAAAAAAAQEoiSAAAAAAAAAAAACAlESQAAAAAAAAAAACQkggSAAAAAAAAAAAASEkECQAAAAAAAAAAAKQkggQAAAAAAAAAAABSEkECAAAAAAAAAAAAKYkgAQAAAAAAAAAAgJREkAAAAAAAAAAAAEBKIkgAAAAAAAAAAAAgJREkAAAAAAAAAAAAkJIIEgAAAAAAAAAAAEhJBAkAAAAAAAAAAACkJIIEAAAAAAAAAAAAUhJBAgAAAAAAAAAAACmJIAEAAAAAAAAAAICURJAAAAAAAAAAAABASiJIAAAAAAAAAAAAICURJAAAAAAAAAAAAJCSCBIAAAAAAAAAAABISQQJAAAAAAAAAAAApCSCBAAAAAAAAAAAAFISQQIAAAAAAAAAAAApiSABAAAAAAAAAACAlESQAAAAAAAAAAAAQEoiSAAAAAAAAAAAACAlESQAAAAAAAAAAACQkggSAAAAAAAAAAAASEkECQAAAAAAAAAAAKQkggQAAAAAAAAAAABSEkECAAAAAAAAAAAAKYkgAQAAAAAAAAAAgJREkAAAAAAAAAAAAEBKIkgAAAAAAAAAAAAgJREkAAAAAAAAAAAAkJIIEgAAAAAAAAAAAEhJBAkAAAAAAAAAAACkJIIEAAAAAAAAAAAAUhJBAgAAAAAAAAAAACmJIAEAAAAAAAAAAICURJAAAAAAAAAAAABASiJIAAAAAAAAAAAAICURJAAAAAAAAAAAAJCSCBIAAAAAAAAAAABISQQJAAAAAAAAAAAApCSCBAAAAAAAAAAAAFISQQIAAAAAAAAAAAApiSABAAAAAAAAAACAlESQAAAAAAAAAAAAQEoiSAAAAAAAAAAAACAlESQAAADAP3btgAQAAABA0P/X7Qh0hwAAAAAAwJIECQAAAAAAAAAAACxJkAAAAAAAAAAAAMCSBAkAAAAAAAAAAAAsSZAAAAAAAAAAAADAkgQJAAAAAAAAAAAALEmQAAAAAAAAAAAAwJIECQAAAAAAAAAAACxJkAAAAAAAAAAAAMCSBAkAAAAAAAAAAAAsSZAAAAAAAAAAAADAkgQJAAAAAAAAAAAALEmQAAAAAAAAAAAAwJIECQAAAAAAAAAAACxJkAAAAAAAAAAAAMCSBAkAAAAAAAAAAAAsSZAAAAAAAAAAAADAkgQJAAAAAAAAAAAALEmQAAAAAAAAAAAAwJIECQAAAAAAAAAAACxJkAAAAAAAAAAAAMCSBAkAAAAAAAAAAAAsSZAAAAAAAAAAAADAkgQJAAAAAAAAAAAALEmQAAAAAAAAAAAAwJIECQAAAAAAAAAAACxJkAAAAAAAAAAAAMCSBAkAAAAAAAAAAAAsSZAAAAAAAAAAAADAkgQJAAAAAAAAAAAALEmQAAAAAAAAAAAAwJIECQAAAAAAAAAAACxJkAAAAAAAAAAAAMCSBAkAAAAAAAAAAAAsSZAAAAAAAAAAAADAkgQJAAAAAAAAAAAALEmQAAAAAAAAAAAAwJIECQAAAAAAAAAAACxJkAAAAAAAAAAAAMCSBAkAAAAAAAAAAAAsSZAAAAAAAAAAAADAkgQJAAAAAAAAAAAALEmQAAAAAAAAAAAAwJIECQAAAAAAAAAAACxJkAAAAAAAAAAAAMCSBAkAAAAAAAAAAAAsSZAAAAAAAAAAAADAkgQJAAAAAAAAAAAALEmQAAAAAAAAAAAAwJIECQAAAAAAAAAAACxJkAAAAAAAAAAAAMCSBAkAAAAAAAAAAAAsSZAAAAAAAAAAAADAkgQJAAAAAAAAAAAALEmQAAAAAAAAAAAAwJIECQAAAAAAAAAAACxJkAAAAAAAAAAAAMCSBAkAAAAAAAAAAAAsJYAA7doBCQAAAICg/6/bEegOJUgAAAAAAAAAAABgSYIEAAAAAAAAAAAAlgIdvS3j8bTv3gAAAABJRU5ErkJggg==');
   background-position: top center;
 }
-/* line 10, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 10, ../sass/includes/_blog.scss */
 .blog .item p {
   font-size: 12px;
   padding-top: 7px;
 }
-/* line 15, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 15, ../sass/includes/_blog.scss */
 .blog .callToAction {
   margin-top: 0;
   font-size: 12px;
 }
-/* line 19, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 19, ../sass/includes/_blog.scss */
 .blog .left {
   width: 662px;
   height: 395px;
@@ -701,24 +706,24 @@ h2 {
   margin-bottom: 110px;
   background: none;
 }
-/* line 26, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 26, ../sass/includes/_blog.scss */
 .blog .right {
   width: 338px;
   position: relative;
   background: none;
 }
-/* line 31, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 31, ../sass/includes/_blog.scss */
 .blog .right .block {
   width: 331px;
 }
-/* line 38, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 38, ../sass/includes/_blog.scss */
 .blog.single .left {
   width: 1024px;
   height: auto;
   padding-top: 0;
   border: none;
 }
-/* line 44, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 44, ../sass/includes/_blog.scss */
 .blog.single .right {
   margin-left: 20px;
   margin-bottom: 20px;
@@ -727,36 +732,36 @@ h2 {
   z-index: 200;
   background: white;
 }
-/* line 52, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 52, ../sass/includes/_blog.scss */
 .blog.single .text {
   width: auto;
 }
-/* line 57, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 57, ../sass/includes/_blog.scss */
 .blog .blog-header {
   height: 200px;
   padding-left: 53px;
 }
-/* line 60, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 60, ../sass/includes/_blog.scss */
 .blog .blog-header .sprite-logo-blog {
   width: 315px;
   height: 147px;
   margin: 20px 0 0 0;
   float: left;
 }
-/* line 66, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 66, ../sass/includes/_blog.scss */
 .blog .blog-header .right-side {
   float: left;
   width: 473px;
   margin-top: 24px;
   margin-left: 100px;
 }
-/* line 71, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 71, ../sass/includes/_blog.scss */
 .blog .blog-header .right-side .item {
   margin-bottom: 15px;
 }
 
 /* reflection thing */
-/* line 79, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 79, ../sass/includes/_blog.scss */
 .sprite-reflection {
   width: 1500px;
   height: 395px;
@@ -764,13 +769,21 @@ h2 {
   left: -11px;
 }
 
+/* line 86, ../sass/includes/_blog.scss */
+.sprite-reflection-single {
+  width: 1500px;
+  height: 395px;
+  position: absolute;
+  left: -11px;
+}
+
 /* other stories */
-/* line 87, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 94, ../sass/includes/_blog.scss */
 .moreTips {
   clear: both;
 }
 
-/* line 90, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 97, ../sass/includes/_blog.scss */
 .otherStory {
   font-family: "adelle", serif;
   color: #1d2051;
@@ -779,20 +792,20 @@ h2 {
   width: 194px;
   text-align: center;
 }
-/* line 97, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 104, ../sass/includes/_blog.scss */
 .otherStory:hover {
   text-decoration: underline;
 }
-/* line 103, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 110, ../sass/includes/_blog.scss */
 .otherStory .innerPadding {
   padding: 15px;
 }
-/* line 106, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 113, ../sass/includes/_blog.scss */
 .otherStory h3 {
   text-align: center;
 }
 
-/* line 111, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 118, ../sass/includes/_blog.scss */
 article {
   margin-bottom: 30px;
   margin-right: 10px;
@@ -801,17 +814,17 @@ article {
   float: left;
   width: 305px;
 }
-/* line 118, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 125, ../sass/includes/_blog.scss */
 article .image {
   float: left;
 }
-/* line 121, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 128, ../sass/includes/_blog.scss */
 article .text {
   float: left;
   width: 200px;
   margin-left: 10px;
 }
-/* line 126, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 133, ../sass/includes/_blog.scss */
 article h2 {
   font-family: "adelle", serif;
   margin: 0;
@@ -819,23 +832,23 @@ article h2 {
   font-weight: 600;
   line-height: 20px;
 }
-/* line 132, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 139, ../sass/includes/_blog.scss */
 article h2 a {
   color: #262d63;
 }
-/* line 134, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 141, ../sass/includes/_blog.scss */
 article h2 a:hover {
   text-decoration: underline;
 }
-/* line 139, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 146, ../sass/includes/_blog.scss */
 article .excerpt {
   font-size: 12px;
 }
-/* line 142, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 149, ../sass/includes/_blog.scss */
 article .meta {
   padding-top: 7px;
 }
-/* line 144, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 151, ../sass/includes/_blog.scss */
 article .meta .sprite-facebook-small, article .meta .sprite-twitter-small {
   width: 13px;
   height: 12px;
@@ -843,17 +856,17 @@ article .meta .sprite-facebook-small, article .meta .sprite-twitter-small {
   text-indent: -9999px;
   margin: 0px 2px;
 }
-/* line 151, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 158, ../sass/includes/_blog.scss */
 article .meta.single {
   width: 100%;
   display: block;
   float: left;
 }
-/* line 155, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 162, ../sass/includes/_blog.scss */
 article .meta.single .sprite-facebook-small, article .meta.single .sprite-twitter-small {
   float: left;
 }
-/* line 159, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 166, ../sass/includes/_blog.scss */
 article .meta .readMoreLink {
   color: #000;
   font-size: 11px;
@@ -865,12 +878,12 @@ article .meta .readMoreLink {
   margin-left: 10px;
   font-style: italic;
 }
-/* line 169, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 176, ../sass/includes/_blog.scss */
 article .meta .readMoreLink:hover {
   text-decoration: underline;
 }
 
-/* line 176, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 183, ../sass/includes/_blog.scss */
 #article-sharing {
   background: #EFEFEF;
   border: 1px solid #DEDEDE;
@@ -883,29 +896,29 @@ article .meta .readMoreLink:hover {
   height: 35px;
 }
 
-/* line 188, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 195, ../sass/includes/_blog.scss */
 #article-sharing ul li {
   display: inline;
 }
 
-/* line 190, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 197, ../sass/includes/_blog.scss */
 ul#social-share {
   float: left;
 }
 
-/* line 191, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 198, ../sass/includes/_blog.scss */
 ul#article-tools {
   float: right;
   width: 99px;
 }
 
 /* single pages */
-/* line 195, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 202, ../sass/includes/_blog.scss */
 .article-content .headerBar {
   overflow: hidden;
   margin-top: 15px;
 }
-/* line 199, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 206, ../sass/includes/_blog.scss */
 .article-content .socialBar {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -921,26 +934,26 @@ ul#article-tools {
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 209, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 216, ../sass/includes/_blog.scss */
 .article-content .socialBar .facebook, .article-content .socialBar .twitter {
   float: left;
   margin-right: 10px;
 }
-/* line 213, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 220, ../sass/includes/_blog.scss */
 .article-content .socialBar .facebook {
   width: 118px;
   height: 19px;
 }
-/* line 217, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 224, ../sass/includes/_blog.scss */
 .article-content .socialBar .twitter {
   width: 77px;
   height: 19px;
 }
-/* line 221, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 228, ../sass/includes/_blog.scss */
 .article-content .socialBar .gplus {
   height: 19px;
 }
-/* line 225, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 232, ../sass/includes/_blog.scss */
 .article-content h2 {
   font-family: "adelle", serif;
   margin: 0;
@@ -948,7 +961,7 @@ ul#article-tools {
   font-weight: 700;
   color: #1d2051;
 }
-/* line 232, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 239, ../sass/includes/_blog.scss */
 .article-content .backLink {
   font-family: "adelle", serif;
   color: #262D63;
@@ -959,22 +972,22 @@ ul#article-tools {
   position: relative;
   right: 18px;
 }
-/* line 241, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 248, ../sass/includes/_blog.scss */
 .article-content .backLink:hover {
   text-decoration: underline;
 }
-/* line 245, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 252, ../sass/includes/_blog.scss */
 .article-content .content {
   margin-top: 10px;
   padding-right: 30px;
 }
-/* line 254, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_blog.scss */
+/* line 261, ../sass/includes/_blog.scss */
 .article-content .content p {
   margin-bottom: 20px;
   font-size: 14px;
 }
 
-/* line 1, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_form.scss */
+/* line 1, ../sass/includes/_form.scss */
 input {
   font-family: "proxima-nova", sans-serif;
   font-size: 13px;
@@ -982,47 +995,47 @@ input {
   padding: 2px;
   width: 177px;
 }
-/* line 7, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_form.scss */
+/* line 7, ../sass/includes/_form.scss */
 input[type=checkbox] {
   width: 20px;
   float: left;
 }
-/* line 11, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_form.scss */
+/* line 11, ../sass/includes/_form.scss */
 input.three-col {
   width: 90px;
 }
-/* line 14, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_form.scss */
+/* line 14, ../sass/includes/_form.scss */
 input.two-col {
   width: 438px;
 }
-/* line 17, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_form.scss */
+/* line 17, ../sass/includes/_form.scss */
 input.even {
   width: 170px;
 }
 
-/* line 22, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_form.scss */
+/* line 22, ../sass/includes/_form.scss */
 .radio {
   float: left;
   width: 55px;
 }
-/* line 25, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_form.scss */
+/* line 25, ../sass/includes/_form.scss */
 .radio.big {
   width: 75px;
 }
-/* line 28, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_form.scss */
+/* line 28, ../sass/includes/_form.scss */
 .radio input[type=radio] {
   width: 15px;
   position: relative;
   top: 5px;
   float: left;
 }
-/* line 34, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_form.scss */
+/* line 34, ../sass/includes/_form.scss */
 .radio label, .radio .label {
   width: 20px;
   text-transform: none;
 }
 
-/* line 40, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_form.scss */
+/* line 40, ../sass/includes/_form.scss */
 label, .label {
   font-family: "adelle", serif;
   text-transform: uppercase;
@@ -1036,28 +1049,28 @@ label, .label {
   padding-right: 7px;
 }
 
-/* line 52, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_form.scss */
+/* line 52, ../sass/includes/_form.scss */
 .field {
   float: left;
   margin-bottom: 5px;
 }
-/* line 55, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_form.scss */
+/* line 55, ../sass/includes/_form.scss */
 .field.two-col {
   width: 100%;
 }
 
-/* line 60, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_form.scss */
+/* line 60, ../sass/includes/_form.scss */
 .label {
   width: 270px;
   text-align: left;
 }
-/* line 64, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_form.scss */
+/* line 64, ../sass/includes/_form.scss */
 .label span {
   font-family: "proxima-nova", sans-serif;
   font-weight: normal;
 }
 
-/* line 70, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_form.scss */
+/* line 70, ../sass/includes/_form.scss */
 button {
   cursor: pointer;
   font-family: "adelle", serif;
@@ -1073,45 +1086,45 @@ button {
   font-size: 13px;
 }
 
-/* line 85, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_form.scss */
+/* line 85, ../sass/includes/_form.scss */
 .required {
   color: #ff0000;
   font-size: 11px;
 }
 
-/* line 1, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_footer.scss */
+/* line 1, ../sass/includes/_footer.scss */
 footer {
   background: #98bee2;
   width: 100%;
   padding: 40px 0;
   color: #2d2929;
 }
-/* line 6, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_footer.scss */
+/* line 6, ../sass/includes/_footer.scss */
 footer .sprite-footer-logo {
   width: 115px;
   height: 32px;
   float: left;
   margin-right: 24px;
 }
-/* line 12, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_footer.scss */
+/* line 12, ../sass/includes/_footer.scss */
 footer .copyright {
   float: left;
   font-size: 11px;
   width: 440px;
 }
-/* line 17, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_footer.scss */
+/* line 17, ../sass/includes/_footer.scss */
 footer .links {
   font-size: 13px;
   float: right;
 }
-/* line 20, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_footer.scss */
+/* line 20, ../sass/includes/_footer.scss */
 footer .links li {
   display: inline;
   float: left;
   text-align: right;
   padding-left: 10px;
 }
-/* line 26, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_footer.scss */
+/* line 26, ../sass/includes/_footer.scss */
 footer .links a {
   text-transform: uppercase;
   font-weight: bold;
@@ -1120,19 +1133,19 @@ footer .links a {
 }
 
 /* hide our tabs on load */
-/* line 2, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_rules.scss */
+/* line 2, ../sass/includes/_rules.scss */
 .tab {
   display: none;
 }
 
-/* line 3, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_rules.scss */
+/* line 3, ../sass/includes/_rules.scss */
 .tabs {
   background: #d5e5f3;
   padding: 5px;
   text-align: center;
   margin-top: 20px;
 }
-/* line 8, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_rules.scss */
+/* line 8, ../sass/includes/_rules.scss */
 .tabs li {
   font-family: "adelle", serif;
   font-weight: 400;
@@ -1142,17 +1155,17 @@ footer .links a {
   padding: 0px 5px;
   font-weight: bold;
 }
-/* line 16, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_rules.scss */
+/* line 16, ../sass/includes/_rules.scss */
 .tabs li.sep {
   font-weight: normal;
   font-size: 11px;
   vertical-align: text-top;
 }
-/* line 21, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_rules.scss */
+/* line 21, ../sass/includes/_rules.scss */
 .tabs li.selected a {
   color: #fff;
 }
-/* line 25, /Users/dave/Sites/fifth-third/wp-content/themes/fifth-third/sass/includes/_rules.scss */
+/* line 25, ../sass/includes/_rules.scss */
 .tabs a {
   color: #262d63;
 }
