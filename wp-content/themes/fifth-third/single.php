@@ -63,10 +63,6 @@
                     </ul><!-- End #social-share-->
                     
                     <ul id="article-tools">
-                      <li><a href="#email-frame" id="email-link"><img src="http://staging1.net/dln-staging/wp-content/themes/dln/images/button-email.jpg" alt="Email" height="24" width="30"></a></li>
-                       
-                        <li><?php if(function_exists('wp_print')) { print_link(); } ?></li>
-                        
                         <li>
                           <!-- AddThis Button BEGIN -->
                             <div class="addthis_toolbox addthis_default_style addthis_default_style" style="float:right; margin:4px;">

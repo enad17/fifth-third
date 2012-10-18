@@ -808,7 +808,7 @@ article .image {
 /* line 121, ../sass/includes/_blog.scss */
 article .text {
   float: left;
-  width: 211px;
+  width: 200px;
   margin-left: 10px;
 }
 /* line 126, ../sass/includes/_blog.scss */
@@ -903,8 +903,9 @@ ul#article-tools {
 /* line 195, ../sass/includes/_blog.scss */
 .article-content .headerBar {
   overflow: hidden;
+  margin-top: 15px;
 }
-/* line 198, ../sass/includes/_blog.scss */
+/* line 199, ../sass/includes/_blog.scss */
 .article-content .socialBar {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -920,26 +921,26 @@ ul#article-tools {
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 208, ../sass/includes/_blog.scss */
+/* line 209, ../sass/includes/_blog.scss */
 .article-content .socialBar .facebook, .article-content .socialBar .twitter {
   float: left;
   margin-right: 10px;
 }
-/* line 212, ../sass/includes/_blog.scss */
+/* line 213, ../sass/includes/_blog.scss */
 .article-content .socialBar .facebook {
   width: 118px;
   height: 19px;
 }
-/* line 216, ../sass/includes/_blog.scss */
+/* line 217, ../sass/includes/_blog.scss */
 .article-content .socialBar .twitter {
   width: 77px;
   height: 19px;
 }
-/* line 220, ../sass/includes/_blog.scss */
+/* line 221, ../sass/includes/_blog.scss */
 .article-content .socialBar .gplus {
   height: 19px;
 }
-/* line 224, ../sass/includes/_blog.scss */
+/* line 225, ../sass/includes/_blog.scss */
 .article-content h2 {
   font-family: "adelle", serif;
   margin: 0;
@@ -947,7 +948,7 @@ ul#article-tools {
   font-weight: 700;
   color: #1d2051;
 }
-/* line 231, ../sass/includes/_blog.scss */
+/* line 232, ../sass/includes/_blog.scss */
 .article-content .backLink {
   font-family: "adelle", serif;
   color: #262D63;
@@ -956,18 +957,18 @@ ul#article-tools {
   font-size: 14px;
   top: -24px;
   position: relative;
-  right: -217px;
+  right: 18px;
 }
-/* line 240, ../sass/includes/_blog.scss */
+/* line 241, ../sass/includes/_blog.scss */
 .article-content .backLink:hover {
   text-decoration: underline;
 }
-/* line 244, ../sass/includes/_blog.scss */
+/* line 245, ../sass/includes/_blog.scss */
 .article-content .content {
   margin-top: 10px;
   padding-right: 30px;
 }
-/* line 253, ../sass/includes/_blog.scss */
+/* line 254, ../sass/includes/_blog.scss */
 .article-content .content p {
   margin-bottom: 20px;
   font-size: 14px;

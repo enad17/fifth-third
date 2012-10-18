@@ -120,7 +120,7 @@ article {
   }
   .text {
     float: left;
-    width: 211px;
+    width: 200px;
     margin-left: 10px;
   }
   h2 {
@@ -194,6 +194,7 @@ ul#article-tools{ float: right; width: 99px; }
 .article-content {
   .headerBar {
     overflow: hidden;
+    margin-top: 15px;
   }
   .socialBar {
     @include border-radius(5px);
@@ -236,7 +237,7 @@ ul#article-tools{ float: right; width: 99px; }
     font-size: 14px;
     top: -24px;
     position: relative;
-    right: -217px;
+    right: 18px;
     &:hover {
       text-decoration: underline;
     }
@@ -248,7 +249,7 @@ ul#article-tools{ float: right; width: 99px; }
 
     }
     li {
-      
+
     }
     p {
       margin-bottom: 20px;
