@@ -262,24 +262,25 @@ h2 {
   width: 50%;
   padding: 0px 50px 70px 50px;
   border-right: 11px solid #6693c1;
+  background: white;
   height: 594px;
 }
 
-/* line 58, ../sass/includes/_base.scss */
+/* line 59, ../sass/includes/_base.scss */
 .right {
   float: right;
   width: 50%;
   background: white;
 }
 
-/* line 64, ../sass/includes/_base.scss */
+/* line 65, ../sass/includes/_base.scss */
 .inner {
   width: 1000px;
   margin: 0px auto;
   overflow: hidden;
 }
 
-/* line 70, ../sass/includes/_base.scss */
+/* line 71, ../sass/includes/_base.scss */
 .main {
   padding: 5px 0;
   background: #fff;
@@ -288,17 +289,17 @@ h2 {
 }
 
 /* modals */
-/* line 78, ../sass/includes/_base.scss */
+/* line 79, ../sass/includes/_base.scss */
 .modal {
   display: none;
 }
 
-/* line 81, ../sass/includes/_base.scss */
+/* line 82, ../sass/includes/_base.scss */
 #simplemodal-overlay {
   background-color: #242424;
 }
 
-/* line 84, ../sass/includes/_base.scss */
+/* line 85, ../sass/includes/_base.scss */
 #simplemodal-container {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -309,7 +310,7 @@ h2 {
   border: 8px solid #97bee1;
   padding: 20px;
 }
-/* line 89, ../sass/includes/_base.scss */
+/* line 90, ../sass/includes/_base.scss */
 #simplemodal-container h2 {
   text-transform: uppercase;
   font-size: 13px;
@@ -318,64 +319,64 @@ h2 {
   color: #1d2051;
   margin-bottom: 0;
 }
-/* line 97, ../sass/includes/_base.scss */
+/* line 98, ../sass/includes/_base.scss */
 #simplemodal-container h3 {
   font-family: "proxima-nova", sans-serif;
   text-transform: uppercase;
   font-size: 13px;
 }
-/* line 102, ../sass/includes/_base.scss */
+/* line 103, ../sass/includes/_base.scss */
 #simplemodal-container p {
   font-size: 12px;
   margin-bottom: 10px;
 }
-/* line 105, ../sass/includes/_base.scss */
+/* line 106, ../sass/includes/_base.scss */
 #simplemodal-container p.largest {
   font-size: 16px;
 }
-/* line 108, ../sass/includes/_base.scss */
+/* line 109, ../sass/includes/_base.scss */
 #simplemodal-container p.larger {
   font-size: 14px;
   font-weight: bold;
   color: #1d2051;
 }
-/* line 113, ../sass/includes/_base.scss */
+/* line 114, ../sass/includes/_base.scss */
 #simplemodal-container p.sub {
   padding-top: 10px;
   font-size: 10px;
 }
-/* line 117, ../sass/includes/_base.scss */
+/* line 118, ../sass/includes/_base.scss */
 #simplemodal-container p.indent {
   padding-left: 20px;
 }
-/* line 121, ../sass/includes/_base.scss */
+/* line 122, ../sass/includes/_base.scss */
 #simplemodal-container .rules-container {
   height: 265px;
   overflow-y: auto;
   margin-top: 10px;
 }
-/* line 125, ../sass/includes/_base.scss */
+/* line 126, ../sass/includes/_base.scss */
 #simplemodal-container .rules-container p {
   font-weight: normal;
 }
-/* line 129, ../sass/includes/_base.scss */
+/* line 130, ../sass/includes/_base.scss */
 #simplemodal-container .centered {
   text-align: center;
 }
-/* line 132, ../sass/includes/_base.scss */
+/* line 133, ../sass/includes/_base.scss */
 #simplemodal-container .thanks {
   color: #0db301;
   text-transform: uppercase;
   font-size: 50px;
   text-align: center;
 }
-/* line 138, ../sass/includes/_base.scss */
+/* line 139, ../sass/includes/_base.scss */
 #simplemodal-container .officialRules {
   color: #ff0000;
   font-size: 11px;
   margin: 15px 0;
 }
-/* line 143, ../sass/includes/_base.scss */
+/* line 144, ../sass/includes/_base.scss */
 #simplemodal-container .modalClose {
   font-family: "adelle", serif;
   color: #272d64;
@@ -385,12 +386,12 @@ h2 {
   font-weight: bold;
   font-style: italic;
 }
-/* line 152, ../sass/includes/_base.scss */
+/* line 153, ../sass/includes/_base.scss */
 #simplemodal-container .social {
   text-align: center;
   margin-top: 20px;
 }
-/* line 155, ../sass/includes/_base.scss */
+/* line 156, ../sass/includes/_base.scss */
 #simplemodal-container .social .sprite-twitter-icon, #simplemodal-container .social .sprite-facebook-icon {
   margin: 0px 5px;
   display: inline-block;
@@ -637,24 +638,25 @@ h2 {
   height: 395px;
   padding: 40px 0px 70px 0px;
   margin-bottom: 110px;
+  background: none;
 }
-/* line 15, ../sass/includes/_blog.scss */
+/* line 16, ../sass/includes/_blog.scss */
 .blog .right {
   width: 350px;
   position: relative;
 }
-/* line 19, ../sass/includes/_blog.scss */
+/* line 20, ../sass/includes/_blog.scss */
 .blog .right .block {
   width: 331px;
 }
-/* line 26, ../sass/includes/_blog.scss */
+/* line 27, ../sass/includes/_blog.scss */
 .blog.single .left {
   width: 1024px;
   height: auto;
   padding-top: 0;
   border: none;
 }
-/* line 32, ../sass/includes/_blog.scss */
+/* line 33, ../sass/includes/_blog.scss */
 .blog.single .right {
   margin-left: 20px;
   margin-bottom: 20px;
@@ -662,36 +664,36 @@ h2 {
   height: 395px;
   z-index: 200;
 }
-/* line 39, ../sass/includes/_blog.scss */
+/* line 40, ../sass/includes/_blog.scss */
 .blog.single .text {
   width: auto;
 }
-/* line 44, ../sass/includes/_blog.scss */
+/* line 45, ../sass/includes/_blog.scss */
 .blog .blog-header {
   height: 201px;
   padding-left: 53px;
 }
-/* line 47, ../sass/includes/_blog.scss */
+/* line 48, ../sass/includes/_blog.scss */
 .blog .blog-header .sprite-logo-blog {
   width: 315px;
   height: 147px;
   margin: 20px 0 0 0;
   float: left;
 }
-/* line 53, ../sass/includes/_blog.scss */
+/* line 54, ../sass/includes/_blog.scss */
 .blog .blog-header .right-side {
   float: left;
   width: 473px;
   margin-top: 44px;
   margin-left: 100px;
 }
-/* line 58, ../sass/includes/_blog.scss */
+/* line 59, ../sass/includes/_blog.scss */
 .blog .blog-header .right-side .item {
   margin-bottom: 15px;
 }
 
 /* reflection thing */
-/* line 66, ../sass/includes/_blog.scss */
+/* line 67, ../sass/includes/_blog.scss */
 .sprite-reflection {
   width: 1500px;
   height: 395px;
@@ -700,12 +702,12 @@ h2 {
 }
 
 /* other stories */
-/* line 74, ../sass/includes/_blog.scss */
+/* line 75, ../sass/includes/_blog.scss */
 .moreTips {
   clear: both;
 }
 
-/* line 77, ../sass/includes/_blog.scss */
+/* line 78, ../sass/includes/_blog.scss */
 .otherStory {
   font-family: "adelle", serif;
   color: #1d2051;
@@ -714,20 +716,20 @@ h2 {
   width: 194px;
   text-align: center;
 }
-/* line 84, ../sass/includes/_blog.scss */
+/* line 85, ../sass/includes/_blog.scss */
 .otherStory:hover {
   text-decoration: underline;
 }
-/* line 90, ../sass/includes/_blog.scss */
+/* line 91, ../sass/includes/_blog.scss */
 .otherStory .innerPadding {
   padding: 15px;
 }
-/* line 93, ../sass/includes/_blog.scss */
+/* line 94, ../sass/includes/_blog.scss */
 .otherStory h3 {
   text-align: center;
 }
 
-/* line 98, ../sass/includes/_blog.scss */
+/* line 99, ../sass/includes/_blog.scss */
 article {
   margin-bottom: 30px;
   margin-right: 10px;
@@ -736,17 +738,17 @@ article {
   float: left;
   width: 305px;
 }
-/* line 105, ../sass/includes/_blog.scss */
+/* line 106, ../sass/includes/_blog.scss */
 article .image {
   float: left;
 }
-/* line 108, ../sass/includes/_blog.scss */
+/* line 109, ../sass/includes/_blog.scss */
 article .text {
   float: left;
   width: 211px;
   margin-left: 10px;
 }
-/* line 113, ../sass/includes/_blog.scss */
+/* line 114, ../sass/includes/_blog.scss */
 article h2 {
   font-family: "adelle", serif;
   margin: 0;
@@ -754,19 +756,19 @@ article h2 {
   font-weight: 600;
   line-height: 20px;
 }
-/* line 119, ../sass/includes/_blog.scss */
+/* line 120, ../sass/includes/_blog.scss */
 article h2 a {
   color: #262d63;
 }
-/* line 121, ../sass/includes/_blog.scss */
+/* line 122, ../sass/includes/_blog.scss */
 article h2 a:hover {
   text-decoration: underline;
 }
-/* line 126, ../sass/includes/_blog.scss */
+/* line 127, ../sass/includes/_blog.scss */
 article .excerpt {
   font-size: 12px;
 }
-/* line 130, ../sass/includes/_blog.scss */
+/* line 131, ../sass/includes/_blog.scss */
 article .meta .sprite-facebook-small, article .meta .sprite-twitter-small {
   width: 13px;
   height: 12px;
@@ -774,17 +776,17 @@ article .meta .sprite-facebook-small, article .meta .sprite-twitter-small {
   text-indent: -9999px;
   margin: 0px 2px;
 }
-/* line 137, ../sass/includes/_blog.scss */
+/* line 138, ../sass/includes/_blog.scss */
 article .meta.single {
   width: 100%;
   display: block;
   float: left;
 }
-/* line 141, ../sass/includes/_blog.scss */
+/* line 142, ../sass/includes/_blog.scss */
 article .meta.single .sprite-facebook-small, article .meta.single .sprite-twitter-small {
   float: left;
 }
-/* line 145, ../sass/includes/_blog.scss */
+/* line 146, ../sass/includes/_blog.scss */
 article .meta .readMoreLink {
   color: #000;
   font-size: 11px;
@@ -796,12 +798,12 @@ article .meta .readMoreLink {
   margin-left: 10px;
   font-style: italic;
 }
-/* line 155, ../sass/includes/_blog.scss */
+/* line 156, ../sass/includes/_blog.scss */
 article .meta .readMoreLink:hover {
   text-decoration: underline;
 }
 
-/* line 162, ../sass/includes/_blog.scss */
+/* line 163, ../sass/includes/_blog.scss */
 #article-sharing {
   background: #EFEFEF;
   border: 1px solid #DEDEDE;
@@ -814,28 +816,28 @@ article .meta .readMoreLink:hover {
   height: 35px;
 }
 
-/* line 174, ../sass/includes/_blog.scss */
+/* line 175, ../sass/includes/_blog.scss */
 #article-sharing ul li {
   display: inline;
 }
 
-/* line 176, ../sass/includes/_blog.scss */
+/* line 177, ../sass/includes/_blog.scss */
 ul#social-share {
   float: left;
 }
 
-/* line 177, ../sass/includes/_blog.scss */
+/* line 178, ../sass/includes/_blog.scss */
 ul#article-tools {
   float: right;
   width: 99px;
 }
 
 /* single pages */
-/* line 181, ../sass/includes/_blog.scss */
+/* line 182, ../sass/includes/_blog.scss */
 .article-content .headerBar {
   overflow: hidden;
 }
-/* line 184, ../sass/includes/_blog.scss */
+/* line 185, ../sass/includes/_blog.scss */
 .article-content .socialBar {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -851,26 +853,26 @@ ul#article-tools {
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 194, ../sass/includes/_blog.scss */
+/* line 195, ../sass/includes/_blog.scss */
 .article-content .socialBar .facebook, .article-content .socialBar .twitter {
   float: left;
   margin-right: 10px;
 }
-/* line 198, ../sass/includes/_blog.scss */
+/* line 199, ../sass/includes/_blog.scss */
 .article-content .socialBar .facebook {
   width: 118px;
   height: 19px;
 }
-/* line 202, ../sass/includes/_blog.scss */
+/* line 203, ../sass/includes/_blog.scss */
 .article-content .socialBar .twitter {
   width: 77px;
   height: 19px;
 }
-/* line 206, ../sass/includes/_blog.scss */
+/* line 207, ../sass/includes/_blog.scss */
 .article-content .socialBar .gplus {
   height: 19px;
 }
-/* line 210, ../sass/includes/_blog.scss */
+/* line 211, ../sass/includes/_blog.scss */
 .article-content h2 {
   font-family: "adelle", serif;
   margin: 0;
@@ -878,7 +880,7 @@ ul#article-tools {
   font-weight: 700;
   color: #1d2051;
 }
-/* line 217, ../sass/includes/_blog.scss */
+/* line 218, ../sass/includes/_blog.scss */
 .article-content .backLink {
   font-family: "adelle", serif;
   color: #262D63;
@@ -889,15 +891,15 @@ ul#article-tools {
   position: relative;
   right: -217px;
 }
-/* line 226, ../sass/includes/_blog.scss */
+/* line 227, ../sass/includes/_blog.scss */
 .article-content .backLink:hover {
   text-decoration: underline;
 }
-/* line 230, ../sass/includes/_blog.scss */
+/* line 231, ../sass/includes/_blog.scss */
 .article-content .content {
   margin-top: 10px;
 }
-/* line 232, ../sass/includes/_blog.scss */
+/* line 233, ../sass/includes/_blog.scss */
 .article-content .content p {
   margin-bottom: 20px;
   font-size: 14px;

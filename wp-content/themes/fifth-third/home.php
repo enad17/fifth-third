@@ -111,8 +111,8 @@
               <div class="excerpt">
                 <?php echo $customField['home_teaser'][0]; ?>
               </div>
-              <a class="sprite-view-all-tips-button" href="<?php home_url(); ?>/blog" style="margin-top: 20px;">View All Tips</a>
-              <a class="callToAction" href="<?php the_permalink(); ?>">Read More</a>              
+              <a class="sprite-view-all-tips-button" href="<?php the_permalink(); ?>" style="margin-top: 20px;">View All Tips</a>
+              <a class="callToAction" href="<?php echo site_url(); ?>/blog">Read More</a>              
             </div>
             <?php endwhile; // End the loop. Whew. ?>            
           </div>
