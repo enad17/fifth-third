@@ -36,7 +36,10 @@ Template Name: Blog
               'paged' => $paged
             )
           );
-          while ( have_posts() ) : the_post(); ?>
+          while ( have_posts() ) : the_post(); 
+          $customField = get_post_custom(get_the_ID());
+
+          ?>
               <article>
                 <div class="image">
                   <?php the_post_thumbnail(array(75, 75)); ?>
@@ -44,7 +47,7 @@ Template Name: Blog
                 <div class="text">
                   <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                   <div class="excerpt">
-                    <?php echo shorten_excerpt(get_the_excerpt(get_the_ID()), 80); ?>
+                    <?php echo $customField['home_teaser'][0]; ?>
                   </div>
                   <div class="meta">
                     <a class="readMoreLink" href="<?php the_permalink() ?>">Read More</a>
