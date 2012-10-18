@@ -15,7 +15,7 @@
 				<li>|</li>
 				<li><a class="modalLink" data-name="officialRules" href="#">Official Rules</a></li>
 				<li>|</li>
-				<li><a class="modalLink" data-name="privacyPolicy" href="#">Privacy Policy</a></li>
+				<li><a target="_blank" href="https://www.53.com/site/global/privacy-security/consumer/pp-online-privacy-policy.html">Privacy Policy</a></li>
 			</ul>
 		</div>
 	</div>
