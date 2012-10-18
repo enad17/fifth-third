@@ -22,4 +22,6 @@
   </div>
 </div>
 
-<div class="sprite-reflection"></div>
+<?php if(!is_single()) { ?>
+  <div class="sprite-reflection"></div>
+<?php } ?>
