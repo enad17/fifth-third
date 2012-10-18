@@ -63,9 +63,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 242, sprite/*.png */
-.sprite-sprite, .sprite-block-details-background, .sprite-block-pattern, .sprite-facebook-enter-now-button, .sprite-facebook-icon, .sprite-facebook-small, .sprite-fb-photo, .sprite-follow-us-button, .sprite-footer-logo, .sprite-github_logo, .sprite-green-border, .sprite-home-icon-1, .sprite-home-icon-2, .sprite-like-us-button, .sprite-logo-blog, .sprite-logo, .sprite-octocat, .sprite-tweet-background, .sprite-tweet-now-button, .sprite-tweet-quote, .sprite-twitter-icon, .sprite-twitter-small, .sprite-view-all-tips-button {
-  background: url('../images/sprite-s279aa8404c.png') no-repeat;
+/* line 250, sprite/*.png */
+.sprite-sprite, .sprite-block-details-background, .sprite-block-pattern, .sprite-facebook-enter-now-button, .sprite-facebook-icon, .sprite-facebook-small, .sprite-fb-photo, .sprite-follow-us-button, .sprite-footer-logo, .sprite-github_logo, .sprite-green-border, .sprite-home-icon-1, .sprite-home-icon-2, .sprite-like-us-button, .sprite-logo-blog, .sprite-logo, .sprite-octocat, .sprite-reflection, .sprite-tweet-background, .sprite-tweet-now-button, .sprite-tweet-quote, .sprite-twitter-icon, .sprite-twitter-small, .sprite-view-all-tips-button {
+  background: url('../images/sprite-sf74122353e.png') no-repeat;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -80,17 +80,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-facebook-enter-now-button {
-  background-position: 0 -1568px;
+  background-position: 0 -1963px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-facebook-icon {
-  background-position: 0 -1264px;
+  background-position: 0 -1659px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-facebook-small {
-  background-position: 0 -1881px;
+  background-position: 0 -2276px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -100,45 +100,45 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-follow-us-button {
-  background-position: 0 -1598px;
+  background-position: 0 -1993px;
 }
 /* line 43, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-follow-us-button:hover, .sprite-follow-us-button.follow-us-button_hover, .sprite-follow-us-button.follow-us-button-hover {
-  background-position: 0 -1780px;
+  background-position: 0 -2175px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-footer-logo {
-  background-position: 0 -1628px;
+  background-position: 0 -2023px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-github_logo {
-  background-position: 0 -1334px;
+  background-position: 0 -1729px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-green-border {
-  background-position: 0 -1948px;
+  background-position: 0 -2343px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-home-icon-1 {
-  background-position: 0 -1905px;
+  background-position: 0 -2300px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-home-icon-2 {
-  background-position: 0 -1810px;
+  background-position: 0 -2205px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-like-us-button {
-  background-position: 0 -1538px;
+  background-position: 0 -1933px;
 }
 /* line 43, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-like-us-button:hover, .sprite-like-us-button.like-us-button_hover, .sprite-like-us-button.like-us-button-hover {
-  background-position: 0 -1690px;
+  background-position: 0 -2085px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -153,6 +153,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-octocat {
+  background-position: 0 -1415px;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-reflection {
   background-position: 0 -1020px;
 }
 
@@ -163,35 +168,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-tweet-now-button {
-  background-position: 0 -1508px;
+  background-position: 0 -1903px;
 }
 /* line 43, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-tweet-now-button:hover, .sprite-tweet-now-button.tweet-now-button_hover, .sprite-tweet-now-button.tweet-now-button-hover {
-  background-position: 0 -1720px;
+  background-position: 0 -2115px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-tweet-quote {
-  background-position: 0 -1853px;
+  background-position: 0 -2248px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-twitter-icon {
-  background-position: 0 -1194px;
+  background-position: 0 -1589px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-twitter-small {
-  background-position: 0 -1893px;
+  background-position: 0 -2288px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-view-all-tips-button {
-  background-position: 0 -1660px;
+  background-position: 0 -2055px;
 }
 /* line 43, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-view-all-tips-button:hover, .sprite-view-all-tips-button.view-all-tips-button_hover, .sprite-view-all-tips-button.view-all-tips-button-hover {
-  background-position: 0 -1750px;
+  background-position: 0 -2145px;
 }
 
 /* line 4, ../sass/includes/_base.scss */
@@ -515,15 +520,15 @@ h2 {
 }
 /* line 113, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .sprite-like-us-button:hover {
-  background-position: 0 -1690px;
+  background-position: 0 -2085px;
 }
 /* line 116, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .follow-us-button:hover {
-  background-position: 0 -1780px;
+  background-position: 0 -2175px;
 }
 /* line 119, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .tweet-now-button:hover {
-  background-position: 0 -1720px;
+  background-position: 0 -2115px;
 }
 /* line 126, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .callToAction {
@@ -622,25 +627,27 @@ h2 {
 /* line 9, ../sass/includes/_blog.scss */
 .blog .left {
   width: 674px;
-  height: 503px;
+  height: 395px;
   padding: 40px 0px 70px 0px;
+  margin-bottom: 110px;
 }
-/* line 14, ../sass/includes/_blog.scss */
+/* line 15, ../sass/includes/_blog.scss */
 .blog .right {
   width: 350px;
+  position: relative;
 }
-/* line 17, ../sass/includes/_blog.scss */
+/* line 19, ../sass/includes/_blog.scss */
 .blog .right .block {
   width: 331px;
 }
-/* line 24, ../sass/includes/_blog.scss */
+/* line 26, ../sass/includes/_blog.scss */
 .blog.single .left {
   width: 1024px;
   height: auto;
   padding-top: 0;
   border: none;
 }
-/* line 30, ../sass/includes/_blog.scss */
+/* line 32, ../sass/includes/_blog.scss */
 .blog.single .right {
   margin-left: 20px;
   margin-bottom: 20px;
@@ -648,41 +655,49 @@ h2 {
   height: 395px;
   z-index: 200;
 }
-/* line 37, ../sass/includes/_blog.scss */
+/* line 39, ../sass/includes/_blog.scss */
 .blog.single .text {
   width: auto;
 }
-/* line 42, ../sass/includes/_blog.scss */
+/* line 44, ../sass/includes/_blog.scss */
 .blog .blog-header {
   height: 201px;
   padding-left: 53px;
 }
-/* line 45, ../sass/includes/_blog.scss */
+/* line 47, ../sass/includes/_blog.scss */
 .blog .blog-header .sprite-logo-blog {
   width: 315px;
   height: 147px;
   margin: 20px 0 0 0;
   float: left;
 }
-/* line 51, ../sass/includes/_blog.scss */
+/* line 53, ../sass/includes/_blog.scss */
 .blog .blog-header .right-side {
   float: left;
   width: 473px;
   margin-top: 44px;
   margin-left: 100px;
 }
-/* line 56, ../sass/includes/_blog.scss */
+/* line 58, ../sass/includes/_blog.scss */
 .blog .blog-header .right-side .item {
   margin-bottom: 15px;
 }
 
+/* reflection thing */
+/* line 66, ../sass/includes/_blog.scss */
+.sprite-reflection {
+  width: 1500px;
+  height: 395px;
+  position: absolute;
+}
+
 /* other stories */
-/* line 64, ../sass/includes/_blog.scss */
+/* line 73, ../sass/includes/_blog.scss */
 .moreTips {
   clear: both;
 }
 
-/* line 67, ../sass/includes/_blog.scss */
+/* line 76, ../sass/includes/_blog.scss */
 .otherStory {
   font-family: "adelle", serif;
   color: #1d2051;
@@ -691,20 +706,20 @@ h2 {
   width: 194px;
   text-align: center;
 }
-/* line 74, ../sass/includes/_blog.scss */
+/* line 83, ../sass/includes/_blog.scss */
 .otherStory:hover {
   text-decoration: underline;
 }
-/* line 80, ../sass/includes/_blog.scss */
+/* line 89, ../sass/includes/_blog.scss */
 .otherStory .innerPadding {
   padding: 15px;
 }
-/* line 83, ../sass/includes/_blog.scss */
+/* line 92, ../sass/includes/_blog.scss */
 .otherStory h3 {
   text-align: center;
 }
 
-/* line 88, ../sass/includes/_blog.scss */
+/* line 97, ../sass/includes/_blog.scss */
 article {
   margin-bottom: 30px;
   margin-right: 10px;
@@ -713,17 +728,17 @@ article {
   float: left;
   width: 305px;
 }
-/* line 95, ../sass/includes/_blog.scss */
+/* line 104, ../sass/includes/_blog.scss */
 article .image {
   float: left;
 }
-/* line 98, ../sass/includes/_blog.scss */
+/* line 107, ../sass/includes/_blog.scss */
 article .text {
   float: left;
   width: 211px;
   margin-left: 10px;
 }
-/* line 103, ../sass/includes/_blog.scss */
+/* line 112, ../sass/includes/_blog.scss */
 article h2 {
   font-family: "adelle", serif;
   margin: 0;
@@ -731,19 +746,19 @@ article h2 {
   font-weight: 600;
   line-height: 20px;
 }
-/* line 109, ../sass/includes/_blog.scss */
+/* line 118, ../sass/includes/_blog.scss */
 article h2 a {
   color: #262d63;
 }
-/* line 111, ../sass/includes/_blog.scss */
+/* line 120, ../sass/includes/_blog.scss */
 article h2 a:hover {
   text-decoration: underline;
 }
-/* line 116, ../sass/includes/_blog.scss */
+/* line 125, ../sass/includes/_blog.scss */
 article .excerpt {
   font-size: 12px;
 }
-/* line 120, ../sass/includes/_blog.scss */
+/* line 129, ../sass/includes/_blog.scss */
 article .meta .sprite-facebook-small, article .meta .sprite-twitter-small {
   width: 13px;
   height: 12px;
@@ -751,17 +766,17 @@ article .meta .sprite-facebook-small, article .meta .sprite-twitter-small {
   text-indent: -9999px;
   margin: 0px 2px;
 }
-/* line 127, ../sass/includes/_blog.scss */
+/* line 136, ../sass/includes/_blog.scss */
 article .meta.single {
   width: 100%;
   display: block;
   float: left;
 }
-/* line 131, ../sass/includes/_blog.scss */
+/* line 140, ../sass/includes/_blog.scss */
 article .meta.single .sprite-facebook-small, article .meta.single .sprite-twitter-small {
   float: left;
 }
-/* line 135, ../sass/includes/_blog.scss */
+/* line 144, ../sass/includes/_blog.scss */
 article .meta .readMoreLink {
   color: #000;
   font-size: 11px;
@@ -773,12 +788,12 @@ article .meta .readMoreLink {
   margin-left: 10px;
   font-style: italic;
 }
-/* line 145, ../sass/includes/_blog.scss */
+/* line 154, ../sass/includes/_blog.scss */
 article .meta .readMoreLink:hover {
   text-decoration: underline;
 }
 
-/* line 152, ../sass/includes/_blog.scss */
+/* line 161, ../sass/includes/_blog.scss */
 #article-sharing {
   background: #EFEFEF;
   border: 1px solid #DEDEDE;
@@ -792,28 +807,28 @@ article .meta .readMoreLink:hover {
   height: 35px;
 }
 
-/* line 165, ../sass/includes/_blog.scss */
+/* line 174, ../sass/includes/_blog.scss */
 #article-sharing ul li {
   display: inline;
 }
 
-/* line 167, ../sass/includes/_blog.scss */
+/* line 176, ../sass/includes/_blog.scss */
 ul#social-share {
   float: left;
 }
 
-/* line 168, ../sass/includes/_blog.scss */
+/* line 177, ../sass/includes/_blog.scss */
 ul#article-tools {
   float: right;
   width: 99px;
 }
 
 /* single pages */
-/* line 172, ../sass/includes/_blog.scss */
+/* line 181, ../sass/includes/_blog.scss */
 .article-content .headerBar {
   overflow: hidden;
 }
-/* line 175, ../sass/includes/_blog.scss */
+/* line 184, ../sass/includes/_blog.scss */
 .article-content .socialBar {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -829,26 +844,26 @@ ul#article-tools {
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 185, ../sass/includes/_blog.scss */
+/* line 194, ../sass/includes/_blog.scss */
 .article-content .socialBar .facebook, .article-content .socialBar .twitter {
   float: left;
   margin-right: 10px;
 }
-/* line 189, ../sass/includes/_blog.scss */
+/* line 198, ../sass/includes/_blog.scss */
 .article-content .socialBar .facebook {
   width: 118px;
   height: 19px;
 }
-/* line 193, ../sass/includes/_blog.scss */
+/* line 202, ../sass/includes/_blog.scss */
 .article-content .socialBar .twitter {
   width: 77px;
   height: 19px;
 }
-/* line 197, ../sass/includes/_blog.scss */
+/* line 206, ../sass/includes/_blog.scss */
 .article-content .socialBar .gplus {
   height: 19px;
 }
-/* line 201, ../sass/includes/_blog.scss */
+/* line 210, ../sass/includes/_blog.scss */
 .article-content h2 {
   font-family: "adelle", serif;
   margin: 0;
@@ -856,7 +871,7 @@ ul#article-tools {
   font-weight: 700;
   color: #1d2051;
 }
-/* line 208, ../sass/includes/_blog.scss */
+/* line 217, ../sass/includes/_blog.scss */
 .article-content .backLink {
   font-family: "adelle", serif;
   color: #262D63;
@@ -866,15 +881,15 @@ ul#article-tools {
   top: 15px;
   position: relative;
 }
-/* line 216, ../sass/includes/_blog.scss */
+/* line 225, ../sass/includes/_blog.scss */
 .article-content .backLink:hover {
   text-decoration: underline;
 }
-/* line 220, ../sass/includes/_blog.scss */
+/* line 229, ../sass/includes/_blog.scss */
 .article-content .content {
   margin-top: 10px;
 }
-/* line 222, ../sass/includes/_blog.scss */
+/* line 231, ../sass/includes/_blog.scss */
 .article-content .content p {
   margin-bottom: 20px;
   font-size: 14px;

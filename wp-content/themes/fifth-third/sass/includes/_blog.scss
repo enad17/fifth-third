@@ -8,11 +8,13 @@
   }
   .left {
     width: 674px;
-    height: 503px;
+    height: 395px;
     padding: 40px 0px 70px 0px;
+    margin-bottom: 110px;
   }
   .right {
     width: 350px;
+    position: relative;
 
     .block {
       width: 331px;
@@ -58,6 +60,13 @@
       }
     }
   }
+}
+
+/* reflection thing */
+.sprite-reflection {
+  width: 1500px;
+  height: 395px;
+  position: absolute;
 }
 
 /* other stories */

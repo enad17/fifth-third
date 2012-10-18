@@ -21,3 +21,5 @@
     <a href="https://www.twitter.com/FifthThird" target="_blank" class="sprite-follow-us-button" href="#">Like Us Now</a>
   </div>
 </div>
+
+<div class="sprite-reflection"></div>
