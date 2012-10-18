@@ -149,6 +149,24 @@ article {
   }  
 }
 
+#article-sharing {
+  background: #EFEFEF;
+  border: 1px solid #DEDEDE;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 625px;
+  padding: 5px 5px 0px;
+  top: 25px;
+  left: 7px;
+  margin-bottom: 25px;
+  height: 35px;
+}
+
+#article-sharing ul li{display: inline;}
+
+ul#social-share{ float: left; }
+ul#article-tools{ float: right; width: 99px; }
+
 /* single pages */
 .article-content {
   .headerBar {

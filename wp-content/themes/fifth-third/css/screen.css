@@ -778,12 +778,42 @@ article .meta .readMoreLink:hover {
   text-decoration: underline;
 }
 
+/* line 152, ../sass/includes/_blog.scss */
+#article-sharing {
+  background: #EFEFEF;
+  border: 1px solid #DEDEDE;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 625px;
+  padding: 5px 5px 0px;
+  top: 25px;
+  left: 7px;
+  margin-bottom: 25px;
+  height: 35px;
+}
+
+/* line 165, ../sass/includes/_blog.scss */
+#article-sharing ul li {
+  display: inline;
+}
+
+/* line 167, ../sass/includes/_blog.scss */
+ul#social-share {
+  float: left;
+}
+
+/* line 168, ../sass/includes/_blog.scss */
+ul#article-tools {
+  float: right;
+  width: 99px;
+}
+
 /* single pages */
-/* line 154, ../sass/includes/_blog.scss */
+/* line 172, ../sass/includes/_blog.scss */
 .article-content .headerBar {
   overflow: hidden;
 }
-/* line 157, ../sass/includes/_blog.scss */
+/* line 175, ../sass/includes/_blog.scss */
 .article-content .socialBar {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -799,26 +829,26 @@ article .meta .readMoreLink:hover {
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 167, ../sass/includes/_blog.scss */
+/* line 185, ../sass/includes/_blog.scss */
 .article-content .socialBar .facebook, .article-content .socialBar .twitter {
   float: left;
   margin-right: 10px;
 }
-/* line 171, ../sass/includes/_blog.scss */
+/* line 189, ../sass/includes/_blog.scss */
 .article-content .socialBar .facebook {
   width: 118px;
   height: 19px;
 }
-/* line 175, ../sass/includes/_blog.scss */
+/* line 193, ../sass/includes/_blog.scss */
 .article-content .socialBar .twitter {
   width: 77px;
   height: 19px;
 }
-/* line 179, ../sass/includes/_blog.scss */
+/* line 197, ../sass/includes/_blog.scss */
 .article-content .socialBar .gplus {
   height: 19px;
 }
-/* line 183, ../sass/includes/_blog.scss */
+/* line 201, ../sass/includes/_blog.scss */
 .article-content h2 {
   font-family: "adelle", serif;
   margin: 0;
@@ -826,7 +856,7 @@ article .meta .readMoreLink:hover {
   font-weight: 700;
   color: #1d2051;
 }
-/* line 190, ../sass/includes/_blog.scss */
+/* line 208, ../sass/includes/_blog.scss */
 .article-content .backLink {
   font-family: "adelle", serif;
   color: #262D63;
@@ -836,15 +866,15 @@ article .meta .readMoreLink:hover {
   top: 15px;
   position: relative;
 }
-/* line 198, ../sass/includes/_blog.scss */
+/* line 216, ../sass/includes/_blog.scss */
 .article-content .backLink:hover {
   text-decoration: underline;
 }
-/* line 202, ../sass/includes/_blog.scss */
+/* line 220, ../sass/includes/_blog.scss */
 .article-content .content {
   margin-top: 10px;
 }
-/* line 204, ../sass/includes/_blog.scss */
+/* line 222, ../sass/includes/_blog.scss */
 .article-content .content p {
   margin-bottom: 20px;
   font-size: 14px;
