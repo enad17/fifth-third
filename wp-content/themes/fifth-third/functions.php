@@ -50,8 +50,16 @@ function save_details(){
   } else {
     update_post_meta($post->ID, "featured", false);
   }
- 
 }
 
+if (class_exists('MultiPostThumbnails')) {
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Secondary Image (131x78)',
+            'id' => 'secondary-image',
+            'post_type' => 'post'
+        )
+    );
+}
 
 ?>

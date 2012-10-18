@@ -131,7 +131,7 @@
                 <a href="<?php the_permalink(); ?>" class="otherStory">
                   <div class="innerPadding">
                     <div class="image">
-                      <?php the_post_thumbnail(); ?>
+                      <?php if (class_exists('MultiPostThumbnails')) : MultiPostThumbnails::the_post_thumbnail('post', 'secondary-image'); endif; ?>
                     </div>
                     <h3><?php the_title(); ?></h3>
                   </div>

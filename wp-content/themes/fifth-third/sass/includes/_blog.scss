@@ -16,6 +16,7 @@
   .right {
     width: 350px;
     position: relative;
+    background: none;
 
     .block {
       width: 331px;
@@ -230,6 +231,7 @@ ul#article-tools{ float: right; width: 99px; }
   }  
   .content {
     margin-top: 10px; 
+    padding-right: 30px;
     p {
       margin-bottom: 20px;
       font-size: 14px;
