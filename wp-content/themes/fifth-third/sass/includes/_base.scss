@@ -5,6 +5,20 @@ $adelle: "adelle", serif;
   @include box-sizing(border-box);
 }
 
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
 html, body {
   width: 100%;
   height: 100%
@@ -65,7 +79,6 @@ h2 {
 .inner {
   width: 1000px;
   margin: 0px auto;
-  overflow: hidden;
 }
 
 .main {

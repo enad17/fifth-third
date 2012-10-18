@@ -4,10 +4,10 @@ h2 {
 
 .item {
   margin-bottom: 30px;
-  height: 43px;
-  font-size: 11px;
+  height: 55px;
   p {
-    padding-top: 5px;
+    padding-top: 0px;
+    font-size: 14px;
   }
 }
 .callToAction {
@@ -18,6 +18,7 @@ h2 {
   font-style: italic;
   float: right;
   text-align: right;
+  margin-top: 20px;
   color: #333;
   &:hover {
     text-decoration: underline;
@@ -26,7 +27,7 @@ h2 {
 
 .sprite-logo {
   display: block;
-  margin: 100px 0px 42px 0px;
+  margin: 90px 0px 29px 0px;
   width: sprite-sprite-width(logo);
   height: sprite-sprite-height(logo);
 }
@@ -35,14 +36,16 @@ h2 {
   width: sprite-sprite-width(home-icon-1 );
   height: sprite-sprite-height(home-icon-1);
   float: left;
-  margin-right: 8px;
+  margin-right: 10px;
+  margin-top: 4px;
 }
 
 .sprite-home-icon-2 {
   width: sprite-sprite-width(home-icon-2);
   height: sprite-sprite-height(home-icon-2);
   float: left;
-  margin-right: 8px;
+  margin-right: 10px;
+  margin-top: 4px;
 }
 
 /* right side, blocks */

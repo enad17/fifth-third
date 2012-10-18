@@ -6,6 +6,15 @@
     background-image: inline-image('blog-single-bg.png');
     background-position: top center;
   }
+  .item {
+    p {
+      font-size: 12px;
+      padding-top: 7px;
+    }
+  }
+  .callToAction {
+    margin-top: 0;
+  }
   .left {
     width: 662px;
     height: 395px;
@@ -55,7 +64,7 @@
     .right-side {
       float: left;
       width: 473px;
-      margin-top: 44px;
+      margin-top: 24px;
       margin-left: 100px;
       .item {
         margin-bottom: 15px;

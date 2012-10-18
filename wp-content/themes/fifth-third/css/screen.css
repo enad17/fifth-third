@@ -207,12 +207,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 8, ../sass/includes/_base.scss */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/* line 16, ../sass/includes/_base.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* start commented backslash hack \*/
+/* line 18, ../sass/includes/_base.scss */
+* html .clearfix {
+  height: 1%;
+}
+
+/* line 19, ../sass/includes/_base.scss */
+.clearfix {
+  display: block;
+}
+
+/* close commented backslash hack */
+/* line 22, ../sass/includes/_base.scss */
 html, body {
   width: 100%;
   height: 100%;
 }
 
-/* line 13, ../sass/includes/_base.scss */
+/* line 27, ../sass/includes/_base.scss */
 html {
   font: 15px/1.5 "proxima-nova", sans-serif;
   color: #252525;
@@ -221,42 +248,42 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
-/* line 21, ../sass/includes/_base.scss */
+/* line 35, ../sass/includes/_base.scss */
 body {
   background: #98BEE2;
 }
 
-/* line 25, ../sass/includes/_base.scss */
+/* line 39, ../sass/includes/_base.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 29, ../sass/includes/_base.scss */
+/* line 43, ../sass/includes/_base.scss */
 a {
   text-decoration: none;
 }
-/* line 31, ../sass/includes/_base.scss */
+/* line 45, ../sass/includes/_base.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 36, ../sass/includes/_base.scss */
+/* line 50, ../sass/includes/_base.scss */
 h1, h2, h3, h4 {
   font-weight: bold;
 }
 
-/* line 40, ../sass/includes/_base.scss */
+/* line 54, ../sass/includes/_base.scss */
 h2 {
   font-size: 18px;
   font-weight: bold;
 }
 
-/* line 46, ../sass/includes/_base.scss */
+/* line 60, ../sass/includes/_base.scss */
 .wrap {
   position: relative;
 }
 
-/* line 50, ../sass/includes/_base.scss */
+/* line 64, ../sass/includes/_base.scss */
 .left {
   float: left;
   width: 50%;
@@ -266,21 +293,20 @@ h2 {
   height: 594px;
 }
 
-/* line 59, ../sass/includes/_base.scss */
+/* line 73, ../sass/includes/_base.scss */
 .right {
   float: right;
   width: 50%;
   background: white;
 }
 
-/* line 65, ../sass/includes/_base.scss */
+/* line 79, ../sass/includes/_base.scss */
 .inner {
   width: 1000px;
   margin: 0px auto;
-  overflow: hidden;
 }
 
-/* line 71, ../sass/includes/_base.scss */
+/* line 84, ../sass/includes/_base.scss */
 .main {
   padding: 5px 0;
   background: #fff;
@@ -289,17 +315,17 @@ h2 {
 }
 
 /* modals */
-/* line 79, ../sass/includes/_base.scss */
+/* line 92, ../sass/includes/_base.scss */
 .modal {
   display: none;
 }
 
-/* line 82, ../sass/includes/_base.scss */
+/* line 95, ../sass/includes/_base.scss */
 #simplemodal-overlay {
   background-color: #242424;
 }
 
-/* line 85, ../sass/includes/_base.scss */
+/* line 98, ../sass/includes/_base.scss */
 #simplemodal-container {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -310,7 +336,7 @@ h2 {
   border: 8px solid #97bee1;
   padding: 20px;
 }
-/* line 90, ../sass/includes/_base.scss */
+/* line 103, ../sass/includes/_base.scss */
 #simplemodal-container h2 {
   text-transform: uppercase;
   font-size: 13px;
@@ -319,64 +345,64 @@ h2 {
   color: #1d2051;
   margin-bottom: 0;
 }
-/* line 98, ../sass/includes/_base.scss */
+/* line 111, ../sass/includes/_base.scss */
 #simplemodal-container h3 {
   font-family: "proxima-nova", sans-serif;
   text-transform: uppercase;
   font-size: 13px;
 }
-/* line 103, ../sass/includes/_base.scss */
+/* line 116, ../sass/includes/_base.scss */
 #simplemodal-container p {
   font-size: 12px;
   margin-bottom: 10px;
 }
-/* line 106, ../sass/includes/_base.scss */
+/* line 119, ../sass/includes/_base.scss */
 #simplemodal-container p.largest {
   font-size: 16px;
 }
-/* line 109, ../sass/includes/_base.scss */
+/* line 122, ../sass/includes/_base.scss */
 #simplemodal-container p.larger {
   font-size: 14px;
   font-weight: bold;
   color: #1d2051;
 }
-/* line 114, ../sass/includes/_base.scss */
+/* line 127, ../sass/includes/_base.scss */
 #simplemodal-container p.sub {
   padding-top: 10px;
   font-size: 10px;
 }
-/* line 118, ../sass/includes/_base.scss */
+/* line 131, ../sass/includes/_base.scss */
 #simplemodal-container p.indent {
   padding-left: 20px;
 }
-/* line 122, ../sass/includes/_base.scss */
+/* line 135, ../sass/includes/_base.scss */
 #simplemodal-container .rules-container {
   height: 265px;
   overflow-y: auto;
   margin-top: 10px;
 }
-/* line 126, ../sass/includes/_base.scss */
+/* line 139, ../sass/includes/_base.scss */
 #simplemodal-container .rules-container p {
   font-weight: normal;
 }
-/* line 130, ../sass/includes/_base.scss */
+/* line 143, ../sass/includes/_base.scss */
 #simplemodal-container .centered {
   text-align: center;
 }
-/* line 133, ../sass/includes/_base.scss */
+/* line 146, ../sass/includes/_base.scss */
 #simplemodal-container .thanks {
   color: #0db301;
   text-transform: uppercase;
   font-size: 50px;
   text-align: center;
 }
-/* line 139, ../sass/includes/_base.scss */
+/* line 152, ../sass/includes/_base.scss */
 #simplemodal-container .officialRules {
   color: #ff0000;
   font-size: 11px;
   margin: 15px 0;
 }
-/* line 144, ../sass/includes/_base.scss */
+/* line 157, ../sass/includes/_base.scss */
 #simplemodal-container .modalClose {
   font-family: "adelle", serif;
   color: #272d64;
@@ -386,12 +412,12 @@ h2 {
   font-weight: bold;
   font-style: italic;
 }
-/* line 153, ../sass/includes/_base.scss */
+/* line 166, ../sass/includes/_base.scss */
 #simplemodal-container .social {
   text-align: center;
   margin-top: 20px;
 }
-/* line 156, ../sass/includes/_base.scss */
+/* line 169, ../sass/includes/_base.scss */
 #simplemodal-container .social .sprite-twitter-icon, #simplemodal-container .social .sprite-facebook-icon {
   margin: 0px 5px;
   display: inline-block;
@@ -407,12 +433,12 @@ h2 {
 /* line 5, ../sass/includes/_home.scss */
 .item {
   margin-bottom: 30px;
-  height: 43px;
-  font-size: 11px;
+  height: 55px;
 }
-/* line 9, ../sass/includes/_home.scss */
+/* line 8, ../sass/includes/_home.scss */
 .item p {
-  padding-top: 5px;
+  padding-top: 0px;
+  font-size: 14px;
 }
 
 /* line 13, ../sass/includes/_home.scss */
@@ -424,39 +450,42 @@ h2 {
   font-style: italic;
   float: right;
   text-align: right;
+  margin-top: 20px;
   color: #333;
 }
-/* line 22, ../sass/includes/_home.scss */
+/* line 23, ../sass/includes/_home.scss */
 .callToAction:hover {
   text-decoration: underline;
 }
 
-/* line 27, ../sass/includes/_home.scss */
+/* line 28, ../sass/includes/_home.scss */
 .sprite-logo {
   display: block;
-  margin: 100px 0px 42px 0px;
+  margin: 90px 0px 29px 0px;
   width: 395px;
   height: 184px;
 }
 
-/* line 34, ../sass/includes/_home.scss */
+/* line 35, ../sass/includes/_home.scss */
 .sprite-home-icon-1 {
   width: 44px;
   height: 43px;
   float: left;
-  margin-right: 8px;
+  margin-right: 10px;
+  margin-top: 4px;
 }
 
-/* line 41, ../sass/includes/_home.scss */
+/* line 43, ../sass/includes/_home.scss */
 .sprite-home-icon-2 {
   width: 44px;
   height: 43px;
   float: left;
-  margin-right: 8px;
+  margin-right: 10px;
+  margin-top: 4px;
 }
 
 /* right side, blocks */
-/* line 49, ../sass/includes/_home.scss */
+/* line 52, ../sass/includes/_home.scss */
 .block {
   width: 493px;
   height: 196px;
@@ -464,7 +493,7 @@ h2 {
   margin-bottom: 3px;
   /* the right portion of the blocks */
 }
-/* line 55, ../sass/includes/_home.scss */
+/* line 58, ../sass/includes/_home.scss */
 .block h2 {
   color: #242A5E;
   font-family: "adelle", serif;
@@ -474,20 +503,20 @@ h2 {
   font-weight: 700;
   margin: 0;
 }
-/* line 63, ../sass/includes/_home.scss */
+/* line 66, ../sass/includes/_home.scss */
 .block h2.blog-title {
   line-height: 22px;
   text-transform: none;
 }
-/* line 66, ../sass/includes/_home.scss */
+/* line 69, ../sass/includes/_home.scss */
 .block h2.blog-title a {
   color: #242A5E;
 }
-/* line 68, ../sass/includes/_home.scss */
+/* line 71, ../sass/includes/_home.scss */
 .block h2.blog-title a:hover {
   text-decoration: underline;
 }
-/* line 76, ../sass/includes/_home.scss */
+/* line 79, ../sass/includes/_home.scss */
 .block .sprite-block-details-background {
   float: left;
   width: 308px;
@@ -500,12 +529,12 @@ h2 {
   /* buttons */
   /* position our call to actions in the bottom right, always */
 }
-/* line 84, ../sass/includes/_home.scss */
+/* line 87, ../sass/includes/_home.scss */
 .block .sprite-block-details-background img {
   float: left;
   margin-top: 13px;
 }
-/* line 90, ../sass/includes/_home.scss */
+/* line 93, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .blurb {
   color: #1D2052;
   font-size: 12px;
@@ -515,50 +544,50 @@ h2 {
   line-height: 14px;
   margin-bottom: 9px;
 }
-/* line 106, ../sass/includes/_home.scss */
+/* line 109, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .sprite-like-us-button, .block .sprite-block-details-background .sprite-follow-us-button, .block .sprite-block-details-background .sprite-tweet-now-button, .block .sprite-block-details-background .sprite-facebook-enter-now-button, .block .sprite-block-details-background .sprite-view-all-tips-button {
   text-indent: -9999px;
   width: 139px;
   height: 30px;
   float: right;
 }
-/* line 113, ../sass/includes/_home.scss */
+/* line 116, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .sprite-like-us-button:hover {
   background-position: 0 -2085px;
 }
-/* line 116, ../sass/includes/_home.scss */
+/* line 119, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .follow-us-button:hover {
   background-position: 0 -2175px;
 }
-/* line 119, ../sass/includes/_home.scss */
+/* line 122, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .tweet-now-button:hover {
   background-position: 0 -2115px;
 }
-/* line 126, ../sass/includes/_home.scss */
+/* line 129, ../sass/includes/_home.scss */
 .block .sprite-block-details-background .callToAction {
   position: absolute;
   bottom: 20px;
   right: 25px;
   font-size: 12px;
 }
-/* line 134, ../sass/includes/_home.scss */
+/* line 137, ../sass/includes/_home.scss */
 .block .dates {
   font-size: 12px;
   margin-top: -4px;
   color: #1D2052;
   font-weight: bold;
 }
-/* line 141, ../sass/includes/_home.scss */
+/* line 144, ../sass/includes/_home.scss */
 .block .no-margin {
   margin-bottom: 0;
 }
-/* line 144, ../sass/includes/_home.scss */
+/* line 147, ../sass/includes/_home.scss */
 .block .sprite-green-border {
   float: left;
   width: 16px;
   height: 196px;
 }
-/* line 149, ../sass/includes/_home.scss */
+/* line 152, ../sass/includes/_home.scss */
 .block .prize {
   position: relative;
   float: left;
@@ -567,51 +596,51 @@ h2 {
   padding: 12px 0px 0px 18px;
   background: #242a5e;
 }
-/* line 156, ../sass/includes/_home.scss */
+/* line 159, ../sass/includes/_home.scss */
 .block .prize img {
   position: absolute;
   bottom: 0;
   left: 23px;
 }
-/* line 161, ../sass/includes/_home.scss */
+/* line 164, ../sass/includes/_home.scss */
 .block .prize .week {
   color: #fff;
   font-size: 17px;
 }
-/* line 165, ../sass/includes/_home.scss */
+/* line 168, ../sass/includes/_home.scss */
 .block .prize .prize-name {
   color: #4fd0e7;
   font-weight: 900;
   margin-top: -5px;
   font-size: 18px;
 }
-/* line 173, ../sass/includes/_home.scss */
+/* line 176, ../sass/includes/_home.scss */
 .block .sprite-tweet-background {
   float: left;
   width: 169px;
   height: 196px;
   padding: 30px 15px;
 }
-/* line 178, ../sass/includes/_home.scss */
+/* line 181, ../sass/includes/_home.scss */
 .block .sprite-tweet-background.no-padding {
   padding: 0;
 }
-/* line 181, ../sass/includes/_home.scss */
+/* line 184, ../sass/includes/_home.scss */
 .block .sprite-tweet-background .sprite-tweet-quote {
   width: 28px;
   height: 28px;
   float: left;
   margin: 0px 10px 0px 0px;
 }
-/* line 187, ../sass/includes/_home.scss */
+/* line 190, ../sass/includes/_home.scss */
 .block .sprite-tweet-background p {
   font-size: 12px;
 }
-/* line 189, ../sass/includes/_home.scss */
+/* line 192, ../sass/includes/_home.scss */
 .block .sprite-tweet-background p a {
   color: #6693c1;
 }
-/* line 193, ../sass/includes/_home.scss */
+/* line 196, ../sass/includes/_home.scss */
 .block .sprite-tweet-background .user {
   color: #6693c1;
   font-weight: bold;
@@ -632,7 +661,16 @@ h2 {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAADawAAADKCAMAAADE1haqAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxODk1NUY0MzBGMjIxMUUyQkNGN0Y3MDFFQzJCMzc1MiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxODk1NUY0NDBGMjIxMUUyQkNGN0Y3MDFFQzJCMzc1MiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjYyQkNGRUNFMEYxQjExRTJCQ0Y3RjcwMUVDMkIzNzUyIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjE4OTU1RjQyMEYyMjExRTJCQ0Y3RjcwMUVDMkIzNzUyIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+IRYBGwAAAchQTFRF////mr/i/v7//f3+/f7+/v//+vz9/P3+9fn8+Pr9+fv99vn98fb77/X69Pj8+/39+fv96vL5x9vu9/n9+fz93+r16fH5zN7w+/3+9fj88/f77PL55e735O73/f3+7PP5vdXsz+Hx7fT56PH45+/48fb61OTy0+Py4+324Ov1ydzv5/D48vf7xNnt/P3+9/r91uXz4ez2yt3vosTk0+Lx7fP5oMPk8PX63en11eXyv9bs2OXzsc7o7PL5nMHi8vb73ur18/f8utPrwNft4uz2+/z9vNTr2ObzyNzurcvnqsnm3en10eHxn8Pjpcblr83otdDpuNLqt9Hpwdjtzt/w2+j09fn8qMjlw9jtss7p/f7/psfl3un12ebzs87p7vT55u73udPq3ur16/L5xtrunsLj0uHx0uLx2uf0rsznzuDxo8Xl2ef0sM3oyNzvwdft4u32wdjtrMvnss7pnsPjudLqu9Tr1+XzocTk5u/33On14+73qcnm2eb0s8/p2uj0zuDx8fb7q8rnutPqvtbsncHjm8DipMbl7vT6qcnl3Oj18PX6p8fl6/L5tNDp+fv9ttHpy93wzd/wxdrtq8nm5/D40OHxwtjtvjBUygAACelJREFUeNrs1+WKFQAYRdFRVBBRsQO7FbvAxtaxxcJWTOzu7m59XY/wCZfLzDA/RdZ6ir1bWgDoWPc2dO2E/dGtHaM6YWY7hpa+DdZGj2YDy6cO9GwyqwwovRrsacOw0qfByhheppcV8aTJxPKu9G7wOo7EuLIgRpdlDT6Ufn8NLuPLjwYTyp04GiPKyHIvppTLsSbmlKllUDleDsamcjfexu54FGfifDyIQ7E+lsStmF0WxaQyucyP03EqNsfPGFsel13xNYaULzH3j2nlYmyI/uVEfIsZZV/8iivlUqyOxfE8xpR1cTNWxbM4FjdiR+yMz7E9PsbDOBzXytK4ENvibGyMq/E0vkdr3I83sTfex4HYGq/iXMyL27EwtsT1OBkvYnm8jC4A/ykRBmDWzJpZM2sAZg3ArJk1s2bWzBqAWQMwa2bNrJk1ALMGYNbMmlkza2YNwKwBmDWzZtbMmlkDzBqAWTNrZs2smTUAswZg1syaWTNrZg0wawCYNbNm1swagFkDMGtmzayZNbMGYNYAzJpZM2tmDcCsAZg1s2bWzJpZAzBrAGbNrJk1sybnALMGYNbMmlkza2YNwKwBmDWzZtbMmlkDzBoAZs2smTWzBmDWAMyaWTNrZs2sAZg1ALNm1syaWQMwawBmzayZNbNm1gDMGoBZM2tmzawBmDUAs2bWzJpZM2sAZg3ArJk1s2bWzBpg1gAwa2bNrJk1ALMGYNbMmlkza2YNwKwBmDWzZtbMGoBZAzBrZs2smTWzBmDWAMyaWTNrZg3ArAGYNbNm1syaWQMwawBmzayZNbNm1gCzBoBZM2tmzawBmDUAs2bWzJpZM2sAZg3ArJk1s2bWAMwagFkza2bNrJk1ALMGYNbMmlkzawBmDcCsmTWzZtbMGoBZAzBrZs2smTWzBpg1AMyaWTNrZg3ArAGYNbNm1syaWQMwawBmzayZNbMGYNYAzJpZM2tmzawBmDUAs2bWzJpZAzBrAGbNrJk1s2bWAMwagFkza2bNrJk1wKwBYNbMmlkzawBmDcCsmTWzZtbMGoBZAzBrZs2smTUAswZg1syaWTNrZg3ArAGYNbNm1swagFkDMGtmzayZNbMGYNYAzJpZM2tmzawBZg0As2bWzJpZAzBrAGbNrJk1s2bWAMwagFkza2bNrAGYNQCzZtbMmlkzawBmDcCsmTWzZtYAzBqAWTNrZs2smTUAswZg1syaWTNrZg0wawCYNbNm1swagFkDMGtmzayZNbMGYNYAzJpZM2tmDcCsAZg1s2bWzJpZAzBrAGbNrJk1swZg1gDMmlkza2bNrAGYNQCzZtbMmlkza4BZA8CsmTWzZtYAzBqAWTNrZs2smTUAswZg1syaWTNrAGYNwKyZNbNm1swagFkDMGtmzayZNQCzBmDWzJpZM2tmDcCsAZg1s2bWzJpZA8waAGbNrJk1swZg1gDMmlkza2bNrAGYNQCzZtbMmlkDMGsAZs2smTWzZtYAzBqAWTNrZs2sAZg1ALNm1syaWTNrAGYNwKyZNbNm1swaYNYAzJpZM2tmzawBmDUAs2bWzJpZM2sAZg3ArJk1s2bWAMwagFkza2bNrJk1ALMGYNbMmlkzawBmDcCsmTWzZtbMGoBZAzBrZs2smTWzBpg1ALNm1syaWTNrAGYNwKyZNbNm1swagAgDMGtmzayZNQCzBmDWzJpZM2tmDcCsAZg1s2bWzBqAWQMwa2bNrJk1swZg1gDMmlkza2bNrAFmDcCsmTWzZtbMGoBZAzBrZs2smTWzBpg1AMyaWTNrZg3ArAGYNbNm1syaWQMwawBmzayZNbMGYNYAzJpZM2tmzawBmDUAs2bWzJpZk3OAWQMwa2bNrJk1swZg1gDMmlkza2bNrAFmDQCzZtbMmlkDMGsAZs2smTWzZtYAzBqAWTNrZs2sAZg1ALNm1syaWTNrAGYNwKyZNbNm1gDMGoBZM2tmzayZNQCzBmDWzJpZM2tmDTBrAJg1s2bWzBqAWQMwa2bNrJk1swZg1gDMmlkza2YNwKwBmDWzZtbMmlkDMGsAZs2smTWzBmDWAMyaWTNrZs2sAZg1ALNm1syaWTNrgFkDwKyZNbNm1gDMGoBZM2tmzayZNQCzBmDWzJpZM2sAZg3ArJk1s2bWzBqAWQMwa2bNrJk1ALMGYNbMmlkza2YNwKwBmDWzZtbMmlkDzBoAZs2smTWzBmDWAMyaWTNrZs2sAZg1ALNm1syaWQMwawBmzayZNbNm1gDMGoBZM2tmzawBmDUAs2bWzJpZM2sAZg3ArJk1s2bWzBpg1gAwa2bNrJk1ALMGYNbMmlkza2YNwKwBmDWzZtbMGoBZAzBrZs2smTWzBmDWAMyaWTNrZg3ArAGYNbNm1syaWQMwawBmzayZNbNm1gCzBoBZM2tmzawBmDUAs2bWzJpZM2sAZg3ArJk1s2bWAMwagFkza2bNrJk1ALMGYNbMmlkzawBmDcCsmTWzZtbMGoBZAzBrZs2smTWzBpg1AMyaWTNrZg3ArAGYNbNm1syaWQMwawBmzayZNbMGYNYAzJpZM2tmzawBmDUAs2bWzJpZAzBrAGbNrJk1s2bWAMwagFkza2bNrJk1wKwBYNbMmlkzawBmDcCsmTWzZtbMGoBZAzBrZs2smTUAswZg1syaWTNrZg3ArAGYNbNm1swagFkDMGtmzayZNbMGYNYAzJpZM2tmzawBZg0As2bWzJpZAzBrAGbNrJk1s2bWAMwagFkza2bNrAGYNQCzZtbMmlkzawBmDcCsmTWzZtYAzBqAWTNrZs2smTUAswZg1syaWTNrZg0wawBmzayZNbNm1gDMGoBZM2tmzayZNQCzBmDWzJpZM2sAZg3ArJk1s2bWzBqAWQMwa2bNrJk1ALMGYNbMmlkza2YNwKwBmDWzZtbMmlkDzBqAWTNrZs2smTUAswZg1syaWTNrZg1AhAGYNbNm1swagFkDMGtmzayZNbMGYNYAzJpZM2tmDcCsAZg1s2bWzJpZAzBrAGbNrJk1s2bWALMGYNbMmlkza2YNwKwBmDWzZtbMmlkDzBoAZs2smTWzBmDWAMyaWTNrZs2sAZg1ALNm1syaWQMwawBmzayZNbNm1gDMGoBZM2tmzazJOcCsAZg1s2bWzJpZAzBrAGbNrJk1s2bWALMGgFkza2bNrAGYNQCzZtbMmlkzawBmDcCsmTWzZtYAzBqAWTNrZs2smTUAswZg1syaWTNrAGYNwKyZNbNm1swagFkDMGtmzayZNbMGmDUAzJpZM2tmDcCsAZg1s2bWzJpZAzBrAGbNrJk1swZg1gDMmlkza2bNrAGYNQCzZtbMmlkDMGsAZs2smTWzZtYAzBqAWTNrZs2smTXArAFg1syaWTNrAP+I3wIMADJi8wTnrkPnAAAAAElFTkSuQmCC');
   background-position: top center;
 }
-/* line 9, ../sass/includes/_blog.scss */
+/* line 10, ../sass/includes/_blog.scss */
+.blog .item p {
+  font-size: 12px;
+  padding-top: 7px;
+}
+/* line 15, ../sass/includes/_blog.scss */
+.blog .callToAction {
+  margin-top: 0;
+}
+/* line 18, ../sass/includes/_blog.scss */
 .blog .left {
   width: 662px;
   height: 395px;
@@ -640,24 +678,24 @@ h2 {
   margin-bottom: 110px;
   background: none;
 }
-/* line 16, ../sass/includes/_blog.scss */
+/* line 25, ../sass/includes/_blog.scss */
 .blog .right {
   width: 338px;
   position: relative;
   background: none;
 }
-/* line 21, ../sass/includes/_blog.scss */
+/* line 30, ../sass/includes/_blog.scss */
 .blog .right .block {
   width: 331px;
 }
-/* line 28, ../sass/includes/_blog.scss */
+/* line 37, ../sass/includes/_blog.scss */
 .blog.single .left {
   width: 1024px;
   height: auto;
   padding-top: 0;
   border: none;
 }
-/* line 34, ../sass/includes/_blog.scss */
+/* line 43, ../sass/includes/_blog.scss */
 .blog.single .right {
   margin-left: 20px;
   margin-bottom: 20px;
@@ -665,36 +703,36 @@ h2 {
   height: 395px;
   z-index: 200;
 }
-/* line 41, ../sass/includes/_blog.scss */
+/* line 50, ../sass/includes/_blog.scss */
 .blog.single .text {
   width: auto;
 }
-/* line 46, ../sass/includes/_blog.scss */
+/* line 55, ../sass/includes/_blog.scss */
 .blog .blog-header {
   height: 201px;
   padding-left: 53px;
 }
-/* line 49, ../sass/includes/_blog.scss */
+/* line 58, ../sass/includes/_blog.scss */
 .blog .blog-header .sprite-logo-blog {
   width: 315px;
   height: 147px;
   margin: 20px 0 0 0;
   float: left;
 }
-/* line 55, ../sass/includes/_blog.scss */
+/* line 64, ../sass/includes/_blog.scss */
 .blog .blog-header .right-side {
   float: left;
   width: 473px;
-  margin-top: 44px;
+  margin-top: 24px;
   margin-left: 100px;
 }
-/* line 60, ../sass/includes/_blog.scss */
+/* line 69, ../sass/includes/_blog.scss */
 .blog .blog-header .right-side .item {
   margin-bottom: 15px;
 }
 
 /* reflection thing */
-/* line 68, ../sass/includes/_blog.scss */
+/* line 77, ../sass/includes/_blog.scss */
 .sprite-reflection {
   width: 1500px;
   height: 395px;
@@ -703,12 +741,12 @@ h2 {
 }
 
 /* other stories */
-/* line 76, ../sass/includes/_blog.scss */
+/* line 85, ../sass/includes/_blog.scss */
 .moreTips {
   clear: both;
 }
 
-/* line 79, ../sass/includes/_blog.scss */
+/* line 88, ../sass/includes/_blog.scss */
 .otherStory {
   font-family: "adelle", serif;
   color: #1d2051;
@@ -717,20 +755,20 @@ h2 {
   width: 194px;
   text-align: center;
 }
-/* line 86, ../sass/includes/_blog.scss */
+/* line 95, ../sass/includes/_blog.scss */
 .otherStory:hover {
   text-decoration: underline;
 }
-/* line 92, ../sass/includes/_blog.scss */
+/* line 101, ../sass/includes/_blog.scss */
 .otherStory .innerPadding {
   padding: 15px;
 }
-/* line 95, ../sass/includes/_blog.scss */
+/* line 104, ../sass/includes/_blog.scss */
 .otherStory h3 {
   text-align: center;
 }
 
-/* line 100, ../sass/includes/_blog.scss */
+/* line 109, ../sass/includes/_blog.scss */
 article {
   margin-bottom: 30px;
   margin-right: 10px;
@@ -739,17 +777,17 @@ article {
   float: left;
   width: 305px;
 }
-/* line 107, ../sass/includes/_blog.scss */
+/* line 116, ../sass/includes/_blog.scss */
 article .image {
   float: left;
 }
-/* line 110, ../sass/includes/_blog.scss */
+/* line 119, ../sass/includes/_blog.scss */
 article .text {
   float: left;
   width: 211px;
   margin-left: 10px;
 }
-/* line 115, ../sass/includes/_blog.scss */
+/* line 124, ../sass/includes/_blog.scss */
 article h2 {
   font-family: "adelle", serif;
   margin: 0;
@@ -757,19 +795,19 @@ article h2 {
   font-weight: 600;
   line-height: 20px;
 }
-/* line 121, ../sass/includes/_blog.scss */
+/* line 130, ../sass/includes/_blog.scss */
 article h2 a {
   color: #262d63;
 }
-/* line 123, ../sass/includes/_blog.scss */
+/* line 132, ../sass/includes/_blog.scss */
 article h2 a:hover {
   text-decoration: underline;
 }
-/* line 128, ../sass/includes/_blog.scss */
+/* line 137, ../sass/includes/_blog.scss */
 article .excerpt {
   font-size: 12px;
 }
-/* line 132, ../sass/includes/_blog.scss */
+/* line 141, ../sass/includes/_blog.scss */
 article .meta .sprite-facebook-small, article .meta .sprite-twitter-small {
   width: 13px;
   height: 12px;
@@ -777,17 +815,17 @@ article .meta .sprite-facebook-small, article .meta .sprite-twitter-small {
   text-indent: -9999px;
   margin: 0px 2px;
 }
-/* line 139, ../sass/includes/_blog.scss */
+/* line 148, ../sass/includes/_blog.scss */
 article .meta.single {
   width: 100%;
   display: block;
   float: left;
 }
-/* line 143, ../sass/includes/_blog.scss */
+/* line 152, ../sass/includes/_blog.scss */
 article .meta.single .sprite-facebook-small, article .meta.single .sprite-twitter-small {
   float: left;
 }
-/* line 147, ../sass/includes/_blog.scss */
+/* line 156, ../sass/includes/_blog.scss */
 article .meta .readMoreLink {
   color: #000;
   font-size: 11px;
@@ -799,12 +837,12 @@ article .meta .readMoreLink {
   margin-left: 10px;
   font-style: italic;
 }
-/* line 157, ../sass/includes/_blog.scss */
+/* line 166, ../sass/includes/_blog.scss */
 article .meta .readMoreLink:hover {
   text-decoration: underline;
 }
 
-/* line 164, ../sass/includes/_blog.scss */
+/* line 173, ../sass/includes/_blog.scss */
 #article-sharing {
   background: #EFEFEF;
   border: 1px solid #DEDEDE;
@@ -817,28 +855,28 @@ article .meta .readMoreLink:hover {
   height: 35px;
 }
 
-/* line 176, ../sass/includes/_blog.scss */
+/* line 185, ../sass/includes/_blog.scss */
 #article-sharing ul li {
   display: inline;
 }
 
-/* line 178, ../sass/includes/_blog.scss */
+/* line 187, ../sass/includes/_blog.scss */
 ul#social-share {
   float: left;
 }
 
-/* line 179, ../sass/includes/_blog.scss */
+/* line 188, ../sass/includes/_blog.scss */
 ul#article-tools {
   float: right;
   width: 99px;
 }
 
 /* single pages */
-/* line 183, ../sass/includes/_blog.scss */
+/* line 192, ../sass/includes/_blog.scss */
 .article-content .headerBar {
   overflow: hidden;
 }
-/* line 186, ../sass/includes/_blog.scss */
+/* line 195, ../sass/includes/_blog.scss */
 .article-content .socialBar {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -854,26 +892,26 @@ ul#article-tools {
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 196, ../sass/includes/_blog.scss */
+/* line 205, ../sass/includes/_blog.scss */
 .article-content .socialBar .facebook, .article-content .socialBar .twitter {
   float: left;
   margin-right: 10px;
 }
-/* line 200, ../sass/includes/_blog.scss */
+/* line 209, ../sass/includes/_blog.scss */
 .article-content .socialBar .facebook {
   width: 118px;
   height: 19px;
 }
-/* line 204, ../sass/includes/_blog.scss */
+/* line 213, ../sass/includes/_blog.scss */
 .article-content .socialBar .twitter {
   width: 77px;
   height: 19px;
 }
-/* line 208, ../sass/includes/_blog.scss */
+/* line 217, ../sass/includes/_blog.scss */
 .article-content .socialBar .gplus {
   height: 19px;
 }
-/* line 212, ../sass/includes/_blog.scss */
+/* line 221, ../sass/includes/_blog.scss */
 .article-content h2 {
   font-family: "adelle", serif;
   margin: 0;
@@ -881,7 +919,7 @@ ul#article-tools {
   font-weight: 700;
   color: #1d2051;
 }
-/* line 219, ../sass/includes/_blog.scss */
+/* line 228, ../sass/includes/_blog.scss */
 .article-content .backLink {
   font-family: "adelle", serif;
   color: #262D63;
@@ -892,16 +930,16 @@ ul#article-tools {
   position: relative;
   right: -217px;
 }
-/* line 228, ../sass/includes/_blog.scss */
+/* line 237, ../sass/includes/_blog.scss */
 .article-content .backLink:hover {
   text-decoration: underline;
 }
-/* line 232, ../sass/includes/_blog.scss */
+/* line 241, ../sass/includes/_blog.scss */
 .article-content .content {
   margin-top: 10px;
   padding-right: 30px;
 }
-/* line 235, ../sass/includes/_blog.scss */
+/* line 244, ../sass/includes/_blog.scss */
 .article-content .content p {
   margin-bottom: 20px;
   font-size: 14px;
