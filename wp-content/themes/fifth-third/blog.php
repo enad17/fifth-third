@@ -51,7 +51,7 @@ Template Name: Blog
                   </div>
                   <div class="meta clearfix">
                     <a class="readMoreLink" href="<?php the_permalink() ?>">Read More</a>
-                    <a class="sprite-facebook-small" href="#">Share <?php the_title(); ?> on Facebook</a>
+                    <a class="sprite-facebook-small" data-link="<?php the_permalink(); ?>" href="#"><?php the_title(); ?></a>
                     <a class="sprite-twitter-small" href="http://twitter.com/intent/tweet?text=<?php the_title(); ?> &rarr; <?php the_permalink(); ?>">Share <?php the_title(); ?> on Twitter</a>
                   </div>
                 </div>
@@ -65,12 +65,46 @@ Template Name: Blog
       </div>
     </section>
 
+    <script>
+      $('.sprite-facebook-small').click(function(e) {
+        e.preventDefault();
+        FB.ui(
+          {
+            method: 'feed',
+            name: $(this).html(),
+            link: $(this).attr('data-link'),
+            picture: $(this).parent('article').find('image img').attr('src'),
+            caption: 'Reference Documentation',
+            description: 'Dialogs provide a simple, consistent interface for applications to interface with users.'
+          },
+          function(response) {
+            if (response && response.post_id) {
+              alert('Post was published.');
+            } else {
+              alert('Post was not published.');
+            }
+          }
+        );
+      });
+    </script>
+
     <?php get_footer(); ?>
 
   </div> <!-- end .wrap -->
 
   <!-- include our modals -->
   <?php get_template_part('modals'); ?>
+
+  <div id="fb-root"></div>
+
+
+<div id="fb-root"></div>
+<script src="https://connect.facebook.net/en_US/all.js"></script>
+<script>
+  FB.init({
+    appId : '415794678475251',
+  });
+</script>
 
 </body>
 </html>
