@@ -9,9 +9,8 @@ Template Name: Blog
     
     <section role="main" class="main blog">
       <div class="inner clearfix">
-
         <div class="blog-header">
-          <a class="sprite-logo-blog" href="<?php echo home_url(); ?>"></a>
+         <a class="sprite-logo-blog" href="<?php echo home_url(); ?>"></a>
           <div class="right-side">
             <div class="item">
               <div class="sprite-home-icon-1"></div>

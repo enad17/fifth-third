@@ -984,24 +984,33 @@ ul#article-tools {
   padding-right: 30px;
 }
 /* line 256, ../sass/includes/_blog.scss */
+.article-content .content .alignleft {
+  float: left;
+  margin: 10px 30px 10px 0;
+}
+/* line 260, ../sass/includes/_blog.scss */
 .article-content .content a {
   text-decoration: underline;
 }
-/* line 259, ../sass/includes/_blog.scss */
+/* line 263, ../sass/includes/_blog.scss */
 .article-content .content ul {
   margin-left: 40px;
   margin-bottom: 20px;
 }
-/* line 263, ../sass/includes/_blog.scss */
+/* line 267, ../sass/includes/_blog.scss */
 .article-content .content li {
   list-style: disc;
   padding-bottom: 10px;
   font-size: 14px;
 }
-/* line 268, ../sass/includes/_blog.scss */
+/* line 272, ../sass/includes/_blog.scss */
 .article-content .content p {
   margin-bottom: 20px;
   font-size: 14px;
+}
+/* line 276, ../sass/includes/_blog.scss */
+.article-content .content em {
+  font-style: italic;
 }
 
 /* line 1, ../sass/includes/_form.scss */

@@ -202,11 +202,11 @@ float: left;">BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="
   <p><strong>Step Three:</strong> Provide an answer, right or wrong, to our weekly question and you’ll receive an entry for that week’s prize.</p>
 
   <h2>WHAT COULD YOU WIN?</h2>
-  <p>Each week, we’ll be selecting one (1) winner to win great prizes like iPads, Keurigs, and other great stuff!</p>
+  <p>Each week, we’ll be selecting one (1) winner to win great prizes like Keurigs, and other great stuff!</p>
 
   <a class="officialRules" href="#">>> Official Rules</a>
 
-  <p class="sub">iPad® is a registered trademark of Apple Inc. All rights reserved. Apple is not a participant in or sponsor of this promotion. "Keurig"® and is a registered trademark of Keurig Incorporated. Keurig is not a participant in or sponsor of this promotion.</p>
+  <p class="sub">"Keurig"® and is a registered trademark of Keurig Incorporated. Keurig is not a participant in or sponsor of this promotion.</p>
 </div>
 
 <!-- "see details" -->
