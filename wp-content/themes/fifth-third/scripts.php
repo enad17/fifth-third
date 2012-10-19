@@ -30,7 +30,7 @@
         var id = '#' + this.className + '-modal'; // dynamically determine the modal content id based on the link id
         s.close(); // close the current dialog
 
-        setTimeout(function () { // wait for 3/10ths of a second, then open the next dialog
+        setTimeout(function () { // wait for 3.5/10ths of a second, then open the next dialog
           $(id).modal({
             overlayClose: true,
             onShow: modalOnShow,
@@ -69,7 +69,6 @@
     $('.modalLink').on('click', function(e) {
       e.preventDefault();
       var modalToOpen = "#" + $(this).attr('data-name') + '-modal';
-      console.log(modalToOpen);
       $(modalToOpen).modal({
         onShow: modalOnShow,
         onOpen: modalOpen,
