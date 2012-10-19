@@ -4,21 +4,12 @@
     minHeight: 425,        
     overlayClose: true,    
     position: [130],
+    persist: true,
     closeClass: "modalClose",
     closeHTML: "<a href='#'>X</a>"
   });
   
   $(function() {
-
-    // $('#sweepStakesForm').html5form({
-    //   allBrowsers: true,
-    //   async : false, // cancels the default submit method.
-    //   method : 'GET', // changes the request method.
-    //   action : '<?php echo get_template_directory_uri(); ?>/doFormSubmit.php', // changes the action method.
-    //   emptyMessage : 'This is a required field',
-    //   emailMessage : 'This email address is not correct, please try again',
-    //   responseDiv : '.response' // a content div to get the callback function respon
-    // });
   
     // callback function
     function modalOnShow(dialog) {
@@ -28,6 +19,13 @@
 
       $('a:not(".tabs a, .notModal")', dialog.data[0]).click(function () { // use the modal data context
         var id = '#' + this.className + '-modal'; // dynamically determine the modal content id based on the link id
+
+        // if ($(this).hasClass('officialRules')) {
+        //   alert('official');
+        //   var officialRulesContent = $('#officialRules-modal').html();
+        //   console.log(dialog.data);
+        // }
+
         s.close(); // close the current dialog
 
         setTimeout(function () { // wait for 3.5/10ths of a second, then open the next dialog
