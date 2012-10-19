@@ -253,11 +253,17 @@ ul#article-tools{ float: right; width: 99px; }
   .content {
     margin-top: 10px; 
     padding-right: 30px;
+    a {
+      text-decoration: underline;
+    }
     ul {
-
+      margin-left: 40px;
+      margin-bottom: 20px;
     }
     li {
-
+      list-style: disc;
+      padding-bottom: 10px;
+      font-size: 14px;
     }
     p {
       margin-bottom: 20px;

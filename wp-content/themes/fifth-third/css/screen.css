@@ -983,7 +983,22 @@ ul#article-tools {
   margin-top: 10px;
   padding-right: 30px;
 }
-/* line 262, ../sass/includes/_blog.scss */
+/* line 256, ../sass/includes/_blog.scss */
+.article-content .content a {
+  text-decoration: underline;
+}
+/* line 259, ../sass/includes/_blog.scss */
+.article-content .content ul {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+/* line 263, ../sass/includes/_blog.scss */
+.article-content .content li {
+  list-style: disc;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+/* line 268, ../sass/includes/_blog.scss */
 .article-content .content p {
   margin-bottom: 20px;
   font-size: 14px;
