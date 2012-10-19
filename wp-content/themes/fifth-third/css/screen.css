@@ -412,11 +412,12 @@ h2 {
 }
 /* line 152, ../sass/includes/_base.scss */
 #simplemodal-container .officialRules {
+  cursor: pointer;
   color: #ff0000;
   font-size: 11px;
   margin: 15px 0;
 }
-/* line 157, ../sass/includes/_base.scss */
+/* line 158, ../sass/includes/_base.scss */
 #simplemodal-container .modalClose {
   font-family: "adelle", serif;
   color: #272d64;
@@ -426,12 +427,12 @@ h2 {
   font-weight: bold;
   font-style: italic;
 }
-/* line 166, ../sass/includes/_base.scss */
+/* line 167, ../sass/includes/_base.scss */
 #simplemodal-container .social {
   text-align: center;
   margin-top: 20px;
 }
-/* line 169, ../sass/includes/_base.scss */
+/* line 170, ../sass/includes/_base.scss */
 #simplemodal-container .social .sprite-twitter-icon, #simplemodal-container .social .sprite-facebook-icon {
   margin: 0px 5px;
   display: inline-block;
