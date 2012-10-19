@@ -65,7 +65,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 274, sprite/*.png */
 .sprite-sprite, .sprite-block-details-background, .sprite-block-pattern, .sprite-enter-now-button, .sprite-facebook-enter-now-button, .sprite-facebook-icon, .sprite-facebook-small, .sprite-fb-photo, .sprite-follow-us-button, .sprite-footer-logo, .sprite-github_logo, .sprite-green-border, .sprite-home-icon-1, .sprite-home-icon-2, .sprite-like-us-button, .sprite-logo-blog, .sprite-logo, .sprite-octocat, .sprite-reflection-single, .sprite-reflection, .sprite-tweet-background, .sprite-tweet-now-button, .sprite-tweet-quote, .sprite-twitter-icon, .sprite-twitter-small, .sprite-view-all-tips-button {
-  background: url('../images/sprite-s9d0d000d3b.png') no-repeat;
+  background: url('../images/sprite-se2f5597ad0.png') no-repeat;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -162,17 +162,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-octocat {
-  background-position: 0 -1810px;
+  background-position: 0 -1415px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-reflection-single {
-  background-position: 0 -1020px;
+  background-position: 0 -1589px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-reflection {
-  background-position: 0 -1415px;
+  background-position: 0 -1020px;
 }
 
 /* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */

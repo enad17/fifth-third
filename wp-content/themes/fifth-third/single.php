@@ -96,8 +96,12 @@
                 </div>
               </div> -->
               <?php
-                $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
-                echo "<a class=\"backLink\" href='$url'><< BACK</a>"; 
+                if (isset($_SERVER['HTTP_REFERER'])) {
+                  $url = htmlspecialchars($_SERVER['HTTP_REFERER']);  
+                  echo "<a class=\"backLink\" href='$url'><< BACK</a>";   
+                } else {
+                  echo "<a class=\"backLink\" href='" . home_url() ."'><< BACK</a>";
+                }
               ?>    
             </div>    
                     
