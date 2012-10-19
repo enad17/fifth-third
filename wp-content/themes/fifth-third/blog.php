@@ -52,7 +52,8 @@ Template Name: Blog
                   <div class="meta clearfix">
                     <a class="readMoreLink" href="<?php the_permalink() ?>">Read More</a>
                     <a class="sprite-facebook-small" data-link="<?php the_permalink(); ?>" href="#"><?php the_title(); ?></a>
-                    <a class="sprite-twitter-small" href="http://twitter.com/intent/tweet?text=<?php the_title(); ?> &rarr; <?php the_permalink(); ?>">Share <?php the_title(); ?> on Twitter</a>
+                    <!-- [post title] | @FifthThird #HolidayPayback #shoppingtips [bit.ly link] -->
+                    <a class="sprite-twitter-small" href="http://twitter.com/intent/tweet?text=<?php the_title(); ?>%20%7C%20%40FifthThird%20%23HolidayPayback%20%23shoppingtips%20%20<?php the_permalink(); ?>">Share <?php the_title(); ?> on Twitter</a>
                   </div>
                 </div>
               </article>
@@ -67,24 +68,16 @@ Template Name: Blog
 
     <script>
       $('.sprite-facebook-small').click(function(e) {
+        var link = $(this);
         e.preventDefault();
-        FB.ui(
-          {
+        FB.ui({
             method: 'feed',
-            name: $(this).html(),
-            link: $(this).attr('data-link'),
-            picture: $(this).parent('article').find('image img').attr('src'),
-            caption: 'Reference Documentation',
-            description: 'Dialogs provide a simple, consistent interface for applications to interface with users.'
-          },
-          function(response) {
-            if (response && response.post_id) {
-              alert('Post was published.');
-            } else {
-              alert('Post was not published.');
-            }
-          }
-        );
+            name: link.html() + ' | Fifth Third Bank',
+            link: link.attr('data-link'),
+            picture: link.parent('article').find('.image img').attr('src'),
+            caption: link.parent('article').find('.excerpt').html(),
+            description: link.parent('article').find('.excerpt').html()
+          });
       });
     </script>
 
