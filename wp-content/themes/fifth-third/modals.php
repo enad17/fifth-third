@@ -2,7 +2,7 @@
 <div class="modal" id="alternateEntry-modal">
   <h2>Fifth Third Bank Holiday Payback Sweepstakes</h2>
   <h3>Alternate Entry</h3>
-  <a class="officialRules" href="#">>> Official Rules</a>
+  <a class="officialRules" data-from="form" href="#">>> Official Rules</a>
   <form id="sweepStakesForm" method="POST" action="<?php echo get_template_directory_uri(); ?>/doFormSubmit.php">
     <div class="field">
       <label for="first_name">First Name:</label>
@@ -79,7 +79,7 @@
       <p style="margin-right: 15px;
 font-size: 10px;
 width: 377px;
-float: left;">BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="#">OFFICIAL RULES</a> OF THIS SWEEPSTAKES</p>
+float: left;">BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" data-from="form" href="#">OFFICIAL RULES</a> OF THIS SWEEPSTAKES</p>
       <button type="submit">Submit</button>
     </div>
 
@@ -134,6 +134,9 @@ float: left;">BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="
 
 <!-- official rules -->
 <div class="modal" id="officialRules-modal">
+  <span class="backToForm shown">
+    <a href="#" class="alternateEntry"> << Back to Form</a>
+  </span>
   <ul class="tabs">
       <li class="selected"><a href="#creditTab">Credit</a></li>
       <li class="sep">|</li>
@@ -194,7 +197,7 @@ float: left;">BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="
   <h2>what Could You Win?</h2>
   <p>Each day, we’ll select <strong>5 followers</strong> to win a <strong>$100 Fifth Third Bank Gift Card!</strong></p>
 
-  <a class="officialRules" data-tab="facebook" id="officialRules" href="#">>> Official Rules</a>
+  <a class="officialRules" id="officialRules" href="#">>> Official Rules</a>
 
 </div>
 

@@ -357,7 +357,7 @@ h2 {
 /* line 106, ../sass/includes/_base.scss */
 #simplemodal-container h2 {
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 16px;
   font-family: "adelle", serif;
   font-weight: 700;
   color: #1d2051;
@@ -371,7 +371,7 @@ h2 {
 }
 /* line 119, ../sass/includes/_base.scss */
 #simplemodal-container p {
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 10px;
 }
 /* line 122, ../sass/includes/_base.scss */
@@ -422,6 +422,20 @@ h2 {
   margin: 15px 0;
 }
 /* line 161, ../sass/includes/_base.scss */
+#simplemodal-container .backToForm {
+  display: none;
+}
+/* line 163, ../sass/includes/_base.scss */
+#simplemodal-container .backToForm.shown {
+  display: inline;
+}
+/* line 166, ../sass/includes/_base.scss */
+#simplemodal-container .backToForm a {
+  font-weight: bold;
+  font-size: 12px;
+  color: #ff0000;
+}
+/* line 173, ../sass/includes/_base.scss */
 #simplemodal-container .modalClose {
   font-family: "adelle", serif;
   color: #272d64;
@@ -431,12 +445,12 @@ h2 {
   font-weight: bold;
   font-style: italic;
 }
-/* line 170, ../sass/includes/_base.scss */
+/* line 182, ../sass/includes/_base.scss */
 #simplemodal-container .social {
   text-align: center;
   margin-top: 20px;
 }
-/* line 173, ../sass/includes/_base.scss */
+/* line 185, ../sass/includes/_base.scss */
 #simplemodal-container .social .sprite-twitter-icon, #simplemodal-container .social .sprite-facebook-icon {
   margin: 0px 5px;
   display: inline-block;
@@ -1198,7 +1212,7 @@ footer .links a {
   background: #d5e5f3;
   padding: 5px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 /* line 8, ../sass/includes/_rules.scss */
 .tabs li {

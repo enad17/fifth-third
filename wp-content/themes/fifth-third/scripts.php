@@ -1,4 +1,5 @@
 <script>
+  var cameFromForm = false;
   $.extend($.modal.defaults, {
     minWidth: 600,
     minHeight: 425,        
@@ -20,11 +21,11 @@
       $('a:not(".tabs a, .notModal")', dialog.data[0]).click(function () { // use the modal data context
         var id = '#' + this.className + '-modal'; // dynamically determine the modal content id based on the link id
 
-        // if ($(this).hasClass('officialRules')) {
-        //   alert('official');
-        //   var officialRulesContent = $('#officialRules-modal').html();
-        //   console.log(dialog.data);
-        // }
+        if ($(this).data('from')) {
+          cameFromForm = true;
+        } else {
+          cameFromForm = false;
+        }
 
         s.close(); // close the current dialog
 
@@ -47,7 +48,15 @@
       // if we're opening the rules modal, we initialize the tabs
       if (dialog.data[0].id == "officialRules-modal") {
         $('.tabs').tabs();
+
+        // by default, hide our little back from form thing.
+        $('.backToForm').hide();        
+        
+        if (cameFromForm) {
+          $('.backToForm').show();
+        }
       }
+
       dialog.overlay.fadeIn(200);
       dialog.data.hide();
       dialog.container.fadeIn(100);
