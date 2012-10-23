@@ -5,7 +5,11 @@
     <section role="main" class="main">
       <div class="inner clearfix">
         <div class="left">
-          <a class="sprite-logo modalLink" href="#" data-name="seeDetails" target="_blank"></a>
+          <?php if (is_home()) { ?>
+            <a class="sprite-logo" href="#">Fifth Third Bank Holiday Payback Sweepstakes</a>
+          <?php } else { ?>
+            <a class="sprite-logo" href="<?php echo home_url(); ?>">Fifth Third Bank Holiday Payback Sweepstakes</a>
+          <?php } ?>
           <h2>Between Nov. 1 &mdash; Dec. 30, 2012</h2>
           <div class="item">
             <div class="sprite-home-icon-1"></div>
@@ -22,15 +26,15 @@
           <div class="block">
             <div class="sprite-green-border"></div>
             <div class="prize">
-              <img src="<?php echo get_bloginfo('template_directory') ?>/images/ipad.png" />
+              <a href="https://www.facebook.com/FifthThirdBank/app_117825708370606" target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/images/ipad.png" /></a>
               <div class="week">11/9 Prize:</div>
-              <div class="prize-name">iPad 2</div>
+              <div class="prize-name">KINECT</div>
             </div>
             <div class="sprite-block-details-background">
-              <h2>Facebook Sweepstakes</h2>
+              <h2><a href="#" target="_blank">Facebook Sweepstakes</a></h2>
               <div class="dates">Every Friday Between Nov. 9 – Dec. 28, 2012</div>
               <a class="callToAction modalLink" data-name="facebookSweepstakes" href="#">Details &amp; Prizes</a>
-              <img src="<?php echo get_bloginfo('template_directory') ?>/images/fb-sweeps-photo.png" />
+              <a href="https://www.facebook.com/FifthThirdBank/app_117825708370606" target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/images/fb-sweeps-photo.png" /></a>
               <?php
                 $nowFacebook = strtotime("now");
                 $startDateFacebook = strtotime("09 November 2012");
@@ -68,10 +72,10 @@
               </script>
             </div>
             <div class="sprite-block-details-background">
-              <h2>Twitter Sweepstakes</h2>
+              <h2><a href="https://twitter.com/intent/user/?screen_name=FifthThird">Twitter Sweepstakes</a></h2>
               <div class="dates">Between Nov. 21 - Nov. 26, 2012</div>
               <a class="callToAction modalLink" data-name="twitterSweepstakes" href="#">See Details</a>
-              <img src="<?php echo get_bloginfo('template_directory') ?>/images/gift-card.png" />
+              <a href="https://twitter.com/intent/user/?screen_name=FifthThird"><img src="<?php echo get_bloginfo('template_directory') ?>/images/gift-card.png" /></a>
               <div class="blurb">Check back for a chance to win a $100 Fifth Third Bank Gift Card.</div>
               <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
               <?php
@@ -104,7 +108,7 @@
           <div class="block no-margin">
             <div class="sprite-green-border"></div>
             <div class="sprite-tweet-background no-padding">
-              <?php the_post_thumbnail(); ?>
+              <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
             </div>
             <div class="sprite-block-details-background">
               <h2 class="blog-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>              

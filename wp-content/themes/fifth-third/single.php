@@ -14,7 +14,7 @@
       <div class="inner clearfix">
 
         <div class="blog-header">
-          <a class="sprite-logo-blog modalLink" href="<?php echo home_url(); ?>"></a>
+          <a class="sprite-logo-blog" href="<?php echo home_url(); ?>">Fifth Third Bank Holiday Payback Sweepstakes</a>
           <div class="right-side">
             <div class="item">
               <div class="sprite-home-icon-1"></div>
@@ -36,7 +36,7 @@
             <?php get_template_part('blog-sidebar'); ?>
           </div>              
           <div class="article-content">
-            <div class="headerBar">
+            <div class="headerBar clearfix">
 
 <div id="article-sharing">
                   <ul id="social-share">

@@ -17,7 +17,12 @@
     <div class="field">
       <label for="address">Address:</label>
       <input name="address" type="text" class="two-col" required />
-    </div>    
+    </div>
+
+    <div class="field">
+      <label for="address">Address 2:</label>
+      <input name="address2" type="text" class="two-col" required />
+    </div>        
 
     <div class="field">
       <label for="city">City:</label>
@@ -174,18 +179,18 @@ float: left;">BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="
   <p>Join us on Twitter between November 21 and November 26 for a chance to win!</p>
 
   <h2>how Do You Enter?</h2>
-  <p><strong>Step One:</strong> <a class="notModal" href="https://twitter.com/intent/user/?screen_name=FifthThird">Follow @Fifth Third</a> on Twitter.</p>
+  <p><strong>Step One:</strong> <a class="notModal" href="https://twitter.com/intent/user/?screen_name=FifthThird">Follow @FifthThird</a> on Twitter.</p>
 
 
   <p><strong>Step Two:</strong> Tweet the following between 11/21 and 11/26:</p>
-  <p class="indent">RT 4 chance 2 win a $100 Fifth Third Bank Gift Card. Follow @Fifth Third for #HolidayPayback info. More at bit.ly/RetCAP. </p>
+  <p class="indent">"RT 4 chance 2 win a $100 Fifth Third Bank Gift Card. Follow @FifthThird for #HolidayPayback info. More at bit.ly/RetCAP."</p>
     
   <p><strong>Step Three:</strong> Tweet every day for more chances to win!</p>
 
   <h2>what Could You Win?</h2>
   <p>Each day, we’ll select <strong>5 followers</strong> to win a <strong>$100 Fifth Third Bank Gift Card!</strong></p>
 
-  <a class="officialRules" id="officialRules" href="#">>> Official Rules</a>
+  <a class="officialRules" data-tab="facebook" id="officialRules" href="#">>> Official Rules</a>
 
 </div>
 
@@ -206,7 +211,7 @@ float: left;">BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="
 
   <a class="officialRules" href="#">>> Official Rules</a>
 
-  <p class="sub">"Keurig"® and is a registered trademark of Keurig Incorporated. Keurig is not a participant in or sponsor of this promotion.</p>
+  <p class="sub">"Keurig"® is a registered trademark of Keurig Incorporated. Keurig is not a participant in or sponsor of this promotion.</p>
 </div>
 
 <!-- "see details" -->

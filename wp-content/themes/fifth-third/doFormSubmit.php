@@ -3,6 +3,7 @@
   $first_name = htmlspecialchars($_POST['first_name']);
   $last_name = htmlspecialchars($_POST['last_name']);
   $address = htmlspecialchars($_POST['address']);
+  $address2 = htmlspecialchars($_POST['address2']);
   $city = htmlspecialchars($_POST['city']);    
   $state  = htmlspecialchars($_POST['state']);
   $zip = htmlspecialchars($_POST['zip']);
@@ -20,9 +21,9 @@ if (!$con)
 
 mysql_select_db("wordpress", $con);
 
-$sql = "INSERT INTO sweepstakes (first_name, last_name, address, city, state, phone, email, isCustomer, type)
+$sql = "INSERT INTO sweepstakes (first_name, last_name, address, address2, city, state, phone, email, isCustomer, type)
 VALUES
-('$first_name', '$last_name', '$address', '$city', '$state', '$phone', '$email', '$areCustomer', '$type')";
+('$first_name', '$last_name', '$address', '$address2', '$city', '$state', '$phone', '$email', '$areCustomer', '$type')";
 
 if (!mysql_query($sql,$con)) {
   die('Error: ' . mysql_error());

@@ -40,6 +40,8 @@
       height: auto;
       padding-top: 0;
       border: none;
+      margin-bottom: 0;
+      padding-bottom: 15px;
     }
     .right {
       margin-left: 20px;
@@ -62,6 +64,7 @@
       height: 147px;
       margin: 20px 0 0 0;
       float: left;
+      text-indent: -9999px;
     }
     .right-side {
       float: left;
@@ -77,7 +80,7 @@
 
 /* reflection thing */
 .sprite-reflection {
-  width: 1500px;
+  width: 787px;
   height: 395px;
   position: absolute;
   left: -11px;
@@ -201,7 +204,7 @@ ul#article-tools{ float: right; width: 99px; }
 /* single pages */
 .article-content {
   .headerBar {
-    overflow: hidden;
+    height: 40px;
     margin-top: 15px;
   }
   .socialBar {
@@ -263,6 +266,10 @@ ul#article-tools{ float: right; width: 99px; }
     ul {
       margin-left: 40px;
       margin-bottom: 20px;
+      &.next-to-image {
+        position: relative;
+        left: 40px;        
+      }
     }
     li {
       list-style: disc;

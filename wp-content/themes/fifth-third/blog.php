@@ -10,7 +10,7 @@ Template Name: Blog
     <section role="main" class="main blog">
       <div class="inner clearfix">
         <div class="blog-header">
-         <a class="sprite-logo-blog" href="<?php echo home_url(); ?>"></a>
+         <a class="sprite-logo-blog" href="<?php echo home_url(); ?>">Fifth Third Bank Holiday Payback Sweepstakes</a>
           <div class="right-side">
             <div class="item">
               <div class="sprite-home-icon-1"></div>
@@ -66,18 +66,35 @@ Template Name: Blog
     </section>
 
     <script>
+    $(function() {
       $('.sprite-facebook-small').click(function(e) {
-        var link = $(this);
         e.preventDefault();
+
+        var me = $(this);
+        var name = me.html() + ' | Fifth Third Bank';
+        var link = me.attr('data-link');
+        var picture = me.closest('article').find('.wp-post-image').attr('src');
+        var caption = "Fifth Third Bank";
+        var description = me.closest('article').find('.excerpt').html();
+
         FB.ui({
             method: 'feed',
-            name: link.html() + ' | Fifth Third Bank',
-            link: link.attr('data-link'),
-            picture: link.parent('article').find('.image img').attr('src'),
-            caption: link.parent('article').find('.excerpt').html(),
-            description: link.parent('article').find('.excerpt').html()
-          });
+            name: name,
+            link: link,
+            picture: picture,
+            caption: caption,
+            description: description
+        });
+
+        // console.log(link);
+        // console.log(name);
+        // console.log(link);
+        // console.log(picture);
+        // console.log(caption);
+        // console.log(description);
+
       });
+    });
     </script>
 
     <?php get_footer(); ?>
