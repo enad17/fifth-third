@@ -271,33 +271,37 @@ body {
 strong {
   font-weight: bold;
 }
+/* line 41, ../sass/includes/_base.scss */
+strong.underline {
+  text-decoration: underline;
+}
 
-/* line 43, ../sass/includes/_base.scss */
+/* line 46, ../sass/includes/_base.scss */
 a {
   text-decoration: none;
 }
-/* line 45, ../sass/includes/_base.scss */
+/* line 48, ../sass/includes/_base.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 50, ../sass/includes/_base.scss */
+/* line 53, ../sass/includes/_base.scss */
 h1, h2, h3, h4 {
   font-weight: bold;
 }
 
-/* line 54, ../sass/includes/_base.scss */
+/* line 57, ../sass/includes/_base.scss */
 h2 {
   font-size: 18px;
   font-weight: bold;
 }
 
-/* line 60, ../sass/includes/_base.scss */
+/* line 63, ../sass/includes/_base.scss */
 .wrap {
   position: relative;
 }
 
-/* line 64, ../sass/includes/_base.scss */
+/* line 67, ../sass/includes/_base.scss */
 .left {
   float: left;
   width: 50%;
@@ -307,20 +311,20 @@ h2 {
   height: 594px;
 }
 
-/* line 73, ../sass/includes/_base.scss */
+/* line 76, ../sass/includes/_base.scss */
 .right {
   float: right;
   width: 50%;
   background: white;
 }
 
-/* line 79, ../sass/includes/_base.scss */
+/* line 82, ../sass/includes/_base.scss */
 .inner {
   width: 1000px;
   margin: 0px auto;
 }
 
-/* line 84, ../sass/includes/_base.scss */
+/* line 87, ../sass/includes/_base.scss */
 .main {
   padding: 5px 0 0px 5px;
   background: #fff;
@@ -329,17 +333,17 @@ h2 {
 }
 
 /* modals */
-/* line 92, ../sass/includes/_base.scss */
+/* line 95, ../sass/includes/_base.scss */
 .modal {
   display: none;
 }
 
-/* line 95, ../sass/includes/_base.scss */
+/* line 98, ../sass/includes/_base.scss */
 #simplemodal-overlay {
   background-color: #242424;
 }
 
-/* line 98, ../sass/includes/_base.scss */
+/* line 101, ../sass/includes/_base.scss */
 #simplemodal-container {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -350,7 +354,7 @@ h2 {
   border: 8px solid #97bee1;
   padding: 20px;
 }
-/* line 103, ../sass/includes/_base.scss */
+/* line 106, ../sass/includes/_base.scss */
 #simplemodal-container h2 {
   text-transform: uppercase;
   font-size: 13px;
@@ -359,65 +363,65 @@ h2 {
   color: #1d2051;
   margin-bottom: 0;
 }
-/* line 111, ../sass/includes/_base.scss */
+/* line 114, ../sass/includes/_base.scss */
 #simplemodal-container h3 {
   font-family: "proxima-nova", sans-serif;
   text-transform: uppercase;
   font-size: 13px;
 }
-/* line 116, ../sass/includes/_base.scss */
+/* line 119, ../sass/includes/_base.scss */
 #simplemodal-container p {
   font-size: 12px;
   margin-bottom: 10px;
 }
-/* line 119, ../sass/includes/_base.scss */
+/* line 122, ../sass/includes/_base.scss */
 #simplemodal-container p.largest {
   font-size: 16px;
 }
-/* line 122, ../sass/includes/_base.scss */
+/* line 125, ../sass/includes/_base.scss */
 #simplemodal-container p.larger {
   font-size: 14px;
   font-weight: bold;
   color: #1d2051;
 }
-/* line 127, ../sass/includes/_base.scss */
+/* line 130, ../sass/includes/_base.scss */
 #simplemodal-container p.sub {
   padding-top: 10px;
   font-size: 10px;
 }
-/* line 131, ../sass/includes/_base.scss */
+/* line 134, ../sass/includes/_base.scss */
 #simplemodal-container p.indent {
   padding-left: 20px;
 }
-/* line 135, ../sass/includes/_base.scss */
+/* line 138, ../sass/includes/_base.scss */
 #simplemodal-container .rules-container {
   height: 265px;
   overflow-y: auto;
   margin-top: 10px;
 }
-/* line 139, ../sass/includes/_base.scss */
+/* line 142, ../sass/includes/_base.scss */
 #simplemodal-container .rules-container p {
   font-weight: normal;
 }
-/* line 143, ../sass/includes/_base.scss */
+/* line 146, ../sass/includes/_base.scss */
 #simplemodal-container .centered {
   text-align: center;
 }
-/* line 146, ../sass/includes/_base.scss */
+/* line 149, ../sass/includes/_base.scss */
 #simplemodal-container .thanks {
   color: #0db301;
   text-transform: uppercase;
   font-size: 50px;
   text-align: center;
 }
-/* line 152, ../sass/includes/_base.scss */
+/* line 155, ../sass/includes/_base.scss */
 #simplemodal-container .officialRules {
   cursor: pointer;
   color: #ff0000;
   font-size: 11px;
   margin: 15px 0;
 }
-/* line 158, ../sass/includes/_base.scss */
+/* line 161, ../sass/includes/_base.scss */
 #simplemodal-container .modalClose {
   font-family: "adelle", serif;
   color: #272d64;
@@ -427,12 +431,12 @@ h2 {
   font-weight: bold;
   font-style: italic;
 }
-/* line 167, ../sass/includes/_base.scss */
+/* line 170, ../sass/includes/_base.scss */
 #simplemodal-container .social {
   text-align: center;
   margin-top: 20px;
 }
-/* line 170, ../sass/includes/_base.scss */
+/* line 173, ../sass/includes/_base.scss */
 #simplemodal-container .social .sprite-twitter-icon, #simplemodal-container .social .sprite-facebook-icon {
   margin: 0px 5px;
   display: inline-block;

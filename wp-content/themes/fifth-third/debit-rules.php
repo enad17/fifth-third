@@ -1,196 +1,43 @@
-<p><strong>NO PURCHASE, TRANSACTION OR OBLIGATION NECESSARY TO ENTER OR WIN.
-NON-PURCHASE ENTRIES AND PURCHASE ENTRIES HAVE AN EQUAL CHANCE OF
-WINNING. SWEEPSTAKES OPEN TO LEGAL RESIDENTS OF THE 50 UNITED STATES, D.C.,
-18 YEARS OF AGE OR OLDER AT TIME OF ENTRY WHO ARE CURRENT FIFTH THIRD BANK
-CUSTOMERS.</strong></p>
+<p style="text-align: center;"><strong>Fifth Third Bank Holiday Payback Sweepstakes <br />
+Official Rules – Debit </strong></p>
 
-<p><strong>DESCRIPTION/HOW TO ENTER:</strong> Fifth Third Bank Holiday Payback Sweepstakes (“Sweepstakes”)
-begins at 12:00:01 a.m. Eastern Daylight Time on 11/1/12 and ends at 11:59:59 p.m. Eastern Standard
-Time on 12/30/12 (“Sweepstakes Period”). An eligible Fifth Third Bank customer (defined as being a
-Debit card cardholder or having a loan account or any kind of personal deposit account, such as, but
-not limited to checking, savings, Certificate of Deposit or Individual Retirement Account) with an active
-account in good standing will receive one (1) automatic sweepstakes entry for each qualified Debit
-card transaction (signature transactions only; eligible card BINs are 444590, 453729, 466129, 510828,
-514199, 522890, 534958, 536488, 541000, 542432 and 553681) during the Sweepstakes Period.
-Purchases made using your Personal Identification Number (PIN) do not qualify. ATM withdrawals,
-account adjustment transactions/returns, finance charges, fees, cash advances, convenience checks,
-foreign transaction currency charges, or insurance charges are not considered eligible transactions
-for Sweepstakes Entry. Entries from unauthorized card use or purchases made with lost, stolen or
-fraudulent Debit cards are void.</p>
+<p><strong>NO PURCHASE, TRANSACTION OR OBLIGATION NECESSARY TO ENTER OR WIN. 
+NON-PURCHASE ENTRIES AND PURCHASE ENTRIES HAVE AN EQUAL CHANCE OF WINNING. SWEEPSTAKES OPEN TO LEGAL RESIDENTS OF THE 50 UNITED STATES, D.C., 18 YEARS OF AGE OR OLDER AT TIME OF ENTRY WHO ARE CURRENT FIFTH THIRD BANK CUSTOMERS.</strong></p>
 
-<p><strong>ONLINE ALTERNATE ENTRY METHOD:</strong> To enter without a purchase, transaction or other obligation,
-during the Sweepstakes Period, go to www.53HolidayPayback.com and provide the following required
-information: your complete name, street address (no P.O. Boxes), city, state, zip code, daytime
-telephone number and email address. You will also need to confirm that you are a current Fifth Third
-Bank Debit Card Cardholder in good standing.</p>
+<p><strong class="underline">DESCRIPTION/HOW TO ENTER:</strong> Fifth Third Bank Holiday Payback Sweepstakes (“Sweepstakes”) begins at 12:00:01 a.m. Eastern Daylight Time on 11/1/12 and ends at 11:59:59 p.m. Eastern Standard Time on 12/30/12 (“Sweepstakes Period”).  An eligible Fifth Third Bank customer (defined as being a Debit card cardholder or having a loan account or any kind of personal deposit account, such as, but not limited to checking, savings, Certificate of Deposit or Individual Retirement Account) with an active account in good standing will receive one (1) automatic sweepstakes entry for each qualified Debit card transaction (signature transactions only; eligible card BINs are 444590, 453729, 466129, 510828, 514199, 522890, 534958, 536488, 541000, 542432 and 553681) during the Sweepstakes Period. Purchases made using your Personal Identification Number (PIN) do not qualify. ATM withdrawals, account adjustment transactions/returns, finance charges, fees, cash advances, convenience checks, foreign transaction currency charges, or insurance charges are not considered eligible transactions for Sweepstakes Entry. Entries from unauthorized card use or purchases made with lost, stolen or fraudulent Debit cards are void.  </p>
 
-<p><strong>MAIL-IN ALTERNATE ENTRY METHOD:</strong> To enter without a purchase or without going online,
-please print your complete name, age, street address (no P.O. Boxes), city, state, Zip code, and the
-words “Fifth Third Bank Holiday Payback Debit Sweepstakes Entry”, day and evening telephone
-numbers, e-mail address (optional) on a 3”x5” paper, place in stamped envelope and mail to: “Fifth
-Third Bank Holiday Payback Debit Sweepstakes Entry”, P.O. Box XXXX, Chicago, IL 60141-xxxx.
-Mail-in entries must be postmarked by 12/31/12 and received by 1/7/13 to be eligible for the drawing.
-Limit one entry per outer mailing envelope.</p>
+<p><strong class="underline">ONLINE ALTERNATE ENTRY METHOD:</strong> To enter without a purchase, transaction or other obligation, during the Sweepstakes Period, go to www.53HolidayPayback.com and provide the following required information: your complete name, street address (no P.O. Boxes), city, state, zip code, daytime telephone number and email address. You will also need to confirm that you are a current Fifth Third Bank Debit Card Cardholder in good standing.
 
-<p>There is a limit of 25 entries per week regardless of method of entry and all entries must be received by
-11:59:59 p.m. EST on 12/30/12 to be eligible for the drawing. Proof of submitting an entry via Online entry
-method (such as a copy of a “thank you” message) does not constitute proof of actual receipt by Sponsor of
-an entry for purposes of this Sweepstakes. Proof of submitting an entry via Mail-in entry method does not
-constitute proof of actual receipt by Sponsor of an entry for purposes of this Sweepstakes. Any individual
-who attempts to enter, or in the sole discretion of Sponsor is suspected of submitting alternate entries in
-excess of the disclosed maximum, by any means, including, but not limited to establishing multiple email
-accounts, will be disqualified from participation in this Sweepstakes. Multiple Sweepstakes participants are
-not permitted to share the same email address. Your use of your Fifth Third Bank Debit card to make a
-purchase and/or your submission of an online or mail-in entry constitutes your consent to participate in this
-Sweepstakes. Entries generated by script, macro, or by any other automatic or mechanical means are void.</p>
+<p><strong class="underline">MAIL-IN ALTERNATE ENTRY METHOD:</strong> To enter without a purchase or without going online, please print your complete name, age, street address (no P.O. Boxes), city, state, Zip code, and the words “Fifth Third Bank Holiday Payback Debit Sweepstakes Entry”, day and evening telephone numbers, e-mail address (optional) on a 3”x5” paper, place in stamped envelope and mail to: “Fifth Third Bank Holiday Payback Debit Sweepstakes Entry”, P.O. Box 411088, Chicago, IL 60141.
+Mail-in entries must be postmarked by 12/31/12 and received by 1/7/13 to be eligible for the drawing.  Limit one entry per outer mailing envelope.
 
-<p><strong>ELIGIBILITY:</strong> Sweepstakes open to Fifth Third Bank customers (as defined above) with an active
-account in good standing who are legal residents of the 50 U.S. or District of Columbia, 18 years of age
-or older at time of entry. Employees of Fifth Third Bank (“Sponsor”), its parent, affiliates, subsidiaries,
-advertising, promotional and judging agencies engaged in the web site development, production or
-distribution of materials for this Sweepstakes, and Marden-Kane, Inc. (collectively, the “Sweepstakes
-Entities”) and the immediate family members (parent, child, sibling, and spouse of each) of and/or
-persons living in the same household as such individuals (whether related or not) are not eligible to
-participate. Sponsor reserves the right to verify eligibility qualifications of any winner. Sponsor is not
-required to enter into correspondence with entrants, including via e-mail. Sweepstakes is subject to all
-applicable, federal, state, local laws and regulations. Void in Puerto Rico, anywhere outside the U.S.,
-and wherever else prohibited by law.</p>
+<p>There is a limit of 25 entries per week regardless of method of entry and all entries received <strong>via purchase and online methods of entry</strong> must be received by 11:59:59 p.m. EST on 12/30/12 to be eligible for the drawing. Proof of submitting an entry via Online entry method (such as a copy of a “thank you” message) does not constitute proof of actual receipt by Sponsor of an entry for purposes of this Sweepstakes. Proof of submitting an entry via Mail-in entry method does not constitute proof of actual receipt by Sponsor of an entry for purposes of this Sweepstakes. Any individual who attempts to enter, or in the sole discretion of Sponsor is suspected of submitting alternate entries in excess of the disclosed maximum, by any means, including, but not limited to establishing multiple email accounts, will be disqualified from participation in this Sweepstakes. Multiple Sweepstakes participants are not permitted to share the same email address. Your use of your Fifth Third Bank Debit card to make a purchase and/or your submission of an online or mail-in entry constitutes your consent to participate in this Sweepstakes. Entries generated by script, macro, or by any other automatic or mechanical means are void.  </p>
 
-<p><strong>RANDOM DRAWINGS DETAILS:</strong> A Random drawing will be held on or about 1/31/13 from
-all eligible entries received under the supervision of Marden-Kane, Inc., an independent judging
-organization at Lake Bluff, IL. Decisions of the judges are final on all matters relating to this
-Sweepstakes. Estimated odds of winning Grand Prize: 1:816,000; however, the actual odds will depend
-on the number of eligible entries received. Prize is nontransferable and no substitutions are allowed
-except by the Sponsor who reserves the right to award a prize of equal or greater approximate value
-and comparable use. Limit one Grand Prize winner per household.</p>
+<p><strong>ELIGIBILITY</strong>: Sweepstakes open to Fifth Third Bank customers (as defined above) with an active account in good standing who are legal residents of the 50 U.S. states or District of Columbia, 18 years of age or older at time of entry. Employees of Fifth Third Bank (“Sponsor”), its parent, affiliates, subsidiaries, advertising, promotional and judging agencies engaged in the web site development, production or distribution of materials for this Sweepstakes, and Marden-Kane, Inc. (collectively, the “Sweepstakes Entities”) and the immediate family members (parent, child, sibling, and spouse of each) of and/or persons living in the same household as such individuals (whether related or not) are not eligible to participate. Sponsor reserves the right to verify eligibility qualifications of any winner. Sponsor is not required to enter into correspondence with entrants, including via e-mail. Sweepstakes is subject to all applicable, federal, state, local laws and regulations. Void in Puerto Rico, anywhere outside the U.S., and wherever else prohibited by law.   
 
-<p><strong>PRIZES:</strong> Fifty (50) Grand Prizes: Each prize will be equal to a combined total dollar amount of all
-purchase transactions made on a winner’s Debit card for one (1) entire day (one entire day is defined
-as 12:00:01 am - 11:59:59 p.m. EST) on any day during the Sweepstakes Period from $5 up to a
-maximum of $2,000 per winner. Prize will be awarded as a statement credit to winner’s existing Debit
-card account, Maximum Value: $2,000 each prize. Winners who are Fifth Third Debit cardholders who
-enter by the alternate online or write-in means of entry will receive $2,000 awarded as a statement
-credit to winner’s existing Debit card account. Winners who are not Fifth Third Debit cardholders will
-receive a $2,000 pre-paid Debit card. Terms and Conditions may apply regarding the use of the pre-paid
-Debit Card. All federal, state or local income, sales and use taxes or other taxes, or additional service
-fees not expressly included above are the responsibility of the winner. Grand Prize Winners will be
-required to provide their social security number for tax reporting purposes for the 2013 tax year if their
-prize amounts to $600 or more.</p>
+<p><strong>RANDOM DRAWINGS DETAILS:</strong>  A Random drawing will be held on or about 1/31/13 from all eligible entries received under the supervision of Marden-Kane, Inc., an independent judging organization at Lake Bluff, IL. Decisions of the judges are final on all matters relating to this Sweepstakes. Estimated odds of winning Grand Prize: 1:816,000; however, the actual odds will depend on the number of eligible entries received. Prize is nontransferable and no substitutions are allowed except by the Sponsor who reserves the right to award a prize of equal or greater approximate value and comparable use. Limit one Grand Prize winner per household.  </p>
 
-<p><strong>GENERAL CONDITIONS:</strong> All materials submitted become the sole property of the Sponsor and will
-not be returned. Potential prize winners will be notified by mail, phone and/or email and must sign and
-return an Affidavit of Eligibility/Release of Liability/Prize Acceptance Form, and (where legal) a Publicity
-Release within 7 days of attempted notification. If a potential winner is a minor under the law of his/
-her jurisdiction of residence (residents of Alabama and Nebraska must be 19 years of age or older
-and residents of Mississippi must be at least 21 to be age of majority) at the time of entry, his or her
-respective parent or guardian may be required to execute an Affidavit acknowledging, confirming and
-consenting to the Liability Release and where legal, a Publicity Consent document in order to accept
-the prize on behalf of the winner. If parent or guardian is unavailable to execute this document, the
-winner will not receive the prize and an alternate winner will be selected and notified. It is the sole
-responsibility of the entrant to notify the Sponsor in writing if the entrant changes his or her mailing
-address or other contact information during the Sweepstakes Period. The Affidavit/Release Forms are
-subject to verification by Sponsor. The awarding of the prize is contingent on individual’s full compliance
-with these Official Rules, as determined by Sponsor in its sole discretion. If winner is found to have
-falsified any entry data or material, the winner forfeits his/her prize and is disqualified, and an alternate
-winner will be selected according to the original winner selection method. Upon disqualification, no prize
-will be awarded. If prize notification is undeliverable or if potential winner does not comply within the
-applicable time period as stated above, he/she will be disqualified and an alternate winner selected.
-Allow up to 4 weeks for prize verification and award to be deposited in winner’s Debit card account (as
-applicable). Acceptance of prize constitutes permission to the Sponsor and its agencies to use winner’s
-name, city, state, comments, photograph, voice and/or likeness for purposes of advertising, trade and/
-or publicity without further compensation in all media now known or hereafter discovered, worldwide
-and on the World Wide Web, without notice, review or approval, except for residents of Tennessee and
-wherever else prohibited by law. Winner, who is a Fifth Third Bank Debit card cardholder, must have
-an account in good standing in accordance with the terms and conditions described in the Fifth Third
-Bank Debit Card Agreement in order to receive the prize. In the instance of co-applicant cardholders,
-the winner is the primary cardholder. By participating in this sweepstakes, entrants agree to be bound
-by the Official Rules of this Sweepstakes and the decisions of the Sponsor and/or the judges that shall
-be final and binding in all respects.</p>
+<p><strong>PRIZES</strong>: Fifty (50) Grand Prizes: Each prize will be equal to a combined total dollar amount of all purchase transactions made on a winner’s Debit card for one (1) entire day (one entire day is defined as 12:00:01 am - 11:59:59 p.m. EST) on any day during the Sweepstakes Period from $5 up to a maximum of $2,000 per winner. Prize will be awarded as a statement credit to winner’s existing Debit card account, Maximum Value: $2,000 each prize.  Winners who are Fifth Third Debit cardholders who enter by the alternate online or write-in means of entry will receive $2,000 awarded as a statement credit to winner’s existing Debit card account. Winners who are not Fifth Third Debit cardholders will receive a $2,000 pre-paid Debit card. Terms and Conditions may apply regarding the use of the pre-paid Debit Card. All federal, state or local income, sales and use taxes or other taxes, or additional service fees not expressly included above are the responsibility of the winner.  Grand Prize Winners will be required to provide their social security number for tax reporting purposes for the 2013 tax year if their prize amounts to $600 or more.</p>
 
-<p><strong>LIMITATIONS OF LIABILITY:</strong> Sweepstakes Entities, assume no responsibility or liability for entries
-or for transactions that are: (a) undecipherable, late, lost, misdirected, incorrectly addressed, damaged,
-torn, postage due mail, incorrect or inaccurate entry information, or for any faulty, failed, garbled
-or jumbled electronic data transmissions; (b) any unauthorized access to, or theft, destruction or
-alteration of entries at any point in the operation of this Sweepstakes; (c) any technical malfunction,
-failure, error, omission, interruption, deletion, defect, delay in operation or communications line
-failure, regardless of cause, with regard to any equipment, systems, networks, lines, satellites, servers,
-computers or providers utilized in any aspect of the operation of the Sweepstakes; (d) inaccessibility or
-unavailability of the Internet or other media chosen to enter the Sweepstakes with or any combination
-thereof, or; (e) any injury or damage to participant’s or to any other person's electronic device which
-may be related to or resulting from any attempt to participate in the Sweepstakes or download any
-materials in the Sweepstakes. If, for any reason, the Sweepstakes is not capable of running as planned
-for reasons which may include without limitation, infection by computer virus, bugs, tampering,
-unauthorized intervention, fraud, technical failures, or any other causes which may corrupt or affect
-the administration, security, fairness, integrity or proper conduct of this Sweepstakes, then Sponsor
-reserves the right at its sole discretion to disqualify any individual who tampers with the entry process
-and void any entries submitted fraudulently or cancel, terminate, modify or suspend the Sweepstakes
-in whole or in part and award the prize in a random drawing from among all eligible Debit transactions
-and all non-suspect or unaffected entries received Online and via Mail-in as of the termination date.
-In the event of acts or regulations of any governmental or supra-national authority, or in time of war,
-national emergency, accident, dangerous weather conditions, fire, riot, strikes, lock-outs, industrial
-disputes, acts of terrorism or other matters beyond the Sponsor's reasonable control, Sponsor has
-the right, in its sole discretion, to terminate the Sweepstakes and notice would be posted online at:
-www.53HolidayPayback.com.</p>
+<p><strong>GENERAL CONDITIONS</strong>:  All materials submitted become the sole property of the Sponsor and will not be returned. Potential prize winners will be notified by mail, phone and/or email and must sign and return an Affidavit of Eligibility/Release of Liability/Prize Acceptance Form, and (where legal) a Publicity Release within 7 days of attempted notification. If a potential winner is a minor under the law of his/her jurisdiction of residence (residents of Alabama and Nebraska must be 19 years of age or older and residents of Mississippi must be at least 21 to be age of majority) at the time of entry, his or her respective parent or guardian may be required to execute an Affidavit acknowledging, confirming and consenting to the Liability Release and where legal, a Publicity Consent document in order to accept the prize on behalf of the winner. If parent or guardian is unavailable to execute this document, the winner will not receive the prize and an alternate winner will be selected and notified. It is the sole responsibility of the entrant to notify the Sponsor in writing if the entrant changes his or her mailing address or other contact information during the Sweepstakes Period. The Affidavit/Release Forms are subject to verification by Sponsor. The awarding of the prize is contingent on individual’s full compliance with these Official Rules, as determined by Sponsor in its sole discretion.  If winner is found to have falsified any entry data or material, the winner forfeits his/her prize and is disqualified, and an alternate winner will be selected according to the original winner selection method. Upon disqualification, no prize will be awarded. If prize notification is undeliverable or if potential winner does not comply within the applicable time period as stated above, he/she will be disqualified and an alternate winner selected. Allow up to 4 weeks for prize verification and award to be deposited in winner’s Debit card account (as applicable). Acceptance of prize constitutes permission to the Sponsor and its agencies to use winner’s name, city, state, comments, photograph, voice and/or likeness for purposes of advertising, trade and/or publicity without further compensation in all media now known or hereafter discovered, worldwide and on the World Wide Web, without notice, review or approval, except for residents of Tennessee and wherever else prohibited by law. Winner, who is a Fifth Third Bank Debit card cardholder, must have an account in good standing in accordance with the terms and conditions described in the Fifth Third Bank Debit Card Agreement in order to receive the prize. In the instance of co-applicant cardholders, the winner is the primary cardholder. By participating in this sweepstakes, entrants agree to be bound by the Official Rules of this Sweepstakes and the decisions of the Sponsor and/or the judges that shall be final and binding in all respects. </p>
 
-<p><strong>CONDUCT:</strong> Failure to comply with these Official Rules may result in disqualification. Sponsor reserves
-the right at its sole discretion to disqualify any individual suspected of tampering with the entry process
-or the operation of the Sweepstakes; or to be acting in any manner deemed by Sponsor to be in
-violation of the Official Rules; or to be acting in any manner deemed by Sponsor to be unsportsmanlike
-or disruptive, or with intent to annoy, abuse, threaten or harass any other person. In the event there is
-a discrepancy or inconsistency between disclosures or other statements contained in any sweepstakes
-materials and the terms and conditions of the Official Rules, the Official Rules shall prevail, govern and
-control. Entrants agree to indemnify and hold harmless the Sponsor, it’s parent, affiliates, subsidiaries,
-divisions, advertising and promotion agencies, Marden-Kane Inc. and all of their respective employees,
-directors, officers, shareholders, agents, successors and assigns (collectively “Releasees”), from any
-injuries, losses, damages, claims and actions of any kind resulting from or arising from participation
-in the Sweepstakes or acceptance, possession, use, non-use or misuse of the prize that may be
-awarded. Releasees are not responsible for printing, typographical or other inadvertent errors in any
-Sweepstakes-related materials or other errors relating to or in connection with the Sweepstakes,
-including without limitation, errors which may occur in connection with the administration of the
-Sweepstakes, the processing of entries, the announcement of prize; or for stolen, lost, late, damaged,
-incomplete entries. CAUTION: ANY ATTEMPT TO DELIBERATELY UNDERMINE THE LEGITIMATE</p>
+<p><strong>LIMITATIONS OF LIABILITY</strong>: Sweepstakes Entities, assume no responsibility or liability for entries or for transactions that are: (a) undecipherable, late, lost, misdirected, incorrectly addressed, damaged, torn, postage due mail, incorrect or inaccurate entry information, or for any faulty, failed, garbled or jumbled electronic data transmissions; (b) any unauthorized access to, or theft, destruction or alteration of entries at any point in the operation of this Sweepstakes; (c) any technical malfunction, failure, error, omission, interruption, deletion, defect, delay in operation or communications line failure, regardless of cause, with regard to any equipment, systems, networks, lines, satellites, servers, computers or providers utilized in any aspect of the operation of the Sweepstakes; (d) inaccessibility or unavailability of the Internet or other media chosen to enter the Sweepstakes with or any combination thereof, or; (e) any injury or damage to participant’s or to any other person's electronic device which may be related to or resulting from any attempt to participate in the Sweepstakes or download any materials in the Sweepstakes. If, for any reason, the Sweepstakes is not capable of running as planned for reasons which may include without limitation, infection by computer virus, bugs, tampering, unauthorized intervention, fraud, technical failures, or any other causes which may corrupt or affect the administration, security, fairness, integrity or proper conduct of this Sweepstakes, then Sponsor reserves the right at its sole discretion to disqualify any individual who tampers with the entry process and void any entries submitted fraudulently or cancel, terminate, modify or suspend the Sweepstakes in whole or in part and award the prize in a random drawing from among all eligible Debit transactions and all non-suspect or unaffected entries received Online and via Mail-in as of the termination date.  In the event of acts or regulations of any governmental or supra-national authority, or in time of war, national emergency, accident, dangerous weather conditions, fire, riot, strikes, lock-outs, industrial disputes, acts of terrorism or other matters beyond the Sponsor's reasonable control, Sponsor has the right, in its sole discretion, to terminate the Sweepstakes and notice would be posted online at: www.53HolidayPayback.com. </p>
 
-<p><strong>OPERATION OF THE SWEEPSTAKES IS A VIOLATION OF CRIMINAL & CIVIL LAWS & SHOULD
-SUCH AN ATTEMPT BE MADE, THE SPONSOR RESERVES THE RIGHT TO SEEK DAMAGES OR OTHER
-REMEDIES FROM ANY SUCH PERSON(S) RESPONSIBLE FOR THE ATTEMPT TO THE FULLEST EXTENT
-PERMITTED BY LAW. Sponsor’s failure to enforce any terms of these Official Rules shall not constitute a
-waiver of that or any other provision.</p>
+<p><strong class="underline">CONDUCT</strong>: Failure to comply with these Official Rules may result in disqualification. Sponsor reserves the right at its sole discretion to disqualify any individual suspected of tampering with the entry process or the operation of the Sweepstakes; or to be acting in any manner deemed by Sponsor to be in violation of the Official Rules; or to be acting in any manner deemed by Sponsor to be unsportsmanlike or disruptive, or with intent to annoy, abuse, threaten or harass any other person. In the event there is a discrepancy or inconsistency between disclosures or other statements contained in any sweepstakes materials and the terms and conditions of the Official Rules, the Official Rules shall prevail, govern and control. Entrants agree to indemnify and hold harmless the Sponsor, it’s parent, affiliates, subsidiaries, divisions, advertising and promotion agencies, Marden-Kane Inc. and all of their respective employees, directors, officers, shareholders, agents, successors and assigns (collectively “Releasees”), from any injuries, losses, damages, claims and actions of any kind resulting from or arising from participation in the Sweepstakes or acceptance, possession, use, non-use or misuse of the prize that may be awarded. Releasees are not responsible for printing, typographical or other inadvertent errors in any Sweepstakes-related materials or other errors relating to or in connection with the Sweepstakes, including without limitation, errors which may occur in connection with the administration of the Sweepstakes, the processing of entries, the announcement of prize; or for stolen, lost, late, damaged, incomplete entries. <strong>CAUTION: ANY ATTEMPT TO DELIBERATELY  UNDERMINE THE LEGITIMATE OPERATION OF THE SWEEPSTAKES IS A VIOLATION OF CRIMINAL & CIVIL LAWS & SHOULD SUCH AN ATTEMPT BE MADE, THE SPONSOR RESERVES THE RIGHT TO SEEK DAMAGES OR OTHER REMEDIES FROM ANY SUCH PERSON(S) RESPONSIBLE FOR THE ATTEMPT TO THE FULLEST EXTENT PERMITTED BY LAW. </strong>Sponsor’s failure to enforce any terms of these Official Rules shall not constitute a waiver of that or any other provision.  </p>
 
-<p><strong>PRIVACY & PERSONAL INFORMATION:</strong> Personal information collected from entrants will be
-used by Sponsor for the purpose of administering the Sweepstakes only. Sponsor shall not sell, share
-or otherwise disclose personal information of entrants with third parties, other than to third parties
-engaged by Sponsor to fulfill the above purposes. In the event of any discrepancy between the privacy
-policy and these Official Rules, the privacy policy shall control and govern. To review Fifth Third Bank’s
-privacy policy please access: https://www.53.com/site/global/privacy-security/.</p>
+<p><strong>PRIVACY & PERSONAL INFORMATION</strong>:  Personal information collected from entrants will be used by Sponsor for the purpose of administering the Sweepstakes only. Sponsor shall not sell, share or otherwise disclose personal information of entrants with third parties, other than to third parties engaged by Sponsor to fulfill the above purposes. In the event of any discrepancy between the privacy policy and these Official Rules, the privacy policy shall control and govern.  To review Fifth Third Bank’s privacy policy please access: https://www.53.com/site/global/privacy-security/. </p>
 
-<p><strong>DISPUTES:</strong> Except where prohibited, all issues and questions concerning the construction, validity,
-interpretation and enforceability of these Official Rules, or the rights and obligations of the entrant
-and Sponsor in connection with the Sweepstakes, shall be governed by, and construed in accordance
-with, the laws of the United States and the State of Ohio, without giving effect to any choice of law
-or conflict of law rules (whether of the State of Ohio, or any other jurisdiction), which would cause the
-application of the laws of any jurisdiction other than the State of Ohio.</p>
+<p><strong>DISPUTES</strong>: Except where prohibited, all issues and questions concerning the construction, validity, interpretation and enforceability of these Official Rules, or the rights and obligations of the entrant and Sponsor in connection with the Sweepstakes, shall be governed by, and construed in accordance with, the laws of the United States and the State of  Ohio, without giving effect to any choice of law or conflict of law rules (whether of the State of Ohio, or any other jurisdiction), which would cause the application of the laws of any jurisdiction other than the State of Ohio. </p>
 
-<p>Except where prohibited, as a condition of participating in this Sweepstakes, each participant agrees
-that any and all disputes that cannot be resolved between the participant and any Released Party,
-claims and causes of action arising out of or connected with this Sweepstakes, or the prize awarded,
-or the determination of the winner must be resolved individually, without resort to any form of class
-action. Further, in any such dispute, under no circumstances will a participant be permitted or entitled
-to obtain awards for, and hereby waives all rights to claim punitive, incidental or consequential
-damages, or any other damages, including attorneys’ fees, other than participant’s actual out-pocket
-expenses (if any), and participant further waives all rights to have damages multiplied or increased.</p>
+<p>Except where prohibited, as a condition of participating in this Sweepstakes, each participant agrees that any and all disputes that cannot be resolved between the participant and any Released Party, claims and causes of action arising out of or connected with this Sweepstakes, or the prize awarded, or the determination of the winner must be resolved individually, without resort to any form of class action. Further, in any such dispute, under no circumstances will a participant be permitted or entitled to obtain awards for, and hereby waives all rights to claim punitive, incidental or consequential damages, or any other damages, including attorneys’ fees, other than participant’s actual out-pocket expenses (if any), and participant further waives all rights to have damages multiplied or increased.</p>
 
-<p><strong>COPY OF RULES:</strong> For individual copy of Official Rules log onto www.53HolidayPayback.com.</p>
 
-<p><strong>WINNERS’ LIST:</strong> For a list of the winners’ names, you may log onto www.53HolidayPayback.com
-or send a self-addressed stamped envelope by 1/7/13 to: Fifth Third Bank Holiday Payback Debit
-Winners, P.O. Box XXXX, Chicago, IL XXXXX. VT residents may omit stamp.</p>
+<p><strong>COPY OF RULES</strong>:  For individual copy of Official Rules log onto www.53HolidayPayback.com.</p>
+  
+<p><strong>WINNERS’ LIST</strong>: For a list of the winners’ names, you may log onto www.53HolidayPayback.com or send a self-addressed stamped envelope by 1/7/13 to: Fifth Third Bank Holiday Payback Debit Sweepstakes Winners, P.O. Box 556, Lake Bluff, IL 60044-0556. VT residents may omit stamp. </p>
 
-<p><strong>SPONSOR:</strong> Fifth Third Bank, 38 Fountain Square Plaza, Cincinnati, OH 45263.</p>
+<p><strong>SPONSOR</strong>: Fifth Third Bank, 38 Fountain Square Plaza, Cincinnati, OH 45263.</p>
 
-<p><strong>ADMINISTRATOR:</strong> Marden-Kane, Inc., 611 Rockland Rd, Ste 204, Lake Bluff, IL 60044.</p>
+<p><strong>ADMINISTRATOR</strong>: Marden-Kane, Inc., 611 Rockland Rd, Ste 204, Lake Bluff, IL 60044.</p>
 
-<p><strong>OPT-OUT:</strong> If you do not wish to receive future mailings from Fifth Third Bank, please visit any Fifth 
-Third Banking Center or call a Fifth Third Customer Service Professional at 1-800-972-3030. Our system
-will be updated to reflect your privacy preferences within 30 days following receipt of the request with
-complete information. You can verify the update by calling the Customer Service number listed above
-or visiting any Fifth Third Banking Center.</p>
+<p><strong>OPT-OUT</strong>:  If you do not wish to receive future mailings from Fifth Third Bank, please visit any Fifth Third Banking Center or call a Fifth Third Customer Service Professional at 1-800-972-3030. Our system will be updated to reflect your privacy preferences within 30 days following receipt of the request with complete information.  You can verify the update by calling the Customer Service number listed above or visiting any Fifth Third Banking Center.</p>
