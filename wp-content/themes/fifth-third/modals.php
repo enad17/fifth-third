@@ -94,6 +94,10 @@ float: left;">BY CLICKING SUBMIT, I AGREE TO THE <a class="officialRules" href="
   <script> 
       // wait for the DOM to be loaded 
       $(document).ready(function() { 
+            $('#sweepStakesForm').h5Validate({
+              errorClass: 'error'
+            });
+
             $('#sweepStakesForm').ajaxForm({
 
               beforeSubmit: function() {

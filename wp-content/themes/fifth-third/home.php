@@ -26,7 +26,7 @@
           <div class="block">
             <div class="sprite-green-border"></div>
             <div class="prize">
-              <a href="https://www.facebook.com/FifthThirdBank/app_117825708370606" target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/images/ipad.png" /></a>
+              <a href="https://www.facebook.com/FifthThirdBank/app_117825708370606" target="_blank"><img src="<?php echo get_bloginfo('template_directory') ?>/images/kinect.png" /></a>
               <div class="week">11/9 Prize:</div>
               <div class="prize-name">KINECT</div>
             </div>
