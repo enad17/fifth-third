@@ -1,14 +1,16 @@
 h2 {
   margin-bottom: 24px;
+  color: #256AB4;
 }
 
 .item {
-  margin-bottom: 30px;
-  height: 55px;
+  margin-bottom: 40px;
+  &.no-margin { margin: 0; }
   p {
     padding-top: 0px;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 15px;
+    line-height: 21px;
+    color: #1F6AB6;
   }
 }
 .callToAction {
@@ -20,7 +22,7 @@ h2 {
   float: right;
   text-align: right;
   margin-top: 10px;
-  color: #333;
+  color: #1F6AB6;
   &:hover {
     text-decoration: underline;
   }
@@ -38,7 +40,7 @@ h2 {
   width: sprite-sprite-width(home-icon-1 );
   height: sprite-sprite-height(home-icon-1);
   float: left;
-  margin-right: 10px;
+  margin-right: 20px;
   margin-top: 4px;
 }
 
@@ -46,7 +48,7 @@ h2 {
   width: sprite-sprite-width(home-icon-2);
   height: sprite-sprite-height(home-icon-2);
   float: left;
-  margin-right: 10px;
+  margin-right: 20px;
   margin-top: 4px;
 }
 
