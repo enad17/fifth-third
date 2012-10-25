@@ -10,8 +10,17 @@
 				<li><a href="<?php echo home_url(); ?>">Home</a></li>
 				<li>|</li>				
 				<li><a href="<?php echo site_url(); ?>/tips">Tips</a></li>
-				<li>|</li>				
-				<li><a class="modalLink" data-name="alternateEntry" href="#">Alternate Entry</a></li>
+				
+        <?php
+          $now = strtotime("now");
+          $startAlternateEntry = strtotime("01 November 2012");
+          $endAlternateEntry = strtotime("28 December 2020");
+          if ($now >= $startAlternateEntry && $now <= $endAlternateEntry) {
+            echo '<li>|</li>';
+            echo "<li><a class=\"modalLink\" data-name=\"alternateEntry\" href=\"#\">Alternate Entry</a></li>";
+          }
+        ?> 				
+				
 				<li>|</li>
 				<li><a class="modalLink" data-name="officialRules" href="#">Official Rules</a></li>
 				<li>|</li>
