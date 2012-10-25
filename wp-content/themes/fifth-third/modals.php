@@ -21,7 +21,7 @@
 
     <div class="field">
       <label for="address">Address 2:</label>
-      <input name="address2" type="text" class="two-col" required />
+      <input name="address2" type="text" class="two-col"  />
     </div>        
 
     <div class="field">
