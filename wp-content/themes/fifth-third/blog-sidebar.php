@@ -23,7 +23,7 @@
 </div>
 
 <?php if(is_single()) { ?>
-  <div class="sprite-reflection-single"></div>
+  <!-- <div class="sprite-reflection-single"></div> -->
 <?php } else { ?>
-  <div class="sprite-reflection"></div>
+  <!-- <div class="sprite-reflection"></div> -->
 <?php } ?>

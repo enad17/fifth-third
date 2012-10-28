@@ -52,6 +52,22 @@ h2 {
   margin-top: 4px;
 }
 
+.sprite-home-icon-1-small {
+  width: sprite-sprite-width(home-icon-1-small);
+  height: sprite-sprite-height(home-icon-1-small);
+  float: left;
+  margin-right: 12px;
+  margin-top: 4px;
+}
+
+.sprite-home-icon-2-small {
+  width: sprite-sprite-width(home-icon-2-small);
+  height: sprite-sprite-height(home-icon-2-small);
+  float: left;
+  margin-right: 12px;
+  margin-top: 4px;
+}
+
 /* right side, blocks */
 .block {
   width: 493px;

@@ -8,15 +8,15 @@ WINNING. INTERNET ACCESS AND VALID EMAIL ADDRESS REQUIRED. VOID WHERE PROHIBITED
 Sweepstakes (“Sweepstakes”). By entering the Sweepstakes, you fully and unconditionally agree to be bound
 by these Rules during your participation in the Sweepstakes.</p>
 
-<p><strong>SPONSOR</strong>: Fifth Third Bank, 38 Fountain Square Plaza, Cincinnati, OH 45263. ADMINISTRATOR: Pathfinders
+<p><strong>SPONSOR</strong>: Fifth Third Bank, 38 Fountain Square Plaza, Cincinnati, OH 45263. <strong>ADMINISTRATOR</strong>: Pathfinders
 Advertising & Marketing Group, Inc., 3830 Edison Lakes Parkway, Mishawaka, IN 46545. THIS PROMOTION IS IN NO
 WAY SPONSORED, ENDORSED, ADMINISTERED BY, OR ASSOCIATED WITH FACEBOOK. Please direct questions,
 comments, or complaints regarding the promotion to the Administrator.</p>
 
 <p><strong>1. ELIGIBILITY:</strong> This Sweepstakes is open to legal residents of the United States and the District of Columbia who are
 eighteen (18) years of age or older at time of entry or have reached the age of majority within their jurisdiction. This
-Sweepstakes is subject to all applicable federal, state, and local laws. Void in Puerto Rico, all U.S. territories and
-possessions, Rhode Island, and where prohibited by law. Employees of Fifth Third Bank (“Sponsor”), Pathfinders
+Sweepstakes is subject to all applicable federal, state, and local laws. <strong>Void in Puerto Rico, all U.S. territories and
+possessions, Rhode Island, and where prohibited by law</strong>. Employees of Fifth Third Bank (“Sponsor”), Pathfinders
 Advertising & Marketing Group, Inc. (“Administrator”), and their respective parent and affiliate companies, as well as each
 of their immediate family members (spouse, parent, child or sibling) and individuals living in the same households of each
 of these individuals, whether or not related, are not eligible to enter or win.
@@ -81,7 +81,7 @@ disclosures and other statements contained in any of the Sweepstakes materials a
 Rules, these Rules will prevail, govern, and control. The invalidity of any provision(s) in these Rules does not affect the
 validity or enforceability of any other provisions. The failure to enforce any of these Rules shall not constitute a waiver
 of that provision. By entering the Sweepstakes, you affirm that you have read and accept these Rules and agree to be
-bound by these Rules and by the decisions of the Sponsor, which will be final and binding in all respects. CAUTION: ANY
+bound by these Rules and by the decisions of the Sponsor, which will be final and binding in all respects. <strong>CAUTION</strong>: ANY
 ATTEMPT TO DELIBERATELY DAMAGE OR UNDERMINE THE LEGITIMATE OPERATION OF THE SWEEPSTAKES
 IS A VIOLATION OF CRIMINAL AND CIVIL LAWS AND WILL RESULT IN DISQUALIFICATION FROM PARTICIPATION
 IN THE SWEEPSTAKES. SHOULD SUCH AN ATTEMPT BE MADE, SPONSOR RESERVES THE RIGHT TO SEEK

@@ -67,7 +67,7 @@ h2 {
 .left {
   float: left;
   width: 50%;
-  padding: 0px 50px 70px 50px;
+  padding: 0px 50px 70px 30px;
   border-right: 11px solid #6693c1;
   background: white;
   height: 594px;
@@ -82,6 +82,8 @@ h2 {
 .inner {
   width: 1000px;
   margin: 0px auto;
+  position: relative;
+  left: -30px;
 }
 
 .main {

@@ -14,15 +14,15 @@
       <div class="inner clearfix">
 
         <div class="blog-header">
-          <a class="sprite-logo-blog" href="<?php echo home_url(); ?>">Fifth Third Bank Holiday Payback Sweepstakes</a>
+         <a class="sprite-logo-blog" href="<?php echo home_url(); ?>">Fifth Third Bank Holiday Payback Sweepstakes</a>
           <div class="right-side">
             <div class="item">
-              <div class="sprite-home-icon-1"></div>
+              <div class="sprite-home-icon-1-small"></div>
               <p>Every time you use your Fifth Third Bank Credit or Debit Card this holiday season you’re automatically entered to win!</p>
             </div>
             <div class="item">
-              <div class="sprite-home-icon-2"></div>
-              <p>We’re selecting <strong>100 customers</strong> to win a “Holiday Payback” – a statement credit for every card purchase made that day -  <strong>up to $2,000.</strong></p>
+              <div class="sprite-home-icon-2-small"></div>
+              <p>We’re selecting <strong>100 customers</strong> to win a “Holiday Payback” &mdash; a statement credit for every card purchase made that day &mdash; <strong>up to $2,000.</strong></p>
             </div>
             <a class="callToAction modalLink" data-name="seeDetails" href="#">See Details</a>
           </div>
